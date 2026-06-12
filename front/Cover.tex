@@ -1,0 +1,63 @@
+% Provides the \thetitle and other useful macros
+\usepackage{titling}
+
+% Needed for the transparent full-page background logo
+\usepackage{eso-pic}
+\usepackage{transparent}
+
+\usepackage[a4paper,top=4.5cm,bottom=4.5cm,left=2cm,right=2cm]{geometry}
+
+% Do not edit
+% Set up the transparent full-page background logo
+\newcommand\BackgroundPicFront{
+    \put(-4,0){
+        \parbox[b][\paperheight]{\paperwidth}{
+            \vfill
+            \centering
+            {\transparent{0.07}\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{img/units_logo.png}}
+            \vfill
+        }
+    }
+}
+
+% Thesis's title and author
+\title{Did COVID-19 Boost the Gaming Industry? Evidence from Global Sales and Socioeconomic Data}
+\author{Roberto Maijnelli}
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+    % Insert the background here
+    \AddToShipoutPicture{\BackgroundPicFront}
+    {\LARGE {\bfseries UNIVERSITY OF TRIESTE \\}}
+    \vspace{5mm}
+    {\Large {\bfseries Department of Economics, Business, Mathematics and Statistics \\}}
+    \vspace{0.3cm}
+    \includegraphics[width=6cm,height=6cm]{img/units_logo.png}\\[1cm]
+
+    {\LARGE
+        Bachelor Degree in\\ Business Management \\
+    }
+    \vspace{1cm}
+    {\LARGE 
+        {\bfseries \thetitle} %
+    }
+    \vspace{0.5cm}
+
+    % Replace the date with the correct one before printing the final version!
+    {\large \today \\[1cm]
+    }
+
+    % Table for author's and (co-)supervisor's names
+        {\large
+            \setlength{\tabcolsep}{12pt}
+            
+            \begin{tabularx}{\linewidth}{ >{\raggedleft}X >{\raggedright\arraybackslash}X}
+                Candidate & Supervisor \\
+                \bfseries Roberto Maijnelli & \bfseries Prof. Gioia di Credico \\ [5mm]
+            \end{tabularx}
+        }
+    A.Y. 2025/2026
+    \end{center}
+\end{titlepage}
+\ClearShipoutPicture
+\newgeometry{}
