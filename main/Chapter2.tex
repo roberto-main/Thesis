@@ -63,20 +63,20 @@ The chosen layout consisted of having one observation for each country-year comb
 \\\\
 \textbf{Class I – Fully Cleaned and Standardized Datasets}\\
 This final category includes datasets that were completely cleaned, standardized, and fully compatible with the requirements of the empirical analysis.\\
-At this stage, all variables shared the same structure and layout, making the datasets directly usable for the final merging process and the analysis (they all had to have 430 rows corresponding to:\\header (1) + [39 (countries) * 11 (years from 2014-2024) ] ).\\
+At this stage, all variables shared the same structure and layout, making the datasets directly usable for the final merging process and the analysis (they all had to have 430 rows corresponding to:\\ 1 (header) + [39 (countries) * 11 (years from 2014-2024) ] ).\\
 The columns of values of datasets pertaining to the I class could simply be copied and pasted in the final/merged dataset.
 \\\\
 \textbf{How were financial data retrieved?}\\
-Financial data collection represented the most complex part of the dataset construction, as it required defining the structure of the firm portfolio, estimating revenues, and allocating them across countries based on the average percentage distribution of sales within the entire portfolio.\\
+Financial data collection represented the most complex part of the dataset construction, as it required defining the structure of the firms portfolio, estimating revenues, and allocating them across countries based on the average percentage distribution of sales within the entire portfolio.\\
 A key challenge concerned the retrieval of comparable and consistent financial data. In particular, data for Microsoft and Sony were not directly obtainable from FactSet in a disaggregated form suitable for the analysis. These firms report revenues across multiple business segments beyond gaming; therefore, isolating only the gaming-related portion over a ten-year period was not feasible using standard screening tools.\\
 To address this limitation, I extracted information from the official Form 10-K filings of both Microsoft and Sony for the entire period under analysis. For Microsoft, I focused on the “Xbox” segment, while for Sony I considered the “Game \& Network Services” division. This approach allowed for a more precise identification of gaming-specific revenues.\\
 For Sony, revenues reported in Japanese Yen were converted into US dollars using annual exchange rates. To ensure consistency and comparability, exchange rates aligned with those applied in FactSet were adopted.\\
 For the remaining firms, data were obtained through a combination of FactSet’s “Universal Screening” tool and additional firm-level verification. The screening process applied a 90\% threshold for gaming-related revenues, ensuring that only companies with a dominant exposure to the gaming industry were included.\\
 Finally, firms that either did not meet the required level of industry focus or only recently shifted toward gaming-related activities were excluded. This step was supported by additional qualitative verification of company profiles to ensure consistency in classification over time.\\
 From this dataset, I obtained firms’ net sales from 2014 to 2024. I then aggregated annual values to compute total revenue by year.\\
-Subsequently, I applied the FMA\_GEOREV\_PCT metric to derive the percentage distribution of sales across countries for the dataset. Based on the average GEOREV share, I selected the countries exceeding a 0.2\% threshold, resulting in a final sample of 40 countries for the analysis. It is worth noting that, in the computation of country-level sales, Sony and Microsoft were also included, despite their diversified operations across multiple business segments. Nevertheless, this approach was preferred over excluding them, as doing so would have led to a disproportionate representation of Asia in the sample, largely driven by Nintendo’s regional concentration.\\
+Subsequently, I applied the FMA\_GEOREV\_PCT metric to derive the percentage distribution of sales across countries for the dataset. Based on the average GEOREV share, I selected the countries exceeding a \~0.2\% threshold (on average), resulting in a final sample of 40 countries for the analysis. It is worth noting that, in the computation of country-level sales, Sony and Microsoft were also included, despite their diversified operations across multiple business segments. Nevertheless, this approach was preferred over excluding them, as doing so would have led to a disproportionate representation of Asia in the sample, largely driven by Nintendo’s regional concentration.\\
 To obtain sales expressed in millions at the country level, I multiplied each country’s percentage share by the total net sales for each respective year.\\
-Finally, in order to improve the readability of some graphical representations, I aggregated the country-level data into continental groups.
+Finally, in order to improve the readability of some graphical representations, I aggregated the country-level data into both macro-regional and continental groups.
 
  
 
@@ -89,13 +89,12 @@ Void
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/Aggregated_Graphs_Graph2.png}%{img/Detailed_Countries_Grid_LowRes.png}
+    \includegraphics[width=\textwidth]{img/Aggregated_Graphs_Graph2.png}
     \caption{Facet Graph}
     \label{fig:Facet_Graph}
 \end{figure}
 \subsubsection{Depression Rates}
-It is interesting to note that, across all continents, there was an increase in depression rates starting from 2020, most likely driven by COVID-19 and the related lockdowns and restriction measures.\\
-As shown in the study \textbackslash{}cite\{https://link.springer.com/article/10.1007/s11469-025-01459-5\}, there may be a correlation between depression and gaming disorder, which could represent a relevant insight for this research.\\
+It is interesting to notice that, across all continents, there was an increase in depression rates starting from 2020, most likely driven by COVID-19 and the related lockdowns and restriction measures.\\
 From our data, the only continent where a visible correlation between depression rates and video game sales emerges is Europe, particularly in Western Europe
 
 \subsubsection{GNI per capita}
@@ -136,7 +135,7 @@ By examining the graph with log-scaled sales in millions, we can observe how dif
 Even after applying a logarithmic transformation, both North America and Africa stand out, representing the most extreme values in terms of sales and unemployment rates, respectively.\\
 Although our initial assumption was that higher unemployment rates could lead to increased video game consumption due to more available free time, it is important to consider that purchasing video games or in-game content generally requires a stable source of income.\\
 In fact, the graph suggests that higher unemployment rates are associated with lower sales levels (see Africa in red and Southern Europe in pink).\\
-Apart from that, it’s easily visible how for the countries with unemployment rate inside the 0.0-0.1 range have a high variance in terms of sales.
+Apart from that, it’s easily visible how countries with unemployment rate inside the 0.0-0.1 range have a high variance in terms of sales.
 
 \subsection{Internet Penetration and Log Sales}
 
@@ -149,9 +148,9 @@ Apart from that, it’s easily visible how for the countries with unemployment r
 
 From this scatterplot, we can observe a strong correlation between the percentage of internet users and video game sales.\\
 While a first and straightforward interpretation would attribute this relationship entirely to the fact that a higher concentration of internet users leads to a larger number of potential gamers (which is not wrong), by getting deeper into the analysis we can justify this by also saying that the countries with more internet users tend to be the most developed ones, which usually have higher wages and lower unemployment rates overall (as we saw before), leading to higher purchasing power.\\
-We get confirmation of this by citing WorldBank’s article stating that «Digital technologies have dramatically expanded the information base, lowered information costs, and created information goods. This has facilitated searching, matching, and sharing of information and contributed to greater organization and collaboration among economic agents—influencing how firms operate, people seek opportunities, and citizens interact with their governments» (\cite[p.~8]{worldbank_digital_dividend}). !!VERIFICARE CON LA PROF CHE QUESTA CITAZIONE VADA BENE!!\\\\\\
+We get confirmation of this by citing WorldBank’s article stating that «Digital technologies have dramatically expanded the information base, lowered information costs, and created information goods. This has facilitated searching, matching, and sharing of information and contributed to greater organization and collaboration among economic agents — influencing how firms operate, people seek opportunities, and citizens interact with their governments» (\cite[p.~8]{worldbank_digital_dividend}). !!VERIFICARE CON LA PROF CHE QUESTA CITAZIONE VADA BENE!!\\\\\\
 It’s very important to recognize what the extreme values in sales of the countries in the between the '0,75-1' range suggest us:\\
-Once internet access is near-universal, it stops being the differentiating factor. Market size, gaming culture, and monetization models take over.
+Once internet access is near-universal, it stops being the differentiating factor: market size, gaming culture, and monetization models take over.
 South Asia (cyan) is also a remarkable outlier here, showing relatively high sales levels with low internet penetration values.
 
 \subsection{Internet Penetration and Log Sales}
@@ -163,14 +162,14 @@ South Asia (cyan) is also a remarkable outlier here, showing relatively high sal
     \label{fig:COVID-19 Restrictions and Log Sales}
 \end{figure}
 
-The near-zero slope on the regression line aligns with what we'd expect economically. COVID restrictions didn't create purchasing power, they just redirected how people spent their time. Countries that bought more games during lockdowns were already the ones with the infrastructure and income to do so.
+The near-zero slope on the regression line aligns with what we'd expect economically. COVID-19 restrictions didn't create purchasing power, they just redirected how people spent their time. Countries that bought more games during lockdowns were already the ones with the infrastructure and income to do so.
 AM - North’s extreme sales values across multiple stringency levels suggest its dominance is structurally driven — market size and wealth — not lockdown intensity.
-AS - East (blue) shows relatively high sales even at high stringency levels (~0.7–0.8), consistent with Japan/South Korea's already strong gaming culture pre-COVID19.
+AS - East (blue) shows relatively high sales even at high stringency levels (\~0.7–0.8), consistent with Japan/South Korea's already strong gaming culture pre-COVID19.
 
 
 \subsubsection{What conclusion could we draw from the last 3 scatterplots?}
 Since restrictions show no effect but internet penetration and unemployment do, it suggests that structural economic factors outweigh behavioral/situational ones in predicting gaming sales. COVID was a temporary shock; development level is a persistent condition.
-This doesn't mean that COVID-19 didn't affect the sales at all, as we will see in the next plots.
+Another supposition we could make is that COVID-19 didn't create many new customers to the industry, but it pushed the existing customer base to be more active (playing games that they already bought, so without having an drastical effect on sales). This theory would be more consisten with the graph we saw in Chapter 1 from \cite{chang2021videogame_pandemic}
 
 \subsection{Cumulative Sales Indexed Graph}
 
@@ -180,16 +179,15 @@ This doesn't mean that COVID-19 didn't affect the sales at all, as we will see i
     \caption{Cumulative Sales Indexed Graph}
     \label{fig:Cumulative Sales Indexed Graph}
 \end{figure}
-
-By taking a closer look at Africa, we can observe that although sales declined across all countries from 2023 to 2024, one country experienced a significantly sharper decrease than the others: Nigeria.\\
-To explain this trend, our Excel dataset shows a 34\% decrease in Nigeria’s GNI during the same period (a graph showing the percentage variation is reported below, as the change is less visible when considering absolute values due to the country’s already relatively low GNI levels).\\
+By taking a close look to Africa, we can observe that although sales declined across all countries from 2023 to 2024, one country experienced a significantly sharper decrease than the others: Nigeria.\\
+To explain this trend, we can adress to our Excel dataset, showing a 34\% decrease in Nigeria’s GNI during the same period (a graph showing the percentage variation is reported below, as the change is less visible when considering absolute values due to the country’s already relatively low GNI levels).\\
 This decline was mainly caused by a sharp depreciation of the Naira, Nigeria’s local currency, which also contributed to a significant increase in inflation \cite{nigeria_devaluation_crisis}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{img/Nigeria_GNI_Drop.png}%{img/Detailed_Countries_Grid_LowRes.png}
     \caption{Nigeria's GNI decrease}
     \label{fig:Nigeria_GNI_Drop}
-\end{figure}
+\end{figure}\\
 Talking about the other continents, we can observe a clear overall trend: nearly every region shows an increase in the sales index over time, with some countries distinguishing themselves more significantly than others.\\
 Examples include Vietnam in Southeast Asia, both selected North American countries (USA and Canada), and Ireland in Western Europe.
 
@@ -207,11 +205,12 @@ We can also notice a sharper increase during the 2020–2021 period, which may s
 
 \subsection{Overall consideration about COVID-19's influence in sales}
 From these data, several considerations can be made. On one hand, the graphs [\ref{fig:LOG_Colored_Unemployement_&_Sales_Graph}, \ref{fig:Internet Penetration and Log Sales}, \ref{fig:COVID-19 Restrictions and Log Sales}] suggest that structural economic factors may play a more important role than short-term shocks in explaining video game sales. In particular, while restrictions do not seem to show a clear relationship with sales, variables such as internet penetration and unemployment appear to be more strongly associated with them. This would imply that COVID-19 acted as a temporary shock, while development-related factors represent more persistent determinants of consumption patterns.\\
-However, this interpretation is not entirely supported when considering the time series of aggregated sales and the data we took from . In this case, it becomes evident that COVID-19 did have a noticeable impact on sales levels. At the same time, isolating the exact cause of the observed increase is challenging, especially considering that in November 2020 the next-generation consoles from Microsoft and Sony (Xbox Series X and PlayStation 5) were released.\\
+However, this interpretation is not entirely supported when considering the time series of sales of the different continents [\ref{fig:Cumulative Sales Indexed Graph}]. In this case, it becomes evident that COVID-19 did have a noticeable impact on sales levels. 
+At this point, what we have to do is trying, as best as we can, to isolate the cause of that sales increase.
+In fact, considering that in November 2020 the next-generation consoles from Microsoft and Sony (Xbox Series X and PlayStation 5) were released, without the help of some other data, it could be difficult to identify the exact cause of the sales increase.\\
 Given the absence of a clear correlation between the stringency index and video game sales, the observed increase could be partially explained by the launch of these consoles, which are key players in the gaming hardware market.\\
-Alternatively, a more plausible explanation is a combined effect: the simultaneous impact of the COVID-19 pandemic and the release of new-generation consoles contributed jointly to the increase in the dependent variable.\\
-A more robust approach to understanding this increase would be to examine the evolution of video game and console sales during 2020 prior to November.\\
-Statista provides relevant data for this purpose, from which I recreated a graph.
+A robust approach to understanding this increase would be to examine the evolution of video game and console sales during 2020 prior to November and see if it is coherent with the graph from Chapter 1 of Steam players increase in time spent (assuming that that increase would have regarded console gamers too and that an increase in time spent gaming leads to an increase in game industry sales).\\
+Statista provides relevant data to address a solution the first problem, from which I recreated a graph.
 
 \begin{figure}[H]
     \centering
@@ -221,23 +220,13 @@ Statista provides relevant data for this purpose, from which I recreated a graph
     Source: \cite{statista_console_sales_covid}}
     \label{fig:immagine}
 \end{figure}
-
-After examining the graph, it can be argued that the increase in video game and related platform sales is primarily driven by COVID-19 rather than the release of new consoles, which likely played a contributing but secondary role. However, it is important to note that the survey period is very limited (1 week) and that Statista's data likely differ from those used in this study, meaning that direct comparisons should be interpreted with caution. The graph is used here to provide a general (but limited) indication of the magnitude of COVID-19’s impact on the sector.
-
-\subsection{What do other research suggest}
-The article \cite{chang2021videogame_pandemic} analyzed data taken from the website \cite{steamdb} (To quote them: "SteamDB is a free, independent database covering the entire Steam catalog. Player charts, price history across all regions, update histories, and detailed data for every product".
-Steam is the world’s largest digital distribution platform for PC games, developed by Valve Corporation. It acts as both a massive online store and a centralized library, allowing its users to buy, download, manage, and play games on their computer).
-From the above mentioned article, it can be interesting to examine the following graph:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/COVID_Steam_Players_Increase.png}%{img/Detailed_Countries_Grid_LowRes.png}
-    \caption{Steam players comparison 2019-2020\\
-    Note: the vertical gray line indicates March 11th, when the WHO declared COVID-19 a pandemic.\\
+    \includegraphics[width=\textwidth]{img/COVID_Steam_Players_Increase.png}
+    \caption{Steam players comparison 2019--2020\\
+    Same graph of Chapter 1\\
     Source: \cite{chang2021videogame_pandemic, steamdb}}
-    \label{fig:Steam_Players_Increase_COVID2}
+    \label{fig:Steam_Players_Increase_COVID1}
 \end{figure}
-A COVID effect is very visible from this time series comparison, with a drastic peak in the period from March to May.
-An interesting detail worth noticing is that multiplayer video games' peak lasted longer, probably reflecting people's need to socialize and need to somehow replace human interactions in the best possible way.
-We get a confirmation of this by taking a look at the articles ... CONTINUE TOMORROW FROM HERE MENTIONING THOSE ARTICLES
 
-
+After examining the graph, it can be argued that the increase in video game and related platform sales is primarily driven by COVID-19 rather than the release of new consoles, which likely played a contributing but secondary role. However, it is important to note that the survey period is very limited (1 week) and that Statista's data likely differ from those used in this study, meaning that direct comparisons should be interpreted with caution. The graph is used here to provide a general (but limited) indication of the magnitude of COVID-19’s impact on the sector.
