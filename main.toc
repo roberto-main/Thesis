@@ -28,8 +28,10 @@
 \contentsline {subsection}{\numberline {2.3.5}Cumulative Sales Indexed Graph}{15}{subsection.2.3.5}%
 \contentsline {subsection}{\numberline {2.3.6}Global Sales 2014-2024 time series}{17}{subsection.2.3.6}%
 \contentsline {subsection}{\numberline {2.3.7}Overall consideration about COVID-19's influence in sales}{18}{subsection.2.3.7}%
-\contentsline {chapter}{Conclusion}{21}{chapter*.16}%
-\contentsline {section}{\numberline {2.4}Conclusion}{21}{section.2.4}%
-\contentsline {chapter}{\numberline {A}Sit Amet}{22}{chapter.A}%
-\contentsline {chapter}{\numberline {B}Sit Amet}{23}{chapter.B}%
-\contentsline {chapter}{\numberline {C}Lorem}{24}{chapter.C}%
+\contentsline {chapter}{\numberline {3}Model}{21}{chapter.3}%
+\contentsline {paragraph}{What model was used}{21}{section*.16}%
+\contentsline {chapter}{Conclusion}{22}{chapter*.17}%
+\contentsline {section}{\numberline {3.1}Conclusion}{22}{section.3.1}%
+\contentsline {chapter}{\numberline {A}Sit Amet}{23}{chapter.A}%
+\contentsline {chapter}{\numberline {B}Sit Amet}{24}{chapter.B}%
+\contentsline {chapter}{\numberline {C}Lorem}{25}{chapter.C}%
