@@ -253,8 +253,14 @@ INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-OUTPUT main.out
+INPUT .\main.out
+INPUT .\main.out
+INPUT main.out
+INPUT main.out
 OUTPUT main.pdf
+INPUT .\main.out
+INPUT .\main.out
+OUTPUT main.out
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
@@ -300,6 +306,21 @@ INPUT .\front\Abstract.tex
 INPUT front\Abstract.tex
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
 INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx2488.tfm
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT main.toc
 INPUT .\front\Introduction.tex
 INPUT .\front\Introduction.tex
@@ -313,7 +334,6 @@ INPUT .\img\Tennis_For_Two.jpg
 INPUT .\img\Tennis_For_Two.jpg
 INPUT .\img\Tennis_For_Two.jpg
 INPUT .\img\Tennis_For_Two.jpg
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT .\img\Why_People_Play_Videogames.png
 INPUT .\img\Why_People_Play_Videogames.png
 INPUT .\img\Why_People_Play_Videogames.png
@@ -321,13 +341,6 @@ INPUT .\img\Why_People_Play_Videogames.png
 INPUT .\img\Why_People_Play_Videogames.png
 INPUT .\img\Why_People_Play_Videogames.png
 INPUT .\img\Why_People_Play_Videogames.png
-INPUT .\img\Screenshot 2026-05-02 010839.png
-INPUT .\img\Screenshot 2026-05-02 010839.png
-INPUT .\img\Screenshot 2026-05-02 010839.png
-INPUT .\img\Screenshot 2026-05-02 010839.png
-INPUT .\img\Screenshot 2026-05-02 010839.png
-INPUT .\img\Screenshot 2026-05-02 010839.png
-INPUT .\img\Screenshot 2026-05-02 010839.png
 INPUT .\img\Grafico_ESA_MF.png
 INPUT .\img\Grafico_ESA_MF.png
 INPUT .\img\Grafico_ESA_MF.png
@@ -352,17 +365,6 @@ INPUT .\main\Chapter2.tex
 INPUT .\main\Chapter2.tex
 INPUT .\main\Chapter2.tex
 INPUT main\Chapter2.tex
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\rober\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT .\img\Aggregated_Graphs_Graph2.png
 INPUT .\img\Aggregated_Graphs_Graph2.png
 INPUT .\img\Aggregated_Graphs_Graph2.png
@@ -467,6 +469,7 @@ INPUT back\FinalDedication.tex
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT C:\Users\rober\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
 INPUT C:\Users\rober\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
