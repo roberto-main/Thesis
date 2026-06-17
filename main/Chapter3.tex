@@ -1,5 +1,50 @@
 \chapter{Model}
-\paragraph{What model was used}
-The model used for this research was a mixed-effects model (MEM) that is a statistical regression technique that combines both fixed effects and random effects.
-This type of model is often used to treat clustered and repeated-measures data, allowing non-indipendence between observations (while traditional/linear regression models assume data are independent and identically distributed).
- 
+\paragraph{What model was used}\\
+The model used for this research was a Generalized Additive Midex Model (GAMM).
+To explain what a GAMM is, we first have to introduce some lower-level models.
+\subparagraph{From LM to GLM to GAM to GAMM}\\
+\subsubsection{LM}
+Linear regression is a method used to describe how the average 
+value of a numerical outcome changes according to a linear 
+combination of predictors.
+This kind of regression can be used to represent relationships 
+between variables.
+However, the linear regression model relies on several strong assumptions, 
+in particular that the response variable is continuous, 
+normally distributed, and linearly related to the predictors. 
+In many real-world applications, these assumptions are not appropriate. 
+As in our case our outcome is non-normally distributed, we need
+to use a different model.\\
+
+\subsubsection{From LM to GLM}\\
+To address these above-mentioned limitations, we can recurr to 
+the Generalized Linear Model (GLM), which extends the classical
+linear model by allowing the response variable to follow 
+distributions from the exponential family and by introducing a 
+link function that connects the expected value of the response 
+to the linear predictor.
+
+\subsubsection{From GLM to GAM}\\
+While GLMs provide a flexible framework for handling different
+types of response variables, they still assume a linear 
+relationship between the transformed expected value of the
+response and the predictors. In practice, this assumption would
+still be too restrictive, since many relationships in real 
+data are non-linear.\\
+To overcome this limitation, Generalized Additive Models (GAMs) 
+extend GLMs by allowing the linear predictor to include smooth, 
+functions of the covariates. This makes it possible to model 
+complex and potentially non-linear effects of predictors on the 
+response variable while maintaining interpretability.
+
+\subsubsection{From GAM to GAMM}\\
+Although GAMs allow for flexible functional forms, they still 
+assume that observations are independent. However, in our case 
+(where we hierarchically grouped the observations getting Continents->Countries) 
+this assumption is violated.\\
+To account for this dependence structure, Generalized Additive 
+Mixed Models (GAMMs) further extend GAMs by incorporating random
+effects into the model. This allows the model to capture both 
+non-linear relationships through smooth functions and correlation
+structures through random effects, making GAMMs particularly 
+suitable for hierarchical data.

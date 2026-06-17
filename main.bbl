@@ -209,6 +209,30 @@
       \verb https://www.theesa.com/wp-content/uploads/2024/05/Essential-Facts-2024-FINAL.pdf
       \endverb
     \endentry
+    \entry{factset_equity_data}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a1409ada5bfb8fc900f541bf360cb97}{%
+           family={{FactSet Research Systems}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{fullhash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{fullhashraw}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{bibnamehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authorbibnamehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authornamehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authorfullhash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authorfullhashraw}{6a1409ada5bfb8fc900f541bf360cb97}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Data retrieved via FactSet Terminal; access restricted to licensed users; accessed on 23 March 2026}
+      \field{title}{Equity and Financial Data extracted from FactSet}
+      \field{year}{2026}
+    \endentry
     \entry{gentile2011pathological_gaming}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -278,6 +302,89 @@
       \field{pages}{2018}
       \range{pages}{1}
     \endentry
+    \entry{hale2026oxcgrt}{dataset}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=299be3ab9f3ead243419cac14d90338c}{%
+           family={Hale},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ea3d9bfc724883ec48b33cc789f30b5}{%
+           family={Angrist},
+           familyi={A\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b96c466e43d1a664440dcb9db3f8a03e}{%
+           family={Goldszmidt},
+           familyi={G\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Blavatnik School of Government, University of Oxford}%
+      }
+      \strng{namehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{fullhash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{fullhashraw}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{bibnamehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authorbibnamehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authornamehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authorfullhash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authorfullhashraw}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Oxford COVID-19 Government Response Tracker (OxCGRT)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.humdata.org/dataset/oxford-covid-19-government-response-tracker
+      \endverb
+      \verb{url}
+      \verb https://data.humdata.org/dataset/oxford-covid-19-government-response-tracker
+      \endverb
+    \endentry
+    \entry{ihme_depression_vizhub}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69e72dac4971760f144ea8c7b699e179}{%
+           family={{Institute for Health Metrics and Evaluation (IHME)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Washington}%
+      }
+      \strng{namehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{fullhash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{fullhashraw}{69e72dac4971760f144ea8c7b699e179}
+      \strng{bibnamehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authorbibnamehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authornamehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authorfullhash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authorfullhashraw}{69e72dac4971760f144ea8c7b699e179}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Data extracted via VizHub interface; accessed on 20 March 2026}
+      \field{title}{Global Burden of Disease (GBD) Results Tool}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://vizhub.healthdata.org/gbd-results/
+      \endverb
+      \verb{url}
+      \verb https://vizhub.healthdata.org/gbd-results/
+      \endverb
+    \endentry
     \entry{intel_gpu}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b7f0fb90e404efb48f8a85a517dec3c9}{%
@@ -304,6 +411,36 @@
       \endverb
       \verb{url}
       \verb https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html
+      \endverb
+    \endentry
+    \entry{investopedia_gni}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abcdb78a564e00abcb81ee953f22cf04}{%
+           family={{Investopedia}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 17 June 2026}
+      \field{title}{Gross National Income (GNI): Definition, Formula, vs. GDP}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.investopedia.com/terms/g/gross-national-income-gni.asp
+      \endverb
+      \verb{url}
+      \verb https://www.investopedia.com/terms/g/gross-national-income-gni.asp
       \endverb
     \endentry
     \entry{gaming_disorder_covid}{article}{}{}
@@ -721,6 +858,7 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -735,6 +873,40 @@
       \endverb
       \verb{url}
       \verb https://www.statista.com/statistics/1109979/video-game-console-sales-covid/
+      \endverb
+    \endentry
+    \entry{statista_internet_users_india}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Statista}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Number of internet users in India}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/255146/number-of-internet-users-in-india/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/255146/number-of-internet-users-in-india/
       \endverb
     \endentry
     \entry{steamdb}{online}{}{}
@@ -767,6 +939,36 @@
       \verb https://steamdb.info/
       \endverb
     \endentry
+    \entry{Gini}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e93f2123d4734b572c4e0e5c880248a7}{%
+           family={{United Nations University World Institute for Development Economics Research (UNU-WIDER)}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{fullhash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{fullhashraw}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{bibnamehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authorbibnamehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authornamehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authorfullhash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authorfullhashraw}{e93f2123d4734b572c4e0e5c880248a7}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 31 January 2026}
+      \field{title}{UNU-WIDER releases major update to World Income Inequality Database}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.wider.unu.edu/news/unu-wider-releases-major-update-world-income-inequality-database
+      \endverb
+      \verb{url}
+      \verb https://www.wider.unu.edu/news/unu-wider-releases-major-update-world-income-inequality-database
+      \endverb
+    \endentry
     \entry{steam_about}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3550f48b7034e3d7cadadb40413478f1}{%
@@ -795,6 +997,146 @@
       \endverb
       \verb{url}
       \verb https://store.steampowered.com/about/
+      \endverb
+    \endentry
+    \entry{worldbank_gni_per_capita}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{GNI per capita, Atlas method (current US\$)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/NY.GNP.PCAP.CD
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/NY.GNP.PCAP.CD
+      \endverb
+    \endentry
+    \entry{worldbank_internet_users}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Individuals using the Internet (\% of population)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/IT.NET.USER.ZS
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/IT.NET.USER.ZS
+      \endverb
+    \endentry
+    \entry{worldbank_population_total}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Population, total}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/SP.POP.TOTL
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/SP.POP.TOTL
+      \endverb
+    \endentry
+    \entry{worldbank_unemployment_ilo}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Unemployment, Total (% of Total Labor Force) (Modeled ILO Estimate)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
       \endverb
     \endentry
     \entry{worldbank_digital_dividend}{online}{}{}

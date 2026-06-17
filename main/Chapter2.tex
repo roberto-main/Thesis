@@ -1,28 +1,95 @@
 \chapter{Data}\label{chap:sit}
 
 This chapter will be about: sources, cleaning criteria, final dataset description and explorative analysis.
-COSA POSSIAMO SCRIVERE PER DESCRIVERRE IL DATASET FINALE? è NECESSARIO ?
 
 Details about the variables: WE MAY HAVE TO UPDATE SALES TO LOG SALES AND REMOVE GINI.
 
-\begin{table}[H]
-    \centering
-    \begin{tabular}{c|cl}
-         Variable&   Minimum&Maximum \\
-         Year& 
-     2014& 2024\\
- Gini& 26\%& 67\%\\
- Depression& 2\%&7\%\\
- GNI per Capita& \$1370&\$95600\\
- Internet Users& 19\%&100\%\\
- Population (in Millions)& 5.04&1425.42\\
- Sales (in Millions)& 170.1&49719.93\\
- Sales Variations& -49.84\%&143.96\%\\
- Stringency Index& 12.49\%&77.56\%\\
- Unemployment& 1\%&34\%\\\end{tabular}
-    \caption{General data insights}
-    \label{tab:Variables_Extremes_Table}
-\end{table}
+\paragraph{A description of the final dataset}
+\begin{table}[!htbp] \centering 
+  \caption{General Data Insights} 
+  \label{tab:descrittive} 
+\begin{tabular}{@{\extracolsep{5pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Statistic & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Median} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+Gini & 351 & 0.38 & 0.08 & 0.26 & 0.36 & 0.67 \\ 
+Depression\_Rates & 368 & 0.04 & 0.01 & 0.02 & 0.04 & 0.07 \\ 
+GNI\_per\_Capita & 429 & 31,274.45 & 25,631.86 & 1,250 & 30,480 & 105,070 \\ 
+Internet\_Users & 345 & 0.77 & 0.22 & 0.10 & 0.86 & 1.00 \\ 
+Population\_In\_Millions & 429 & 141.32 & 300.98 & 4.66 & 58.95 & 1,450.94 \\ 
+Sales\_in\_Millions & 390 & 1,950.33 & 6,462.18 & 69.86 & 357.41 & 54,244.12 \\ 
+Sales\_Variations & 351 & 0.11 & 0.16 & $-$0.50 & 0.09 & 1.44 \\ 
+Sales\_per\_Capita & 429 & 20.27 & 23.82 & 0.00 & 10.99 & 159.49 \\ 
+Stringency\_Index & 117 & 0.46 & 0.17 & 0.12 & 0.50 & 0.78 \\ 
+Unemployment & 418 & 0.06 & 0.05 & 0.01 & 0.05 & 0.34 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+\subparagraph{The variables used}
+The following variables were selected for the analysis, on the basis of 
+their theoretical relevance to the research question and their availability 
+across the countries and time period considered.\\
+\textbf{Gini Index} measures income inequality within a country, expressed 
+as a percentage ranging from 0 (perfect equality) to 100 (maximum inequality). 
+Although theoretically relevant, this variable presented significant 
+missingness beyond 2022, which limited its use in the statistical model \cite{Gini}.\\
+\textbf{Depression Rates} capture the prevalence of depressive disorders 
+across countries. Despite not being complete for all observations, data 
+were available up to 2023 for a sufficient number of countries, making 
+the variable usable for the purposes of this analysis \cite{ihme_depression_vizhub}.\\
+\textbf{GNI per Capita} represents the total income earned by a country's 
+residents divided by the population. It was preferred over GDP as it 
+accounts for income from overseas investments and foreign aid, while 
+subtracting capital outflows \cite{investopedia_gni}, thus providing a 
+more accurate measure of the actual purchasing power of a country's residents \cite{worldbank_gni_per_capita}.\\
+\textbf{Internet Users}, expressed as a percentage of the total population, 
+serves as a proxy for the degree of digitalization of a country. It is 
+included under the assumption that more digitalized countries tend to 
+exhibit higher video game sales \cite{worldbank_internet_users} (there were 2 missing observations for India which have been integrated with \cite{statista_internet_users_india}).\\
+\textbf{Population} (expressed in millions) was included as an auxiliary 
+variable, used to normalize total sales figures and obtain a per capita 
+measure that allows for more meaningful cross-country comparisons \cite{worldbank_population_total}.\\
+\textbf{Sales} (expressed in millions) constitute the response variable 
+of this study and represent the total video game sales recorded in each 
+country for each year considered \cite{factset_equity_data}.\\
+\textbf{Sales Variations} measure the relative change in sales between 
+two consecutive periods, computed as:
+\[
+\Delta S_t = \frac{S_t - S_{t-1}}{S_{t-1}}
+\]
+where $S_t$ denotes total sales at time $t$.\\
+\textbf{Sales per Capita} were derived by dividing total sales by the 
+country's population for the corresponding year:
+\[
+S_t^{pc} = \frac{S_t}{P_t}
+\]
+where $P_t$ denotes the population at time $t$. This transformation 
+removes the mechanical effect of country size on aggregate sales figures.\\
+\textbf{Stringency Index} was included to capture the intensity of 
+COVID-19 containment policies. It ranges from 0 (no restrictions) to 
+100 (most severe restrictions), and is derived from the Oxford 
+COVID-19 Government Response Tracker \cite{hale2026oxcgrt}.\\
+\textbf{Unemployment Rate}, expressed as a percentage of the inactive 
+population, reflects labor market conditions. Its relationship with 
+video game sales is theoretically ambiguous: higher unemployment may 
+increase leisure time, but simultaneously reduces disposable income 
+available for discretionary spending \cite{worldbank_unemployment_ilo}.
+
+
+\subparagraph{Data Aggregation: Countries, Macro-regions and Continents}\\
+The country-level data represent the original observations retrieved from 
+the sources described above. To improve the interpretability of the 
+graphical representations, two levels of aggregation were derived: 
+macro-regions and continents.\\
+Both aggregations were performed in RStudio following the same procedure, 
+differing only in the grouping criterion applied. For non-linear variables, 
+a weighted mean was computed across the countries within each group, using 
+a custom implementation that excludes observations with missing values to 
+ensure numerical stability. For linear variables (such as sales and 
+population), the group-level value was obtained by summing the 
+corresponding country-level figures.
+More technical details can be checked by viewing the files in the repository.
 \section{Cleaning criteria}
 The first step of the data preparation process consisted in converting all raw ‘.csv’ files into ‘.xlsx’ format. Subsequently, the datasets were processed in R Studio through a series of filtering and transformation procedures aimed at selecting only the variables relevant to the research.
 \\
@@ -59,7 +126,7 @@ The final objective was to obtain a layout composed of three vertical columns:
 
 * value of the variable.
 This structure facilitated the integration of all variables into the final dataset through copy-and-paste operations on Excel.\\
-The chosen layout consisted of having one observation for each country-year combination (e.g., Italy 2014, Italy 2015, etc.) arranged vertically, while the variables were organized horizontally with their corresponding values.
+The chosen layout consisted of having one observation for each country-year combination (e.g., Italy 2014, Italy 2015, etc.) arranged vertically, while the variables were organized horizontally with their corresponding values disposed vertically.
 \\\\
 \textbf{Class I – Fully Cleaned and Standardized Datasets}\\
 This final category includes datasets that were completely cleaned, standardized, and fully compatible with the requirements of the empirical analysis.\\
@@ -78,10 +145,6 @@ Subsequently, I applied the FMA\_GEOREV\_PCT metric to derive the percentage dis
 To obtain sales expressed in millions at the country level, I multiplied each country’s percentage share by the total net sales for each respective year.\\
 Finally, in order to improve the readability of some graphical representations, I aggregated the country-level data into both macro-regional and continental groups.
 
- 
-
-\section{Final dataset description}
-Void
 
 \section{Explorative analysis}
 

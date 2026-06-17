@@ -11,27 +11,34 @@
 \contentsline {subsection}{\numberline {0.0.4}The purpose of this project}{VIII}{subsection.0.0.4}%
 \contentsline {chapter}{\numberline {1}Literature Review}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Data}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cleaning criteria}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Final dataset description}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Explorative analysis}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Facet Graph Description}{8}{subsection.2.3.1}%
-\contentsline {subsubsection}{Depression Rates}{8}{section*.9}%
-\contentsline {subsubsection}{GNI per capita}{9}{section*.10}%
-\contentsline {subsubsection}{Internet Users}{9}{section*.11}%
-\contentsline {subsubsection}{Log Sales In Millions}{9}{section*.12}%
-\contentsline {subsubsection}{Sales per Capita}{10}{section*.13}%
-\contentsline {subsubsection}{Unemployment}{10}{section*.14}%
-\contentsline {subsection}{\numberline {2.3.2}Unemployment and Log Sales}{11}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Internet Penetration and Log Sales}{12}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Internet Penetration and Log Sales}{13}{subsection.2.3.4}%
-\contentsline {subsubsection}{What conclusion could we draw from the last 3 scatterplots?}{14}{section*.15}%
-\contentsline {subsection}{\numberline {2.3.5}Cumulative Sales Indexed Graph}{15}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Global Sales 2014-2024 time series}{17}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Overall consideration about COVID-19's influence in sales}{18}{subsection.2.3.7}%
-\contentsline {chapter}{\numberline {3}Model}{21}{chapter.3}%
-\contentsline {paragraph}{What model was used}{21}{section*.16}%
-\contentsline {chapter}{Conclusion}{22}{chapter*.17}%
-\contentsline {section}{\numberline {3.1}Conclusion}{22}{section.3.1}%
-\contentsline {chapter}{\numberline {A}Sit Amet}{23}{chapter.A}%
-\contentsline {chapter}{\numberline {B}Sit Amet}{24}{chapter.B}%
-\contentsline {chapter}{\numberline {C}Lorem}{25}{chapter.C}%
+\contentsline {paragraph}{A description of the final dataset}{4}{table.2.1}%
+\contentsline {subparagraph}{The variables used}{4}{section*.10}%
+\contentsline {subparagraph}{Data Aggregation: Countries, Macro-regions and Continents}{6}{section*.11}%
+\contentsline {section}{\numberline {2.1}Cleaning criteria}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Explorative analysis}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Facet Graph Description}{10}{subsection.2.2.1}%
+\contentsline {subsubsection}{Depression Rates}{10}{section*.12}%
+\contentsline {subsubsection}{GNI per capita}{11}{section*.13}%
+\contentsline {subsubsection}{Internet Users}{11}{section*.14}%
+\contentsline {subsubsection}{Log Sales In Millions}{11}{section*.15}%
+\contentsline {subsubsection}{Sales per Capita}{12}{section*.16}%
+\contentsline {subsubsection}{Unemployment}{12}{section*.17}%
+\contentsline {subsection}{\numberline {2.2.2}Unemployment and Log Sales}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Internet Penetration and Log Sales}{14}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Internet Penetration and Log Sales}{15}{subsection.2.2.4}%
+\contentsline {subsubsection}{What conclusion could we draw from the last 3 scatterplots?}{16}{section*.18}%
+\contentsline {subsection}{\numberline {2.2.5}Cumulative Sales Indexed Graph}{17}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Global Sales 2014-2024 time series}{19}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Overall consideration about COVID-19's influence in sales}{20}{subsection.2.2.7}%
+\contentsline {chapter}{\numberline {3}Model}{23}{chapter.3}%
+\contentsline {paragraph}{What model was used}{23}{section*.19}%
+\contentsline {subparagraph}{From LM to GLM to GAM to GAMM}{23}{section*.20}%
+\contentsline {subsubsection}{LM}{23}{section*.21}%
+\contentsline {subsubsection}{From LM to GLM}{23}{section*.22}%
+\contentsline {subsubsection}{From GLM to GAM}{24}{section*.23}%
+\contentsline {subsubsection}{From GAM to GAMM}{24}{section*.24}%
+\contentsline {chapter}{Conclusion}{25}{chapter*.25}%
+\contentsline {section}{\numberline {3.1}Conclusion}{25}{section.3.1}%
+\contentsline {chapter}{\numberline {A}Sit Amet}{26}{chapter.A}%
+\contentsline {chapter}{\numberline {B}Sit Amet}{27}{chapter.B}%
+\contentsline {chapter}{\numberline {C}Lorem}{28}{chapter.C}%

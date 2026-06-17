@@ -2407,15 +2407,25 @@
     <bcf:citekey order="24" intorder="1">heavy_gaming&amp;depression</bcf:citekey>
     <bcf:citekey order="25" intorder="1">gentile2011pathological_gaming</bcf:citekey>
     <bcf:citekey order="26" intorder="1">gaming_disorder_covid</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">worldbank_digital_dividend</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">chang2021videogame_pandemic</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">nigeria_devaluation_crisis</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">statista_console_sales_covid</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">statista_console_sales_covid</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">chang2021videogame_pandemic</bcf:citekey>
-    <bcf:citekey order="32" intorder="2">steamdb</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">chang2021videogame_pandemic</bcf:citekey>
-    <bcf:citekey order="33" intorder="2">steamdb</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Gini</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">ihme_depression_vizhub</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">investopedia_gni</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">worldbank_gni_per_capita</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">worldbank_internet_users</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">statista_internet_users_india</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">worldbank_population_total</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">factset_equity_data</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">hale2026oxcgrt</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">worldbank_unemployment_ilo</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">worldbank_digital_dividend</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">chang2021videogame_pandemic</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">nigeria_devaluation_crisis</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">statista_console_sales_covid</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">statista_console_sales_covid</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">chang2021videogame_pandemic</bcf:citekey>
+    <bcf:citekey order="42" intorder="2">steamdb</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">chang2021videogame_pandemic</bcf:citekey>
+    <bcf:citekey order="43" intorder="2">steamdb</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
