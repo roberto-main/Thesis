@@ -1,8 +1,8 @@
 \chapter{Model}
-\paragraph{What model was used}\\
-The model used for this research was a Generalized Additive Midex Model (GAMM).
-To explain what a GAMM is, we first have to introduce some lower-level models.
-\subparagraph{From LM to GLM to GAM to GAMM}\\
+\paragraph{What model was used}
+The model used for this research was a Generalized Additive Mixed Model (GAMM).
+To explain what a GAMM is, we first have to introduce some lower-level models.\\
+\subsection{From LM to GLM to GAM to GAMM}
 \subsubsection{LM}
 Linear regression is a method used to describe how the average 
 value of a numerical outcome changes according to a linear 
@@ -14,17 +14,59 @@ in particular that the response variable is continuous,
 normally distributed, and linearly related to the predictors. 
 In many real-world applications, these assumptions are not appropriate. 
 As in our case our outcome is non-normally distributed, we need
-to use a different model.\\
+to use a different model.
+\subsubsection{Linear Model (LM)}
+Test formula: $x = 1$
+\begin{equation}
+Y_i = \beta_0 + \beta_1x_{i1} + \cdots + \beta_px_{ip} + \varepsilon_i,
+\end{equation}
 
-\subsubsection{From LM to GLM}\\
+where
+
+\begin{equation}
+\varepsilon_i \sim N(0,\sigma^2).
+\end{equation}
+
+and:
+\begin{itemize}
+    \item $Y_i$ is the response variable;
+    \item $\beta_0$ is the intercept;
+    \item $\beta_1,\ldots,\beta_p$ are the regression coefficients associated with the predictors;
+    \item $x_{i1},\ldots,x_{ip}$ are the values of the predictors for observation $i$;
+    \item $\varepsilon_i$ is the random error term, assumed to be independently and identically distributed as
+    \[
+    \varepsilon_i \sim N(0,\sigma^2).
+    \]
+\end{itemize}
+
+\subsubsection{From LM to GLM}
 To address these above-mentioned limitations, we can recurr to 
 the Generalized Linear Model (GLM), which extends the classical
 linear model by allowing the response variable to follow 
 distributions from the exponential family and by introducing a 
 link function that connects the expected value of the response 
 to the linear predictor.
+\subsubsection{Generalized Linear Model (GLM)}
 
-\subsubsection{From GLM to GAM}\\
+\begin{equation}
+g(\mu_i)=\eta_i=
+\beta_0+\beta_1x_{i1}+\cdots+\beta_px_{ip},
+\end{equation}
+
+where
+
+\begin{equation}
+\mu_i=E(Y_i),
+\end{equation}
+
+and:
+\begin{itemize}
+    \item $\mu_i=E(Y_i)$ is the expected value of the response variable;
+    \item $g(\cdot)$ is the link function;
+    \item $\eta_i$ denotes the linear predictor.
+\end{itemize}
+
+\subsubsection{From GLM to GAM}
 While GLMs provide a flexible framework for handling different
 types of response variables, they still assume a linear 
 relationship between the transformed expected value of the
@@ -36,11 +78,24 @@ extend GLMs by allowing the linear predictor to include smooth,
 functions of the covariates. This makes it possible to model 
 complex and potentially non-linear effects of predictors on the 
 response variable while maintaining interpretability.
+\subsubsection{Generalized Additive Model (GAM)}
 
-\subsubsection{From GAM to GAMM}\\
+\begin{equation}
+g(\mu_i)=
+\beta_0+
+f_1(x_{i1})+
+f_2(x_{i2})+
+\cdots+
+f_p(x_{ip}) +
+\varepsilon_i,
+\end{equation}
+
+where $f_j(\cdot)$ are smooth functions estimated from the data.
+
+\subsubsection{From GAM to GAMM}
 Although GAMs allow for flexible functional forms, they still 
 assume that observations are independent. However, in our case 
-(where we hierarchically grouped the observations getting Continents->Countries) 
+(where we hierarchically grouped the observations getting Continents --> Countries) 
 this assumption is violated.\\
 To account for this dependence structure, Generalized Additive 
 Mixed Models (GAMMs) further extend GAMs by incorporating random
@@ -48,3 +103,101 @@ effects into the model. This allows the model to capture both
 non-linear relationships through smooth functions and correlation
 structures through random effects, making GAMMs particularly 
 suitable for hierarchical data.
+
+\subsubsection{Generalized Additive Mixed Model (GAMM)}
+
+\begin{equation}
+g(\mu_i)=
+\beta_0+
+\sum_{j=1}^{p}f_j(x_{ij})+
+\mathbf{Z}_i\mathbf{b} +
+\varepsilon_i,
+\end{equation}
+
+where
+
+\begin{equation}
+\mathbf{b}\sim N(\mathbf{0},\mathbf{D})
+\end{equation}
+
+represents the random effects, and:
+\begin{itemize}
+    \item $\mathbf{b}$ is the vector of random effects;
+    \item $\mathbf{Z}_i$ is the design matrix associated with the random effects;
+    \item $\mathbf{b}\sim N(\mathbf{0},\mathbf{D})$.
+\end{itemize}
+
+Several candidate models were compared, and the best-fitting 
+model was selected according to the Akaike Information Criterion (AIC).\\
+According to AIC, in fact, our final model had the lowest value 
+compared to the other prototypes, and during this process, some 
+variables have been cut out in order to guarantee a rigorous but 
+efficient selecting criteria requiring a certain amount of 
+statistical significance for a variable to be included.\\
+This has led to a model composed by: the Stringency Index as a 
+linear term, smooth functions for GNI per Capita and Internet 
+Users, a tensor interaction between Year and Depression Rates, 
+and random intercepts for countries nested within continents.
+
+\begin{align}
+\text{Sales}_{ijt} = & \ \beta_0 + \beta_1 \text{StringencyIndex}_{ijt} \\
+& + f_1(\text{GNIpc}_{ijt}) \\
+& + f_2(\text{InternetUsers}_{ijt}) \\
+& + f_3(\text{Year}_{ijt}, \text{DepressionRate}_{ijt}) \\
+& + u_j + v_i + \varepsilon_{ijt}
+\end{align}
+
+where
+
+\begin{itemize}
+    \item $i$ indexes countries;
+    \item $j$ indexes continents;
+    \item $t$ indexes years;
+    \item $\beta_0$ is the intercept;
+    \item $\beta_1$ represents the linear effect of the Stringency Index;
+    \item $f_1(\cdot)$ and $f_2(\cdot)$ denote smooth functions capturing the potentially non-linear effects of GNI per capita and Internet Users;
+    \item $f_3(\cdot,\cdot)$ represents a tensor-product smooth interaction between Year and Depression Rates;
+    \item $u_j$ is the random intercept associated with continent $j$;
+    \item $v_{ij}$ is the random intercept associated with country $i$, nested within continent $j$;
+    \item $\varepsilon_{ijt}$ is the error term.
+\end{itemize}
+
+\paragraph{Model Results}
+In this section, empirical results of the GAMM estimation, 
+focusing on both parametric and non-linear effects
+will be presented.
+
+\begin{table}[ht]
+\centering
+\caption{GAMM Estimation Results}
+\begin{tabular}{l|c|c|c|c}
+\hline
+\textbf{Variable} & \textbf{Estimate / edf} & \textbf{Std. Error / Ref.df} & \textbf{Statistic} & \textbf{p-value} \\
+\hline
+
+\multicolumn{5}{l}{\textit{Parametric coefficients}} \\
+Intercept & 6.541 & 0.357 & 18.300 & $<0.001^{***}$ \\
+Stringency Index & 0.098 & 0.048 & 2.029 & 0.043$^{*}$ \\
+
+\hline
+\multicolumn{5}{l}{\textit{Smooth terms}} \\
+s(GNI per Capita) & 2.725 & 2.725 & 32.45 & $<0.001^{***}$ \\
+s(Internet Users) & 3.453 & 3.453 & 20.41 & $<0.001^{***}$ \\
+te(Year, Depression Rates) & 7.489 & 7.489 & 66.22 & $<0.001^{***}$ \\
+
+\hline
+\end{tabular}
+\vspace{2mm}
+\begin{flushleft}
+\footnotesize
+$^{***} p < 0.001$, $^{*} p < 0.05$ \\
+Adjusted $R^2 = -0.241$, $n = 293$
+\end{flushleft}
+\end{table}
+
+Note: the number of observations taken in consideration for this
+model is lower than the total number of observations present
+in the final dataset. This is due to the inconsistency of
+some observations' data.
+
+DA MODIFICARE IL MODELLO IN QUANTO AVEVA R^2 NEGATIVO

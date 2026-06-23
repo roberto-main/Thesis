@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  17 JUN 2026 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  24 JUN 2026 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,11 +860,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-(main.aux
-
-LaTeX Warning: Label `fig:Steam_Players_Increase_COVID1' multiply defined.
-
-)
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -931,20 +927,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Runaway argument?
-{Unemployment, Total (\field {year}{2026} \verb {urlraw} \verb https:\ETC.
-! File ended while scanning use of \field.
-<inserted text> 
-                \par 
-l.26 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -979,7 +964,7 @@ Package biblatex Info: Reference segment=0 on input line 26.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/units_logo.png, id=95, 677.53125pt x 677.53125pt>
+<img/units_logo.png, id=99, 677.53125pt x 677.53125pt>
 File: img/units_logo.png Graphic file (type png)
 <use img/units_logo.png>
 Package pdftex.def Info: img/units_logo.png  used on input line 35.
@@ -1068,6 +1053,22 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 2.
 
 
+LaTeX Warning: Citation 'npd2009more' on page 3 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'ebsco_nes' on page 3 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'WWW_Birth' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'ebsco_rise_video_games' on page 3 undefined on input l
+ine 8.
+
+
+LaTeX Warning: Citation 'dlcs' on page 3 undefined on input line 8.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
@@ -1090,6 +1091,28 @@ Package pdftex.def Info: img/Tennis_For_Two.jpg  used on input line 16.
 [3
 
 ]
+
+LaTeX Warning: Citation 'esa2024' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'nvidia_raytracing' on page 4 undefined on input line 2
+2.
+
+
+LaTeX Warning: Citation 'intel_gpu' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'redbull_ai_gaming' on page 4 undefined on input line 2
+3.
+
+
+LaTeX Warning: Citation 'xbox_cloud_gaming' on page 4 undefined on input line 2
+3.
+
+
+LaTeX Warning: Citation 'esa2024' on page 4 undefined on input line 30.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
  []
@@ -1100,6 +1123,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--34
  []
 
 [4 <./img/Tennis_For_Two.jpg>]
+
+LaTeX Warning: Citation 'freemium_game_models' on page 5 undefined on input lin
+e 37.
+
+
+LaTeX Warning: Citation 'xbox_game_pass' on page 5 undefined on input line 38.
+
+
+LaTeX Warning: Citation 'playstation_plus' on page 5 undefined on input line 38
+.
+
+
+LaTeX Warning: Citation 'LootBox_Model' on page 5 undefined on input line 39.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
@@ -1112,21 +1150,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
+ []
+
+
+LaTeX Warning: Citation 'streaming_game_popularity' on page 5 undefined on inpu
+t line 46.
+
+
+LaTeX Warning: Citation 'impact_game_streaming_industry' on page 5 undefined on
+ input line 46.
+
+
+LaTeX Warning: Citation 'streaming_game_popularity' on page 5 undefined on inpu
+t line 47.
+
+
+Overfull \hbox (41.27711pt too wide) in paragraph at lines 43--50
+\T1/cmr/m/n/12 ac-tive play-ers, but also by the num-ber of hours of view-ing [
+]
  []
 
 [5]
-<img/Why_People_Play_Videogames.png, id=199, 627.09282pt x 420.82219pt>
+
+LaTeX Warning: Citation 'esa2024' on page 6 undefined on input line 57.
+
+<img/Why_People_Play_Videogames.png, id=172, 627.09282pt x 420.82219pt>
 File: img/Why_People_Play_Videogames.png Graphic file (type png)
 <use img/Why_People_Play_Videogames.png>
 Package pdftex.def Info: img/Why_People_Play_Videogames.png  used on input line
  63.
 (pdftex.def)             Requested size: 209.12683pt x 140.33578pt.
- [6]
+[6]
+
+LaTeX Warning: Citation 'esa2024' on page 7 undefined on input line 72.
+
 
 LaTeX Warning: Reference `fig:Grafico_ESA' on page VII undefined on input line 
 73.
 
-<img/Grafico_ESA_MF.png, id=211, 264.99pt x 319.79475pt>
+<img/Grafico_ESA_MF.png, id=180, 264.99pt x 319.79475pt>
 File: img/Grafico_ESA_MF.png Graphic file (type png)
 <use img/Grafico_ESA_MF.png>
 Package pdftex.def Info: img/Grafico_ESA_MF.png  used on input line 79.
@@ -1140,6 +1202,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
  []
 
 
+LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 1 undefined on in
+put line 8.
+
+
+LaTeX Warning: Citation 'steamdb' on page 1 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'steam_about' on page 1 undefined on input line 15.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--16
 
  []
@@ -1149,12 +1221,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
-<img/COVID_Steam_Players_Increase.png, id=226, 813.0375pt x 442.65375pt>
+<img/COVID_Steam_Players_Increase.png, id=192, 813.0375pt x 442.65375pt>
 File: img/COVID_Steam_Players_Increase.png Graphic file (type png)
 <use img/COVID_Steam_Players_Increase.png>
 Package pdftex.def Info: img/COVID_Steam_Players_Increase.png  used on input li
 ne 23.
 (pdftex.def)             Requested size: 418.25368pt x 227.71593pt.
+
+LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 1 undefined on in
+put line 27.
+
+
+LaTeX Warning: Citation 'steamdb' on page 1 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 1 undefined on in
+put line 27.
+
+
+LaTeX Warning: Citation 'steamdb' on page 1 undefined on input line 27.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1167,8 +1253,45 @@ l.30 A
 
 ]
 
+LaTeX Warning: Citation 'gaming_disorder_covid' on page 2 undefined on input li
+ne 35.
+
+
 LaTeX Warning: Citation 'who_gaming_disorder' on page 2 undefined on input line
  41.
+
+
+LaTeX Warning: Citation 'gaming_disorder_covid' on page 2 undefined on input li
+ne 42.
+
+
+LaTeX Warning: Citation 'heavy_gaming&depression' on page 2 undefined on input 
+line 47.
+
+
+LaTeX Warning: Citation 'gentile2011pathological_gaming' on page 2 undefined on
+ input line 49.
+
+
+LaTeX Warning: Citation 'gaming_disorder_covid' on page 2 undefined on input li
+ne 51.
+
+
+Overfull \hbox (3.50249pt too wide) in paragraph at lines 30--54
+\T1/cmr/m/n/12 neg-a-tive con-se-quences []. [] fur-
+ []
+
+
+Overfull \hbox (109.92105pt too wide) in paragraph at lines 30--54
+\T1/cmr/m/n/12 gamers re-ported more de-pres-sive symp-toms than their co-eta-n
+eous. []
+ []
+
+
+Overfull \hbox (56.56717pt too wide) in paragraph at lines 30--54
+\T1/cmr/m/n/12 as-so-ci-ated with height-ened vul-ner-a-bil-ity. This is con-si
+s-tent with []'s
+ []
 
 [2 <./img/COVID_Steam_Players_Increase.png>]) (main/Chapter2.tex [3]
 Chapter 2.
@@ -1177,23 +1300,54 @@ Overfull \hbox (44.5285pt too wide) in paragraph at lines 11--28
  [][] 
  []
 
+
+LaTeX Warning: Citation 'Gini' on page 4 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'ihme_depression_vizhub' on page 4 undefined on input l
+ine 40.
+
+
+LaTeX Warning: Citation 'investopedia_gni' on page 4 undefined on input line 44
+.
+
+
+LaTeX Warning: Citation 'worldbank_gni_per_capita' on page 4 undefined on input
+ line 45.
+
+
+LaTeX Warning: Citation 'worldbank_internet_users' on page 4 undefined on input
+ line 49.
+
+
+LaTeX Warning: Citation 'statista_internet_users_india' on page 4 undefined on 
+input line 49.
+
+
+LaTeX Warning: Citation 'worldbank_population_total' on page 4 undefined on inp
+ut line 52.
+
+
+LaTeX Warning: Citation 'factset_equity_data' on page 4 undefined on input line
+ 55.
+
 [4
 
-] [5]
+]
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 T
-      he country-level data represent the original observations retrieved from
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Warning: Citation 'hale2026oxcgrt' on page 5 undefined on input line 72.
 
 
+LaTeX Warning: Citation 'worldbank_unemployment_ilo' on page 5 undefined on inp
+ut line 77.
+
+
+Overfull \hbox (112.73033pt too wide) in paragraph at lines 66--78
+\T1/cmr/m/n/12 ously re-duces dis-pos-able in-come avail-able for dis-cre-tiona
+ry spend-ing []. 
+ []
+
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 94--116
 
  []
@@ -1224,7 +1378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--147
  []
 
 [7] [8]
-<img/Aggregated_Graphs_Graph2.png, id=306, 578.16pt x 578.16pt>
+<img/Aggregated_Graphs_Graph2.png, id=237, 578.16pt x 578.16pt>
 File: img/Aggregated_Graphs_Graph2.png Graphic file (type png)
 <use img/Aggregated_Graphs_Graph2.png>
 Package pdftex.def Info: img/Aggregated_Graphs_Graph2.png  used on input line 1
@@ -1235,14 +1389,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--187
 
  []
 
-<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=325, 505.89pt x 289.08pt>
+<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=256, 505.89pt x 289.08pt>
 File: img/LOG_Colored_Unemployement_&_Sales_Graph.png Graphic file (type png)
 <use img/LOG_Colored_Unemployement_&_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Unemployement_&_Sales_Graph.png  used 
 on input line 192.
 (pdftex.def)             Requested size: 418.25368pt x 239.0056pt.
 [12]
-<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=332, 722
+<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=263, 722
 .7pt x 433.62pt>
 File: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png Graphic
  file (type png)
@@ -1272,7 +1426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--218
  []
 
 [14 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
-<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=343, 722.7
+<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=274, 722.7
 pt x 433.62pt>
 File: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png Graphic f
 ile (type png)
@@ -1281,8 +1435,12 @@ Package pdftex.def Info: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_
 Graph.png  used on input line 223.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
 
+
+LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 15 undefined on i
+nput line 235.
+
 [15 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
-<img/Cumulative_Sales_Graph.png, id=351, 578.16pt x 578.16pt>
+<img/Cumulative_Sales_Graph.png, id=281, 578.16pt x 578.16pt>
 File: img/Cumulative_Sales_Graph.png Graphic file (type png)
 <use img/Cumulative_Sales_Graph.png>
 Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 241
@@ -1290,718 +1448,103 @@ Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 241
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
 
 [16]
-<img/Nigeria_GNI_Drop.png, id=358, 578.16pt x 578.16pt>
+
+LaTeX Warning: Citation 'nigeria_devaluation_crisis' on page 17 undefined on in
+put line 247.
+
+<img/Nigeria_GNI_Drop.png, id=287, 578.16pt x 578.16pt>
 File: img/Nigeria_GNI_Drop.png Graphic file (type png)
 <use img/Nigeria_GNI_Drop.png>
 Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 250.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
- [17 <./img/Cumulative_Sales_Graph.png>] [18 <./img/Nigeria_GNI_Drop.png>]
-<img/Global_Sales_2014-2024_Graph.png, id=370, 421.575pt x 258.9675pt>
+
+Overfull \hbox (85.38289pt too wide) in paragraph at lines 245--253
+\T1/cmr/m/n/12 cur-rency, which also con-tributed to a sig-nif-i-cant in-crease
+ in in-fla-tion []. 
+ []
+
+[17 <./img/Cumulative_Sales_Graph.png>]
+<img/Global_Sales_2014-2024_Graph.png, id=293, 421.575pt x 258.9675pt>
 File: img/Global_Sales_2014-2024_Graph.png Graphic file (type png)
 <use img/Global_Sales_2014-2024_Graph.png>
 Package pdftex.def Info: img/Global_Sales_2014-2024_Graph.png  used on input li
 ne 261.
 (pdftex.def)             Requested size: 418.25368pt x 256.93181pt.
-
+ [18 <./img/Nigeria_GNI_Drop.png>]
 [19 <./img/Global_Sales_2014-2024_Graph.png>]
-<img/Statista_SHC_Histogram.png, id=381, 722.7pt x 433.62pt>
+<img/Statista_SHC_Histogram.png, id=309, 722.7pt x 433.62pt>
 File: img/Statista_SHC_Histogram.png Graphic file (type png)
 <use img/Statista_SHC_Histogram.png>
 Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 280
 .
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
-File: img/COVID_Steam_Players_Increase.png Graphic file (type png)
-<use img/COVID_Steam_Players_Increase.png>
-Package pdftex.def Info: img/COVID_Steam_Players_Increase.png  used on input li
-ne 288.
-(pdftex.def)             Requested size: 418.25368pt x 227.71593pt.
- [20] [21 <./img/Statista_SHC_Histogram.png>]) (main/Chapter3.tex [22]
+
+
+LaTeX Warning: Citation 'statista_console_sales_covid' on page 20 undefined on 
+input line 283.
+
+
+LaTeX Warning: Citation 'statista_console_sales_covid' on page 20 undefined on 
+input line 283.
+
+[20]) (main/Chapter3.tex [21 <./img/Statista_SHC_Histogram.png>]
 Chapter 3.
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 T
-     he model used for this research was a Generalized Additive Midex Model ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \subsubsection
-                  {LM}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--18
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 
-! LaTeX Error: There's no line here to end.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 T
-      o address these above-mentioned limitations, we can recurr to
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[22
 
+] [23] [24]
+Overfull \hbox (84.33171pt too wide) in paragraph at lines 173--191
+ [][] 
+ []
 
-! LaTeX Error: There's no line here to end.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.203 DA MODIFICARE IL MODELLO IN QUANTO AVEVA R^
+                                                 2 NEGATIVO
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 W
-      hile GLMs provide a flexible framework for handling different
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+) (main/Chapter4.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-[23
-
-]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 A
-      lthough GAMs allow for flexible functional forms, they still
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (main/Chapter4.tex) (back/Conclusion.tex [24]) (back/Appendix1.tex [25
+) (back/Conclusion.tex [25] [26]) (back/Appendix1.tex [27
 
 ]
 Appendix A.
-) (back/Appendix2.tex [26
+) (back/Appendix2.tex [28
 
 ]
 Appendix B.
-) (back/Appendix3.tex [27
+) (back/Appendix3.tex [29
 
 ]
 Appendix C.
-) [28
+) [30
 
 ]
-! Undefined control sequence.
-<argument> \blx@bbl@data 
-                         
-l.157 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+LaTeX Warning: Empty bibliography on input line 156.
 
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
+(back/FinalDedication.tex) [31
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 15
-6.
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 156.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-[29
-
-
-{C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1
--0.enc}]
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-Overfull \hbox (11.0094pt too wide) in paragraph at lines 157--157
-[][]$\T1/zi4/m/n/12 https : / / www . sciencedirect . com / science / article /
- abs / pii / S0160791X19305743$[][]\T1/cmr/m/n/12 . 
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-[30]
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 157
-[][]
- []
-
-(back/FinalDedication.tex [31]) [32
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260617235832 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260624014132 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -2013,11 +1556,8 @@ L3 programming layer <2026-05-26>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1372CCC4EA71EF9CB42FEC87D9545B3C;3606.
+(rerunfilecheck)             Checksum: CD8DF246B39B82CD8B132A986D3193FF;3832.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -2026,47 +1566,44 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- )
-(\end occurred inside a group at level 3)
-
-### semi simple group (level 3) entered at line 20 (\begingroup)
-### semi simple group (level 2) entered at line 26 (\begingroup)
-### semi simple group (level 1) entered at line 26 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 26276 strings out of 467509
- 518526 string characters out of 5408780
- 1587264 words of memory out of 5000000
- 55003 multiletter control sequences out of 15000+600000
- 641886 words of font info for 70 fonts, out of 8000000 for 9000
+ 26053 strings out of 467509
+ 511113 string characters out of 5408780
+ 1580837 words of memory out of 5000000
+ 54795 multiletter control sequences out of 15000+600000
+ 645615 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,79p,1219b,2705s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{cite.0@worldbank_unemployment_ilo} has been referen
-ced but does not exist, replaced by a fixed one
-
- <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc12
-00.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecbx1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecbx2488.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecti1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecrm1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\rober\AppData\Local\MiKTeX
-\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\rober\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\rober\AppData\
-Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/rober/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-<C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rober/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (42 pages, 5751426 bytes).
+ 74i,12n,79p,1219b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
+1000.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx2488.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\rober\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\rober\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\rober\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\rober\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/r
+ober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex
+10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rober/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rober/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rober/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rober/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy8.pfb>
+Output written on main.pdf (41 pages, 5754449 bytes).
 PDF statistics:
- 1024 PDF objects out of 1200 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 888 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

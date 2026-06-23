@@ -2422,10 +2422,6 @@
     <bcf:citekey order="39" intorder="1">nigeria_devaluation_crisis</bcf:citekey>
     <bcf:citekey order="40" intorder="1">statista_console_sales_covid</bcf:citekey>
     <bcf:citekey order="41" intorder="1">statista_console_sales_covid</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">chang2021videogame_pandemic</bcf:citekey>
-    <bcf:citekey order="42" intorder="2">steamdb</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">chang2021videogame_pandemic</bcf:citekey>
-    <bcf:citekey order="43" intorder="2">steamdb</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
