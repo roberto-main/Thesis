@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  24 JUN 2026 01:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  26 JUN 2026 02:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,7 +964,7 @@ Package biblatex Info: Reference segment=0 on input line 26.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/units_logo.png, id=99, 677.53125pt x 677.53125pt>
+<img/units_logo.png, id=123, 677.53125pt x 677.53125pt>
 File: img/units_logo.png Graphic file (type png)
 <use img/units_logo.png>
 Package pdftex.def Info: img/units_logo.png  used on input line 35.
@@ -1018,57 +1018,21 @@ been already used, duplicate ignored
 l.91 \frontmatter
                   [1
 
-] (front/Abstract.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--98
-
- []
-
-[1
+] (front/Abstract.tex) [1
 
 
 ] (main.toc
-Overfull \hbox (3.9642pt too wide) detected at line 11
+Overfull \hbox (3.9642pt too wide) detected at line 10
  []\T1/cmr/m/n/12 VIII
  []
 
-)
+[2
+
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (front/Introduction.tex [2
-
-]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2.
-
-
-LaTeX Warning: Citation 'npd2009more' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation 'ebsco_nes' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'WWW_Birth' on page 3 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'ebsco_rise_video_games' on page 3 undefined on input l
-ine 8.
-
-
-LaTeX Warning: Citation 'dlcs' on page 3 undefined on input line 8.
-
-
+ (front/Introduction.tex [3]
 Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
@@ -1083,36 +1047,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-<img/Tennis_For_Two.jpg, id=153, 271.0125pt x 187.70125pt>
+<img/Tennis_For_Two.jpg, id=192, 271.0125pt x 187.70125pt>
 File: img/Tennis_For_Two.jpg Graphic file (type jpg)
 <use img/Tennis_For_Two.jpg>
 Package pdftex.def Info: img/Tennis_For_Two.jpg  used on input line 16.
 (pdftex.def)             Requested size: 209.12683pt x 144.84546pt.
-[3
+[4
 
 ]
-
-LaTeX Warning: Citation 'esa2024' on page 4 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'nvidia_raytracing' on page 4 undefined on input line 2
-2.
-
-
-LaTeX Warning: Citation 'intel_gpu' on page 4 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'redbull_ai_gaming' on page 4 undefined on input line 2
-3.
-
-
-LaTeX Warning: Citation 'xbox_cloud_gaming' on page 4 undefined on input line 2
-3.
-
-
-LaTeX Warning: Citation 'esa2024' on page 4 undefined on input line 30.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
  []
@@ -1122,22 +1064,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
  []
 
-[4 <./img/Tennis_For_Two.jpg>]
-
-LaTeX Warning: Citation 'freemium_game_models' on page 5 undefined on input lin
-e 37.
-
-
-LaTeX Warning: Citation 'xbox_game_pass' on page 5 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'playstation_plus' on page 5 undefined on input line 38
-.
-
-
-LaTeX Warning: Citation 'LootBox_Model' on page 5 undefined on input line 39.
-
-
+[5 <./img/Tennis_For_Two.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
@@ -1152,64 +1079,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
 
-
-LaTeX Warning: Citation 'streaming_game_popularity' on page 5 undefined on inpu
-t line 46.
-
-
-LaTeX Warning: Citation 'impact_game_streaming_industry' on page 5 undefined on
- input line 46.
-
-
-LaTeX Warning: Citation 'streaming_game_popularity' on page 5 undefined on inpu
-t line 47.
-
-
-Overfull \hbox (41.27711pt too wide) in paragraph at lines 43--50
-\T1/cmr/m/n/12 ac-tive play-ers, but also by the num-ber of hours of view-ing [
-]
- []
-
-[5]
-
-LaTeX Warning: Citation 'esa2024' on page 6 undefined on input line 57.
-
-<img/Why_People_Play_Videogames.png, id=172, 627.09282pt x 420.82219pt>
+[6]
+<img/Why_People_Play_Videogames.png, id=238, 627.09282pt x 420.82219pt>
 File: img/Why_People_Play_Videogames.png Graphic file (type png)
 <use img/Why_People_Play_Videogames.png>
 Package pdftex.def Info: img/Why_People_Play_Videogames.png  used on input line
  63.
 (pdftex.def)             Requested size: 209.12683pt x 140.33578pt.
-[6]
+ [7]
+<img/ESA_Gamers_Age.png, id=250, 560.0925pt x 390.70969pt>
+File: img/ESA_Gamers_Age.png Graphic file (type png)
+<use img/ESA_Gamers_Age.png>
+Package pdftex.def Info: img/ESA_Gamers_Age.png  used on input line 76.
+(pdftex.def)             Requested size: 209.12683pt x 145.88382pt.
 
-LaTeX Warning: Citation 'esa2024' on page 7 undefined on input line 72.
+Underfull \hbox (badness 10000) in paragraph at lines 72--79
 
+ []
 
-LaTeX Warning: Reference `fig:Grafico_ESA' on page VII undefined on input line 
-73.
-
-<img/Grafico_ESA_MF.png, id=180, 264.99pt x 319.79475pt>
-File: img/Grafico_ESA_MF.png Graphic file (type png)
-<use img/Grafico_ESA_MF.png>
-Package pdftex.def Info: img/Grafico_ESA_MF.png  used on input line 79.
-(pdftex.def)             Requested size: 209.12683pt x 252.38133pt.
-[7 <./img/Why_People_Play_Videogames.png>]) [8 <./img/Grafico_ESA_MF.png>]
-(main/Chapter1.tex
+[8 <./img/Why_People_Play_Videogames.png> <./img/ESA_Gamers_Age.png>]
+<img/Grafico_ESA_MF.jpg, id=259, 461.725pt x 574.145pt>
+File: img/Grafico_ESA_MF.jpg Graphic file (type jpg)
+<use img/Grafico_ESA_MF.jpg>
+Package pdftex.def Info: img/Grafico_ESA_MF.jpg  used on input line 86.
+(pdftex.def)             Requested size: 209.12683pt x 260.04492pt.
+) [9 <./img/Grafico_ESA_MF.jpg>] [10] (main/Chapter1.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
-
-
-LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 1 undefined on in
-put line 8.
-
-
-LaTeX Warning: Citation 'steamdb' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'steam_about' on page 1 undefined on input line 15.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--16
@@ -1221,26 +1120,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
-<img/COVID_Steam_Players_Increase.png, id=192, 813.0375pt x 442.65375pt>
+<img/COVID_Steam_Players_Increase.png, id=272, 813.0375pt x 442.65375pt>
 File: img/COVID_Steam_Players_Increase.png Graphic file (type png)
 <use img/COVID_Steam_Players_Increase.png>
 Package pdftex.def Info: img/COVID_Steam_Players_Increase.png  used on input li
 ne 23.
 (pdftex.def)             Requested size: 418.25368pt x 227.71593pt.
-
-LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 1 undefined on in
-put line 27.
-
-
-LaTeX Warning: Citation 'steamdb' on page 1 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 1 undefined on in
-put line 27.
-
-
-LaTeX Warning: Citation 'steamdb' on page 1 undefined on input line 27.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1251,300 +1136,198 @@ l.30 A
 [1
 
 
-]
-
-LaTeX Warning: Citation 'gaming_disorder_covid' on page 2 undefined on input li
-ne 35.
-
-
-LaTeX Warning: Citation 'who_gaming_disorder' on page 2 undefined on input line
- 41.
-
-
-LaTeX Warning: Citation 'gaming_disorder_covid' on page 2 undefined on input li
-ne 42.
-
-
-LaTeX Warning: Citation 'heavy_gaming&depression' on page 2 undefined on input 
-line 47.
-
-
-LaTeX Warning: Citation 'gentile2011pathological_gaming' on page 2 undefined on
- input line 49.
-
-
-LaTeX Warning: Citation 'gaming_disorder_covid' on page 2 undefined on input li
-ne 51.
-
-
-Overfull \hbox (3.50249pt too wide) in paragraph at lines 30--54
-\T1/cmr/m/n/12 neg-a-tive con-se-quences []. [] fur-
- []
-
-
-Overfull \hbox (109.92105pt too wide) in paragraph at lines 30--54
-\T1/cmr/m/n/12 gamers re-ported more de-pres-sive symp-toms than their co-eta-n
-eous. []
- []
-
-
-Overfull \hbox (56.56717pt too wide) in paragraph at lines 30--54
-\T1/cmr/m/n/12 as-so-ci-ated with height-ened vul-ner-a-bil-ity. This is con-si
-s-tent with []'s
- []
-
-[2 <./img/COVID_Steam_Players_Increase.png>]) (main/Chapter2.tex [3]
+] [2 <./img/COVID_Steam_Players_Increase.png>]) (main/Chapter2.tex [3]
 Chapter 2.
 
-Overfull \hbox (44.5285pt too wide) in paragraph at lines 11--28
+Overfull \hbox (44.5285pt too wide) in paragraph at lines 8--26
  [][] 
  []
 
-
-LaTeX Warning: Citation 'Gini' on page 4 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'ihme_depression_vizhub' on page 4 undefined on input l
-ine 40.
-
-
-LaTeX Warning: Citation 'investopedia_gni' on page 4 undefined on input line 44
-.
-
-
-LaTeX Warning: Citation 'worldbank_gni_per_capita' on page 4 undefined on input
- line 45.
-
-
-LaTeX Warning: Citation 'worldbank_internet_users' on page 4 undefined on input
- line 49.
-
-
-LaTeX Warning: Citation 'statista_internet_users_india' on page 4 undefined on 
-input line 49.
-
-
-LaTeX Warning: Citation 'worldbank_population_total' on page 4 undefined on inp
-ut line 52.
-
-
-LaTeX Warning: Citation 'factset_equity_data' on page 4 undefined on input line
- 55.
-
 [4
 
-]
-
-LaTeX Warning: Citation 'hale2026oxcgrt' on page 5 undefined on input line 72.
-
-
-LaTeX Warning: Citation 'worldbank_unemployment_ilo' on page 5 undefined on inp
-ut line 77.
-
-
-Overfull \hbox (112.73033pt too wide) in paragraph at lines 66--78
-\T1/cmr/m/n/12 ously re-duces dis-pos-able in-come avail-able for dis-cre-tiona
-ry spend-ing []. 
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 94--116
+] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 96--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--116
+Underfull \hbox (badness 10000) in paragraph at lines 96--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--116
+Underfull \hbox (badness 10000) in paragraph at lines 96--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--116
+Underfull \hbox (badness 10000) in paragraph at lines 96--118
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 127--147
+Underfull \hbox (badness 10000) in paragraph at lines 129--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--147
+Underfull \hbox (badness 10000) in paragraph at lines 129--153
 
  []
 
 [7] [8]
-<img/Aggregated_Graphs_Graph2.png, id=237, 578.16pt x 578.16pt>
+<img/Aggregated_Graphs_Graph2.png, id=359, 578.16pt x 578.16pt>
 File: img/Aggregated_Graphs_Graph2.png Graphic file (type png)
 <use img/Aggregated_Graphs_Graph2.png>
 Package pdftex.def Info: img/Aggregated_Graphs_Graph2.png  used on input line 1
-55.
+61.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
- [9] [10 <./img/Aggregated_Graphs_Graph2.png>] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 184--187
+ [9 <./img/Aggregated_Graphs_Graph2.png>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
  []
 
-<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=256, 505.89pt x 289.08pt>
+<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=373, 505.89pt x 289.08pt>
 File: img/LOG_Colored_Unemployement_&_Sales_Graph.png Graphic file (type png)
 <use img/LOG_Colored_Unemployement_&_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Unemployement_&_Sales_Graph.png  used 
-on input line 192.
+on input line 198.
 (pdftex.def)             Requested size: 418.25368pt x 239.0056pt.
-[12]
-<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=263, 722
+[11]
+<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=380, 722
 .7pt x 433.62pt>
 File: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png Graphic
  file (type png)
 <use img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sale
-s_Graph.png  used on input line 207.
+s_Graph.png  used on input line 213.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
- [13 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
-
-LaTeX Warning: Citation 'worldbank_digital_dividend' on page 14 undefined on in
-put line 214.
-
-
-Overfull \hbox (27.91368pt too wide) in paragraph at lines 212--218
-\T1/cmr/m/n/12 ni-ties, and cit-i-zens in-ter-act with their gov-ern-ments^^T (
-[]).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
+ [12 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 218--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--224
 
  []
 
-[14 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
-<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=274, 722.7
+[13 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
+<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=394, 722.7
 pt x 433.62pt>
 File: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png Graphic f
 ile (type png)
 <use img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_
-Graph.png  used on input line 223.
+Graph.png  used on input line 229.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
 
-
-LaTeX Warning: Citation 'chang2021videogame_pandemic' on page 15 undefined on i
-nput line 235.
-
-[15 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
-<img/Cumulative_Sales_Graph.png, id=281, 578.16pt x 578.16pt>
+[14 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
+<img/Cumulative_Sales_Graph.png, id=401, 578.16pt x 578.16pt>
 File: img/Cumulative_Sales_Graph.png Graphic file (type png)
 <use img/Cumulative_Sales_Graph.png>
-Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 241
+Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 247
 .
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
-
-[16]
-
-LaTeX Warning: Citation 'nigeria_devaluation_crisis' on page 17 undefined on in
-put line 247.
-
-<img/Nigeria_GNI_Drop.png, id=287, 578.16pt x 578.16pt>
+<img/Nigeria_GNI_Drop.png, id=403, 578.16pt x 578.16pt>
 File: img/Nigeria_GNI_Drop.png Graphic file (type png)
 <use img/Nigeria_GNI_Drop.png>
-Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 250.
+Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 256.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
 
-Overfull \hbox (85.38289pt too wide) in paragraph at lines 245--253
-\T1/cmr/m/n/12 cur-rency, which also con-tributed to a sig-nif-i-cant in-crease
- in in-fla-tion []. 
- []
-
-[17 <./img/Cumulative_Sales_Graph.png>]
-<img/Global_Sales_2014-2024_Graph.png, id=293, 421.575pt x 258.9675pt>
+[15 <./img/Cumulative_Sales_Graph.png>] [16 <./img/Nigeria_GNI_Drop.png>]
+<img/Global_Sales_2014-2024_Graph.png, id=415, 421.575pt x 258.9675pt>
 File: img/Global_Sales_2014-2024_Graph.png Graphic file (type png)
 <use img/Global_Sales_2014-2024_Graph.png>
 Package pdftex.def Info: img/Global_Sales_2014-2024_Graph.png  used on input li
-ne 261.
+ne 267.
 (pdftex.def)             Requested size: 418.25368pt x 256.93181pt.
- [18 <./img/Nigeria_GNI_Drop.png>]
-[19 <./img/Global_Sales_2014-2024_Graph.png>]
-<img/Statista_SHC_Histogram.png, id=309, 722.7pt x 433.62pt>
+
+[17 <./img/Global_Sales_2014-2024_Graph.png>]
+<img/Statista_SHC_Histogram.png, id=426, 722.7pt x 433.62pt>
 File: img/Statista_SHC_Histogram.png Graphic file (type png)
 <use img/Statista_SHC_Histogram.png>
-Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 280
+Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 288
 .
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
-
-
-LaTeX Warning: Citation 'statista_console_sales_covid' on page 20 undefined on 
-input line 283.
-
-
-LaTeX Warning: Citation 'statista_console_sales_covid' on page 20 undefined on 
-input line 283.
-
-[20]) (main/Chapter3.tex [21 <./img/Statista_SHC_Histogram.png>]
+ [18]) (main/Chapter3.tex [19 <./img/Statista_SHC_Histogram.png>]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
+[20
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 5.
-
-[22
-
-] [23] [24]
-Overfull \hbox (84.33171pt too wide) in paragraph at lines 173--191
+] [21]
+<img/Non_Log_Model_Colored_Graph.png, id=460, 1011.78pt x 722.7pt>
+File: img/Non_Log_Model_Colored_Graph.png Graphic file (type png)
+<use img/Non_Log_Model_Colored_Graph.png>
+Package pdftex.def Info: img/Non_Log_Model_Colored_Graph.png  used on input lin
+e 152.
+(pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
+ [22]
+<img/Log_Model_Colored_Graph.png, id=472, 1011.78pt x 722.7pt>
+File: img/Log_Model_Colored_Graph.png Graphic file (type png)
+<use img/Log_Model_Colored_Graph.png>
+Package pdftex.def Info: img/Log_Model_Colored_Graph.png  used on input line 15
+9.
+(pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
+ [23 <./img/Non_Log_Model_Colored_Graph.png>]
+Overfull \hbox (85.1317pt too wide) in paragraph at lines 198--222
  [][] 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.203 DA MODIFICARE IL MODELLO IN QUANTO AVEVA R^
-                                                 2 NEGATIVO
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[24 <./img/Log_Model_Colored_Graph.png>]) (back/Conclusion.tex [25] [26]
+Overfull \hbox (25.65549pt too wide) in paragraph at lines 6--55
+\T1/cmr/m/n/10.95 This re-search aimed to iden-tify the pri-mary macroe-co-nomi
+c, struc-tural, and socio-psychological
+ []
 
-) (main/Chapter4.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[27
 
-) (back/Conclusion.tex [25] [26]) (back/Appendix1.tex [27
-
-]
+]) (back/Appendix1.tex [28]
 Appendix A.
-) (back/Appendix2.tex [28
+) (back/Appendix2.tex [29
 
 ]
 Appendix B.
-) (back/Appendix3.tex [29
+) (back/Appendix3.tex [30
 
 ]
 Appendix C.
-) [30
+) [31
 
 ]
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 15
+5.
 
-LaTeX Warning: Empty bibliography on input line 156.
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 155.
 
-(back/FinalDedication.tex) [31
+[32
 
+
+{C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1
+-0.enc}] [33]
+Overfull \hbox (17.37114pt too wide) in paragraph at lines 156--156
+\T1/zi4/m/n/12 unu . edu / news / unu -[] wider -[] releases -[] major -[] upda
+te -[] world -[] income -[] inequality -[]
+ []
+
+[34]
+Overfull \hbox (4.33548pt too wide) in paragraph at lines 156--156
+\T1/cmr/m/n/12 cessed: 9 June 2026. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T
+1/zi4/m/n/12 https : / / openknowledge . worldbank . org / bitstream /
+ []
+
+(back/FinalDedication.tex [35]) [36
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260624014132 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260626024013 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1552,58 +1335,51 @@ runsystem(latexminted cleantemp  --timestamp 20260624014132 FAD58DE7366495DB465
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CD8DF246B39B82CD8B132A986D3193FF;3832.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: E9080299EEE07C9A28ED6891F1C87362;5075.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26053 strings out of 467509
- 511113 string characters out of 5408780
- 1580837 words of memory out of 5000000
- 54795 multiletter control sequences out of 15000+600000
- 645615 words of font info for 79 fonts, out of 8000000 for 9000
+ 26380 strings out of 467509
+ 520855 string characters out of 5408780
+ 1590727 words of memory out of 5000000
+ 55072 multiletter control sequences out of 15000+600000
+ 646844 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,79p,1219b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
-1000.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx2488.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\rober\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\rober\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\rober\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\rober\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/r
-ober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex
-10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rober/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rober/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rober/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rober/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
-rs/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy8.pfb>
-Output written on main.pdf (41 pages, 5754449 bytes).
+ 74i,12n,79p,1219b,2389s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\eccc1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\rober\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\rober\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\rober\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\rober\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\
+rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\
+Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk
+> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2
+074.pk><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconso
+lata/Inconsolata-zi4r.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rober/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rober/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rober/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
+/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr8.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (48 pages, 7442563 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1315 PDF objects out of 1440 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

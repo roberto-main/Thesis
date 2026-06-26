@@ -1,9 +1,9 @@
 \chapter{Model}
-\paragraph{What model was used}
+\paragraph{What Model Was Used}
 The model used for this research was a Generalized Additive Mixed Model (GAMM).
 To explain what a GAMM is, we first have to introduce some lower-level models.\\
-\subsection{From LM to GLM to GAM to GAMM}
-\subsubsection{LM}
+\section{From LM to GLM to GAM to GAMM}
+\subsection{LM}
 Linear regression is a method used to describe how the average 
 value of a numerical outcome changes according to a linear 
 combination of predictors.
@@ -16,7 +16,6 @@ In many real-world applications, these assumptions are not appropriate.
 As in our case our outcome is non-normally distributed, we need
 to use a different model.
 \subsubsection{Linear Model (LM)}
-Test formula: $x = 1$
 \begin{equation}
 Y_i = \beta_0 + \beta_1x_{i1} + \cdots + \beta_px_{ip} + \varepsilon_i,
 \end{equation}
@@ -39,8 +38,8 @@ and:
     \]
 \end{itemize}
 
-\subsubsection{From LM to GLM}
-To address these above-mentioned limitations, we can recurr to 
+\subsection{From LM to GLM}
+To address these above-mentioned limitations, we can resort to 
 the Generalized Linear Model (GLM), which extends the classical
 linear model by allowing the response variable to follow 
 distributions from the exponential family and by introducing a 
@@ -66,7 +65,7 @@ and:
     \item $\eta_i$ denotes the linear predictor.
 \end{itemize}
 
-\subsubsection{From GLM to GAM}
+\subsection{From GLM to GAM}
 While GLMs provide a flexible framework for handling different
 types of response variables, they still assume a linear 
 relationship between the transformed expected value of the
@@ -92,7 +91,7 @@ f_p(x_{ip}) +
 
 where $f_j(\cdot)$ are smooth functions estimated from the data.
 
-\subsubsection{From GAM to GAMM}
+\subsection{From GAM to GAMM}
 Although GAMs allow for flexible functional forms, they still 
 assume that observations are independent. However, in our case 
 (where we hierarchically grouped the observations getting Continents --> Countries) 
@@ -127,77 +126,126 @@ represents the random effects, and:
     \item $\mathbf{b}\sim N(\mathbf{0},\mathbf{D})$.
 \end{itemize}
 
-Several candidate models were compared, and the best-fitting 
-model was selected according to the Akaike Information Criterion (AIC).\\
-According to AIC, in fact, our final model had the lowest value 
-compared to the other prototypes, and during this process, some 
-variables have been cut out in order to guarantee a rigorous but 
-efficient selecting criteria requiring a certain amount of 
-statistical significance for a variable to be included.\\
-This has led to a model composed by: the Stringency Index as a 
-linear term, smooth functions for GNI per Capita and Internet 
-Users, a tensor interaction between Year and Depression Rates, 
-and random intercepts for countries nested within continents.
+\subsection{Model Specification for This Study}
+Initial models using a Gaussian family on the original scale 
+yielded poor goodness-of-fit, with negative adjusted $R^2$ values. 
+Given the positive and right-skewed distribution of video game 
+sales, a Gamma family with log link was initially considered as 
+a more appropriate distributional assumption \cite{hosch2026gamma}. 
+However, applying a log transformation to the response variable 
+substantially improved residual behaviour and approximated 
+normality, making a Gaussian family with log transformed sales, 
+the most appropriate specification for the final model:
 
-\begin{align}
-\text{Sales}_{ijt} = & \ \beta_0 + \beta_1 \text{StringencyIndex}_{ijt} \\
-& + f_1(\text{GNIpc}_{ijt}) \\
-& + f_2(\text{InternetUsers}_{ijt}) \\
-& + f_3(\text{Year}_{ijt}, \text{DepressionRate}_{ijt}) \\
-& + u_j + v_i + \varepsilon_{ijt}
-\end{align}
+\begin{equation}
+Y_i^* = \log(Y_i) \sim N(\mu_i, \sigma^2)
+\end{equation}
 
-where
+where $Y_i$ represents video game sales in millions and $Y_i^*$ 
+is the log-transformed response used in the final model.
+
+Below are the two groups of graphs the first one before applying
+the log transformation, the second one after:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/Non_Log_Model_Colored_Graph.png}
+    \caption{Diagnostic Residual Plots for the Non-Log Model}
+    \label{fig:Non_Log_Model}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/Log_Model_Colored_Graph.png}
+    \caption{Diagnostic Residual Plots for the Log Model}
+    \label{fig:Log_Model}
+\end{figure}
+
+\subparagraph{Formula of the Chosen Model}
+\begin{equation}
+\begin{aligned}
+Y_i^*
+=&\ \beta_0 + f_1(IU_i) + f_2(Year_i,DR_i) + f_3(U_i) + f_4(GNI_i) + b_{c(i)} + \varepsilon_i
+\end{aligned}
+\end{equation}
+
+where:
 
 \begin{itemize}
-    \item $i$ indexes countries;
-    \item $j$ indexes continents;
-    \item $t$ indexes years;
-    \item $\beta_0$ is the intercept;
-    \item $\beta_1$ represents the linear effect of the Stringency Index;
-    \item $f_1(\cdot)$ and $f_2(\cdot)$ denote smooth functions capturing the potentially non-linear effects of GNI per capita and Internet Users;
-    \item $f_3(\cdot,\cdot)$ represents a tensor-product smooth interaction between Year and Depression Rates;
-    \item $u_j$ is the random intercept associated with continent $j$;
-    \item $v_{ij}$ is the random intercept associated with country $i$, nested within continent $j$;
-    \item $\varepsilon_{ijt}$ is the error term.
+    \item $Y_i$ denotes sales (in millions) for observation $i$;
+
+    \item $\beta_0$ is the intercept term;
+    
+    \item $f_1(IU_i)$ represents the smooth nonlinear effect of Internet Users;
+    
+    \item $f_2(Year_i,DR_i)$ represents a joint nonlinear effect of Year and Depression Rates, modelled using a tensor product smooth;
+    
+    \item $f_3(U_i)$ represents the smooth nonlinear effect of Unemployment;
+    
+    \item $f_4(GNI_i)$ represents the smooth nonlinear effect of GNI per capita;
+    
+    \item $b_{c(i)}$ is a continent-specific random effect;
+    
+    \item $\varepsilon_i$ is the error term, assumed to follow a normal distribution with mean zero and variance $\sigma^2$, i.e.,
+    $\varepsilon_i \sim N(0,\sigma^2)$.
 \end{itemize}
 
-\paragraph{Model Results}
-In this section, empirical results of the GAMM estimation, 
-focusing on both parametric and non-linear effects
-will be presented.
-
-\begin{table}[ht]
+\section{Model Results}
+\subsubsection{}
+\begin{table}[H]
 \centering
 \caption{GAMM Estimation Results}
-\begin{tabular}{l|c|c|c|c}
+\begin{tabular}{|l|c|c|c|c|}
 \hline
 \textbf{Variable} & \textbf{Estimate / edf} & \textbf{Std. Error / Ref.df} & \textbf{Statistic} & \textbf{p-value} \\
+\hline\hline
+\multicolumn{5}{|l|}{\textit{Parametric terms}} \\
 \hline
-
-\multicolumn{5}{l}{\textit{Parametric coefficients}} \\
-Intercept & 6.541 & 0.357 & 18.300 & $<0.001^{***}$ \\
-Stringency Index & 0.098 & 0.048 & 2.029 & 0.043$^{*}$ \\
-
+Intercept & 6.499 & 0.396 & 16.42 & $<0.001^{***}$ \\
+\hline\hline
+\multicolumn{5}{|l|}{\textit{Smooth terms}} \\
 \hline
-\multicolumn{5}{l}{\textit{Smooth terms}} \\
-s(GNI per Capita) & 2.725 & 2.725 & 32.45 & $<0.001^{***}$ \\
-s(Internet Users) & 3.453 & 3.453 & 20.41 & $<0.001^{***}$ \\
-te(Year, Depression Rates) & 7.489 & 7.489 & 66.22 & $<0.001^{***}$ \\
-
+s(Internet Users) & 2.809 & 3.295 & 5.490 & $<0.001^{***}$ \\
+s(GNI per Capita) & 1.000 & 1.001 & 7.148 & $0.008^{**}$ \\
+s(Unemployment) & 2.409 & 2.818 & 5.529 & $0.002^{**}$ \\
+te(Year, Depression Rates) & 6.549 & 6.911 & 10.378 & $<0.001^{***}$ \\
+s(Continent) & 9.736 & 10.000 & 50.873 & $<0.001^{***}$ \\
+\hline\hline
+\multicolumn{5}{|l|}{\textit{Model fit}} \\
+\hline
+Adjusted $R^2$ & \multicolumn{4}{l|}{0.719} \\
+Deviance explained & \multicolumn{4}{l|}{74.1\%} \\
+REML & \multicolumn{4}{l|}{334.52} \\
+$n$ & \multicolumn{4}{l|}{293} \\
 \hline
 \end{tabular}
-\vspace{2mm}
-\begin{flushleft}
-\footnotesize
-$^{***} p < 0.001$, $^{*} p < 0.05$ \\
-Adjusted $R^2 = -0.241$, $n = 293$
-\end{flushleft}
+\\[0.5em]
+\small Significance codes: $^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$\\
 \end{table}
 
-Note: the number of observations taken in consideration for this
-model is lower than the total number of observations present
-in the final dataset. This is due to the inconsistency of
-some observations' data.
-
-DA MODIFICARE IL MODELLO IN QUANTO AVEVA R^2 NEGATIVO
+Note: as it is possible to see, all the model's variables are
+statistically significant. This is due to the fact that
+non significant variables (e.g. Stringency Index), have been
+removed in order to guarantee a parsimonious and efficient model.\\
+The intercept is equal to 6.499, number that represents the 
+baseline log sales value when all the other variables are equal
+to 0.\\
+Regarding the smooth terms, Internet Users exhibit a non-linear 
+effect with an effective degrees of freedom (edf) value of 2.809 
+suggesting a moderately flexible relationship (values of edf 
+greater than 1 indicate nonlinear effects, with higher values 
+reflecting greater functional flexibility).\\
+Similarly, Unemployment displays a similar pattern, with an edf of 2.409
+indicating a moderately flexible non-linear trend, while the GNI per Capita distinguishes itself from the other
+variables, having an edf of 1, which indicates a linear relationship
+with the sales.\\
+The tensor product between Year and Depression Rates shows --
+with an edf of 6.549 -- a strongly non linear and complex effect
+of depression rates over sales, that is not constant over the years.\\
+To conclude, the Continent edf of 9.736 suggests a meaningful 
+regional heterogeneity in sales levels with important variability
+levels.\\
+In general, the results indicate a strong overall fit, with an adjusted 
+R-squared of 0.719 and a deviance explained of 74.1\%, 
+suggesting that the model captures a substantial portion of the 
+variability in sales.

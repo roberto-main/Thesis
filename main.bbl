@@ -1,0 +1,1350 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{WWW_Birth}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
+           family={{CERN}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{fullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{fullhashraw}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{bibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorfullhashraw}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 9 June 2026}
+      \field{title}{The Birth of the Web: A Short History of the Web}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://home.cern/science/computing/the-birth-of-the-web/short-history-web/
+      \endverb
+      \verb{url}
+      \verb https://home.cern/science/computing/the-birth-of-the-web/short-history-web/
+      \endverb
+    \endentry
+    \entry{chang2021videogame_pandemic}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f5016196962f4f7e78c3a58593d7e314}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Kyung-Sun},
+           giveni={K\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd6bd95457638decbe2986130659a523}
+      \strng{fullhash}{cd6bd95457638decbe2986130659a523}
+      \strng{fullhashraw}{cd6bd95457638decbe2986130659a523}
+      \strng{bibnamehash}{cd6bd95457638decbe2986130659a523}
+      \strng{authorbibnamehash}{cd6bd95457638decbe2986130659a523}
+      \strng{authornamehash}{cd6bd95457638decbe2986130659a523}
+      \strng{authorfullhash}{cd6bd95457638decbe2986130659a523}
+      \strng{authorfullhashraw}{cd6bd95457638decbe2986130659a523}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Games and Culture}
+      \field{note}{Accessed via ResearchGate on 11 June 2026}
+      \field{title}{A Large-Scale Study of Changes to the Quantity, Quality and Distribution of Video Game Play During a Global Health Pandemic}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/356178030_A_large-scale_study_of_changes_to_the_quantity_quality_and_distribution_of_video_game_play_during_a_global_health_pandemic
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/356178030_A_large-scale_study_of_changes_to_the_quantity_quality_and_distribution_of_video_game_play_during_a_global_health_pandemic
+      \endverb
+    \endentry
+    \entry{heavy_gaming&depression}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1d1dc9638af1fec234da002eeb7a0cd3}{%
+           family={{Colder Carras}},
+           familyi={C\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc1940bd30442570b97cb41d6d398058}{%
+           family={{Van Rooij}},
+           familyi={V\bibinitperiod},
+           given={Antonius\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f57cfc6a5c62028f75faa609e259c945}{%
+           family={{Van de Mheen}},
+           familyi={V\bibinitperiod},
+           given={Dike},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23912064352cf872c9fe2dea76d411d6}{%
+           family={Musci},
+           familyi={M\bibinitperiod},
+           given={Rashelle},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=740235c0796ad8e362d1f4e60156f9fa}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Qian-Li},
+           giveni={Q\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51670916458a9061ec9c2ce085d6e2ff}{%
+           family={Mendelson},
+           familyi={M\bibinitperiod},
+           given={Tamar},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7dedd161af01436f7a8ca852728289ab}
+      \strng{fullhash}{ceee2ea24364cf60528b364333738fe6}
+      \strng{fullhashraw}{ceee2ea24364cf60528b364333738fe6}
+      \strng{bibnamehash}{7dedd161af01436f7a8ca852728289ab}
+      \strng{authorbibnamehash}{7dedd161af01436f7a8ca852728289ab}
+      \strng{authornamehash}{7dedd161af01436f7a8ca852728289ab}
+      \strng{authorfullhash}{ceee2ea24364cf60528b364333738fe6}
+      \strng{authorfullhashraw}{ceee2ea24364cf60528b364333738fe6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0747-5632}
+      \field{journaltitle}{Computers in Human Behavior}
+      \field{title}{Video gaming in a hyperconnected world: A cross-sectional study of heavy gaming, problematic gaming symptoms, and online socializing in adolescents}
+      \field{volume}{68}
+      \field{year}{2017}
+      \field{pages}{472\bibrangedash 479}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.chb.2016.11.060
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0747563216308093
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0747563216308093
+      \endverb
+    \endentry
+    \entry{nigeria_devaluation_crisis}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d895a1704cd249218ceef0afa2002723}{%
+           family={{DAI Global Developments}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d895a1704cd249218ceef0afa2002723}
+      \strng{fullhash}{d895a1704cd249218ceef0afa2002723}
+      \strng{fullhashraw}{d895a1704cd249218ceef0afa2002723}
+      \strng{bibnamehash}{d895a1704cd249218ceef0afa2002723}
+      \strng{authorbibnamehash}{d895a1704cd249218ceef0afa2002723}
+      \strng{authornamehash}{d895a1704cd249218ceef0afa2002723}
+      \strng{authorfullhash}{d895a1704cd249218ceef0afa2002723}
+      \strng{authorfullhashraw}{d895a1704cd249218ceef0afa2002723}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 9 June 2026}
+      \field{title}{The Seeds of Opportunity in Nigeria’s Devaluation Crisis}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://dai-global-developments.com/articles/the-seeds-of-opportunity-in-nigerias-devaluation-crisis/
+      \endverb
+      \verb{url}
+      \verb https://dai-global-developments.com/articles/the-seeds-of-opportunity-in-nigerias-devaluation-crisis/
+      \endverb
+    \endentry
+    \entry{ebsco_nes}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e451f5bdf3c70c33e543564709175bb0}{%
+           family={{EBSCO Research Starters}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{fullhash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{fullhashraw}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{bibnamehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authorbibnamehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authornamehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authorfullhash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authorfullhashraw}{e451f5bdf3c70c33e543564709175bb0}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 9 June 2026}
+      \field{title}{Nintendo Entertainment System (NES)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.ebsco.com/research-starters/sports-and-leisure/nintendo-entertainment-system-nes
+      \endverb
+      \verb{url}
+      \verb https://www.ebsco.com/research-starters/sports-and-leisure/nintendo-entertainment-system-nes
+      \endverb
+    \endentry
+    \entry{ebsco_rise_video_games}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e451f5bdf3c70c33e543564709175bb0}{%
+           family={{EBSCO Research Starters}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{fullhash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{fullhashraw}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{bibnamehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authorbibnamehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authornamehash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authorfullhash}{e451f5bdf3c70c33e543564709175bb0}
+      \strng{authorfullhashraw}{e451f5bdf3c70c33e543564709175bb0}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 9 June 2026}
+      \field{title}{The Rise of Video and Computer Games}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.ebsco.com/research-starters/history/rise-video-and-computer-games
+      \endverb
+      \verb{url}
+      \verb https://www.ebsco.com/research-starters/history/rise-video-and-computer-games
+      \endverb
+    \endentry
+    \entry{esa2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=117b217fddc4163d7ea884a0a23df6d0}{%
+           family={{Entertainment Software Association}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{117b217fddc4163d7ea884a0a23df6d0}
+      \strng{fullhash}{117b217fddc4163d7ea884a0a23df6d0}
+      \strng{fullhashraw}{117b217fddc4163d7ea884a0a23df6d0}
+      \strng{bibnamehash}{117b217fddc4163d7ea884a0a23df6d0}
+      \strng{authorbibnamehash}{117b217fddc4163d7ea884a0a23df6d0}
+      \strng{authornamehash}{117b217fddc4163d7ea884a0a23df6d0}
+      \strng{authorfullhash}{117b217fddc4163d7ea884a0a23df6d0}
+      \strng{authorfullhashraw}{117b217fddc4163d7ea884a0a23df6d0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 1 May 2026}
+      \field{title}{2024 Essential Facts About the U.S. Video Game Industry}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.theesa.com/wp-content/uploads/2024/05/Essential-Facts-2024-FINAL.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.theesa.com/wp-content/uploads/2024/05/Essential-Facts-2024-FINAL.pdf
+      \endverb
+    \endentry
+    \entry{factset_equity_data}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a1409ada5bfb8fc900f541bf360cb97}{%
+           family={{FactSet Research Systems}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{fullhash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{fullhashraw}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{bibnamehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authorbibnamehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authornamehash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authorfullhash}{6a1409ada5bfb8fc900f541bf360cb97}
+      \strng{authorfullhashraw}{6a1409ada5bfb8fc900f541bf360cb97}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Data retrieved via FactSet Terminal; access restricted to licensed users; accessed on 23 March 2026}
+      \field{title}{Equity and Financial Data extracted from FactSet}
+      \field{year}{2026}
+    \endentry
+    \entry{npd2009more}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cfc2bce1ef949e5dfd7c048a1ddcf89}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={NPD},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a840bb178a8f523e0004ef0b15313f06}
+      \strng{fullhash}{a840bb178a8f523e0004ef0b15313f06}
+      \strng{fullhashraw}{a840bb178a8f523e0004ef0b15313f06}
+      \strng{bibnamehash}{a840bb178a8f523e0004ef0b15313f06}
+      \strng{authorbibnamehash}{a840bb178a8f523e0004ef0b15313f06}
+      \strng{authornamehash}{a840bb178a8f523e0004ef0b15313f06}
+      \strng{authorfullhash}{a840bb178a8f523e0004ef0b15313f06}
+      \strng{authorfullhashraw}{a840bb178a8f523e0004ef0b15313f06}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Retrieved September}
+      \field{note}{Accessed: 30 April 2026}
+      \field{title}{More Americans play video games than go out to the movies}
+      \field{volume}{10}
+      \field{year}{2009}
+      \field{pages}{2018}
+      \range{pages}{1}
+    \endentry
+    \entry{hale2026oxcgrt}{dataset}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=299be3ab9f3ead243419cac14d90338c}{%
+           family={Hale},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ea3d9bfc724883ec48b33cc789f30b5}{%
+           family={Angrist},
+           familyi={A\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b96c466e43d1a664440dcb9db3f8a03e}{%
+           family={Goldszmidt},
+           familyi={G\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Blavatnik School of Government, University of Oxford}%
+      }
+      \strng{namehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{fullhash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{fullhashraw}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{bibnamehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authorbibnamehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authornamehash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authorfullhash}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \strng{authorfullhashraw}{aee2bb7d9730a8474fcf4e4e53b669db}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Oxford COVID-19 Government Response Tracker (OxCGRT)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.humdata.org/dataset/oxford-covid-19-government-response-tracker
+      \endverb
+      \verb{url}
+      \verb https://data.humdata.org/dataset/oxford-covid-19-government-response-tracker
+      \endverb
+    \endentry
+    \entry{stargazer}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dfc9036a108f9301626ee170278e4647}{%
+           family={Hlavac},
+           familyi={H\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dfc9036a108f9301626ee170278e4647}
+      \strng{fullhash}{dfc9036a108f9301626ee170278e4647}
+      \strng{fullhashraw}{dfc9036a108f9301626ee170278e4647}
+      \strng{bibnamehash}{dfc9036a108f9301626ee170278e4647}
+      \strng{authorbibnamehash}{dfc9036a108f9301626ee170278e4647}
+      \strng{authornamehash}{dfc9036a108f9301626ee170278e4647}
+      \strng{authorfullhash}{dfc9036a108f9301626ee170278e4647}
+      \strng{authorfullhashraw}{dfc9036a108f9301626ee170278e4647}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 5.2.3}
+      \field{title}{stargazer: Well-Formatted Regression and Summary Statistics Tables}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=stargazer
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=stargazer
+      \endverb
+    \endentry
+    \entry{hosch2026gamma}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5b5d41e9deb4fed9ffa108254d8b7ad}{%
+           family={Hosch},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \strng{fullhash}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \strng{fullhashraw}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \strng{bibnamehash}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \strng{authorbibnamehash}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \strng{authornamehash}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \strng{authorfullhash}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \strng{authorfullhashraw}{b5b5d41e9deb4fed9ffa108254d8b7ad}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{note}{Encyclopedia Britannica, 6 June 2026. Accessed 24 June 2026}
+      \field{title}{Gamma distribution}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.britannica.com/science/gamma-distribution
+      \endverb
+      \verb{url}
+      \verb https://www.britannica.com/science/gamma-distribution
+      \endverb
+    \endentry
+    \entry{ihme_depression_vizhub}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=69e72dac4971760f144ea8c7b699e179}{%
+           family={{Institute for Health Metrics and Evaluation (IHME)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Washington}%
+      }
+      \strng{namehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{fullhash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{fullhashraw}{69e72dac4971760f144ea8c7b699e179}
+      \strng{bibnamehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authorbibnamehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authornamehash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authorfullhash}{69e72dac4971760f144ea8c7b699e179}
+      \strng{authorfullhashraw}{69e72dac4971760f144ea8c7b699e179}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Data extracted via VizHub interface; accessed on 20 March 2026}
+      \field{title}{Global Burden of Disease (GBD) Results Tool}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://vizhub.healthdata.org/gbd-results/
+      \endverb
+      \verb{url}
+      \verb https://vizhub.healthdata.org/gbd-results/
+      \endverb
+    \endentry
+    \entry{intel_gpu}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7f0fb90e404efb48f8a85a517dec3c9}{%
+           family={{Intel Corporation}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{fullhash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{fullhashraw}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{bibnamehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{authorbibnamehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{authornamehash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{authorfullhash}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \strng{authorfullhashraw}{b7f0fb90e404efb48f8a85a517dec3c9}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2 May 2026}
+      \field{title}{What Is a GPU? Graphics Processing Units Explained}
+      \verb{urlraw}
+      \verb https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html
+      \endverb
+      \verb{url}
+      \verb https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html
+      \endverb
+    \endentry
+    \entry{investopedia_gni}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abcdb78a564e00abcb81ee953f22cf04}{%
+           family={{Investopedia}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhashraw}{abcdb78a564e00abcb81ee953f22cf04}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 17 June 2026}
+      \field{title}{Gross National Income (GNI): Definition, Formula, vs. GDP}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.investopedia.com/terms/g/gross-national-income-gni.asp
+      \endverb
+      \verb{url}
+      \verb https://www.investopedia.com/terms/g/gross-national-income-gni.asp
+      \endverb
+    \endentry
+    \entry{gaming_disorder_covid}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c3a67c37e283ffd816bbebe394bfe9ec}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={Chih-Hung},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de483f488130746fa24b521585bb1d21}{%
+           family={Yen},
+           familyi={Y\bibinitperiod},
+           given={Ju-Yu},
+           giveni={J\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bbc738f1b5c2297098112d6d0b1c733b}
+      \strng{fullhash}{bbc738f1b5c2297098112d6d0b1c733b}
+      \strng{fullhashraw}{bbc738f1b5c2297098112d6d0b1c733b}
+      \strng{bibnamehash}{bbc738f1b5c2297098112d6d0b1c733b}
+      \strng{authorbibnamehash}{bbc738f1b5c2297098112d6d0b1c733b}
+      \strng{authornamehash}{bbc738f1b5c2297098112d6d0b1c733b}
+      \strng{authorfullhash}{bbc738f1b5c2297098112d6d0b1c733b}
+      \strng{authorfullhashraw}{bbc738f1b5c2297098112d6d0b1c733b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Behavioral Addictions}
+      \field{number}{2}
+      \field{title}{Impact of COVID-19 on Gaming Disorder: Monitoring and Prevention}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{187\bibrangedash 189}
+      \range{pages}{3}
+      \verb{doi}
+      \verb https://doi.org/10.1556/2006.2020.00040
+      \endverb
+      \verb{urlraw}
+      \verb https://www.akjournals.com/view/journals/2006/9/2/article-p187.xml?body-copy1=contentSummary-30725
+      \endverb
+      \verb{url}
+      \verb https://www.akjournals.com/view/journals/2006/9/2/article-p187.xml?body-copy1=contentSummary-30725
+      \endverb
+    \endentry
+    \entry{gaming_at_night}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=ef148ee74def16998a8535b71a8a8aa4}{%
+           family={Lemola},
+           familyi={L\bibinitperiod},
+           given={Sakari},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32f10d3c746ff49e5d8fecf4e2fc7ea0}{%
+           family={Brand},
+           familyi={B\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bf95db09d4598e5aba717b41f58e1b0}{%
+           family={Vogler},
+           familyi={V\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4779e5e04ff542c3d50303f170a74989}{%
+           family={Perkinson-Gloor},
+           familyi={P\bibinithyphendelim G\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3aaca362532a991e162160e0df53335}{%
+           family={Allemand},
+           familyi={A\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1131fdfb10f550aeb926204af9618dc}{%
+           family={Grob},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b7d2502ee95f6bc0ad43394b3b5e79f}
+      \strng{fullhash}{6692ed374d4095e97ee56b0d746075dd}
+      \strng{fullhashraw}{6692ed374d4095e97ee56b0d746075dd}
+      \strng{bibnamehash}{2b7d2502ee95f6bc0ad43394b3b5e79f}
+      \strng{authorbibnamehash}{2b7d2502ee95f6bc0ad43394b3b5e79f}
+      \strng{authornamehash}{2b7d2502ee95f6bc0ad43394b3b5e79f}
+      \strng{authorfullhash}{6692ed374d4095e97ee56b0d746075dd}
+      \strng{authorfullhashraw}{6692ed374d4095e97ee56b0d746075dd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0191-8869}
+      \field{journaltitle}{Personality and Individual Differences}
+      \field{number}{2}
+      \field{title}{Habitual computer game playing at night is related to depressive symptoms}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{117\bibrangedash 122}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.paid.2011.03.024
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0191886911001450
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0191886911001450
+      \endverb
+    \endentry
+    \entry{impact_game_streaming_industry}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=384ba65819e25a0982c4e857d3010545}{%
+           family={{Level Up Gaming}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{384ba65819e25a0982c4e857d3010545}
+      \strng{fullhash}{384ba65819e25a0982c4e857d3010545}
+      \strng{fullhashraw}{384ba65819e25a0982c4e857d3010545}
+      \strng{bibnamehash}{384ba65819e25a0982c4e857d3010545}
+      \strng{authorbibnamehash}{384ba65819e25a0982c4e857d3010545}
+      \strng{authornamehash}{384ba65819e25a0982c4e857d3010545}
+      \strng{authorfullhash}{384ba65819e25a0982c4e857d3010545}
+      \strng{authorfullhashraw}{384ba65819e25a0982c4e857d3010545}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2 May 2026}
+      \field{title}{The Impact of Game Streaming Platforms on the Video Game Industry}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.levelupgaming.io/blog/2023/05/the-impact-of-game-streaming-platforms-on-the-video-game-industry
+      \endverb
+      \verb{url}
+      \verb https://www.levelupgaming.io/blog/2023/05/the-impact-of-game-streaming-platforms-on-the-video-game-industry
+      \endverb
+    \endentry
+    \entry{LootBox_Model}{online}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ce22bb30473fa96a22fc8e3cc744f482}{%
+           family={Meduna},
+           familyi={M\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=689e056db0d1bb2c0da1d84f175bce9c}{%
+           family={Steinmetz},
+           familyi={S\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd93aba49df26ca0fa1dc09b8e3a09fa}{%
+           family={Ante},
+           familyi={A\bibinitperiod},
+           given={Lennart},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0e38116ac621a9f122717ec245770b7}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64f5604c9dce1c40af7fcd4ede864ae8}{%
+           family={Fiedler},
+           familyi={F\bibinitperiod},
+           given={Ingo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9ccd427f5c495ffd7e5c690e211f9f78}
+      \strng{fullhash}{15093f45d6033ae218b40d3fb57989a2}
+      \strng{fullhashraw}{15093f45d6033ae218b40d3fb57989a2}
+      \strng{bibnamehash}{9ccd427f5c495ffd7e5c690e211f9f78}
+      \strng{authorbibnamehash}{9ccd427f5c495ffd7e5c690e211f9f78}
+      \strng{authornamehash}{9ccd427f5c495ffd7e5c690e211f9f78}
+      \strng{authorfullhash}{15093f45d6033ae218b40d3fb57989a2}
+      \strng{authorfullhashraw}{15093f45d6033ae218b40d3fb57989a2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2 May 2026}
+      \field{title}{Toward meaningful engagement: A framework for design and research of gamified information systems}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S0160791X19305743
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S0160791X19305743
+      \endverb
+    \endentry
+    \entry{freemium_game_models}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb8a18b7d78a5d927ff4bb5201bc6715}{%
+           family={{Meegle}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \strng{fullhash}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \strng{fullhashraw}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \strng{bibnamehash}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \strng{authorbibnamehash}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \strng{authornamehash}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \strng{authorfullhash}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \strng{authorfullhashraw}{fb8a18b7d78a5d927ff4bb5201bc6715}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2 May 2026}
+      \field{title}{Freemium Game Models}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.meegle.com/en_us/topics/game-monetization/freemium-game-models
+      \endverb
+      \verb{url}
+      \verb https://www.meegle.com/en_us/topics/game-monetization/freemium-game-models
+      \endverb
+    \endentry
+    \entry{xbox_cloud_gaming}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 1 May 2026}
+      \field{title}{Xbox Cloud Gaming}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.xbox.com/it-it/cloud-gaming
+      \endverb
+      \verb{url}
+      \verb https://www.xbox.com/it-it/cloud-gaming
+      \endverb
+    \endentry
+    \entry{xbox_game_pass}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9a8b868588ad4bc6b36c29936e26423}{%
+           family={{Microsoft Corporation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{bibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorbibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authornamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2 May 2026}
+      \field{title}{Xbox Game Pass}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.xbox.com/it-IT/xbox-game-pass
+      \endverb
+      \verb{url}
+      \verb https://www.xbox.com/it-IT/xbox-game-pass
+      \endverb
+    \endentry
+    \entry{streaming_game_popularity}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=668bbdaa2aac040a6ed5cb56d6523144}{%
+           family={{Newsroom Panama}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{668bbdaa2aac040a6ed5cb56d6523144}
+      \strng{fullhash}{668bbdaa2aac040a6ed5cb56d6523144}
+      \strng{fullhashraw}{668bbdaa2aac040a6ed5cb56d6523144}
+      \strng{bibnamehash}{668bbdaa2aac040a6ed5cb56d6523144}
+      \strng{authorbibnamehash}{668bbdaa2aac040a6ed5cb56d6523144}
+      \strng{authornamehash}{668bbdaa2aac040a6ed5cb56d6523144}
+      \strng{authorfullhash}{668bbdaa2aac040a6ed5cb56d6523144}
+      \strng{authorfullhashraw}{668bbdaa2aac040a6ed5cb56d6523144}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2 May 2026}
+      \field{title}{The Influence of Streaming Platforms on Game Popularity}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://newsroompanama.com/2025/11/10/the-influence-of-streaming-platforms-on-game-popularity/
+      \endverb
+      \verb{url}
+      \verb https://newsroompanama.com/2025/11/10/the-influence-of-streaming-platforms-on-game-popularity/
+      \endverb
+    \endentry
+    \entry{nvidia_raytracing}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2fe9051fe051f819bd739ef3e340377}{%
+           family={{NVIDIA}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{fullhash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{fullhashraw}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{bibnamehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{authorbibnamehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{authornamehash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{authorfullhash}{a2fe9051fe051f819bd739ef3e340377}
+      \strng{authorfullhashraw}{a2fe9051fe051f819bd739ef3e340377}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 1 May 2026}
+      \field{title}{Ray Tracing Fundamentals}
+      \verb{urlraw}
+      \verb https://developer.nvidia.com/discover/ray-tracing
+      \endverb
+      \verb{url}
+      \verb https://developer.nvidia.com/discover/ray-tracing
+      \endverb
+    \endentry
+    \entry{redbull_ai_gaming}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45126b829d9194dcc9f01be7b22428c9}{%
+           family={{Red Bull MEA}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{45126b829d9194dcc9f01be7b22428c9}
+      \strng{fullhash}{45126b829d9194dcc9f01be7b22428c9}
+      \strng{fullhashraw}{45126b829d9194dcc9f01be7b22428c9}
+      \strng{bibnamehash}{45126b829d9194dcc9f01be7b22428c9}
+      \strng{authorbibnamehash}{45126b829d9194dcc9f01be7b22428c9}
+      \strng{authornamehash}{45126b829d9194dcc9f01be7b22428c9}
+      \strng{authorfullhash}{45126b829d9194dcc9f01be7b22428c9}
+      \strng{authorfullhashraw}{45126b829d9194dcc9f01be7b22428c9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 1 May 2026}
+      \field{title}{How artificial intelligence is revolutionizing the world of video games}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.redbull.com/mea-en/how-artificial-intelligence-is-revolutionizing-the-world-of-video-games
+      \endverb
+      \verb{url}
+      \verb https://www.redbull.com/mea-en/how-artificial-intelligence-is-revolutionizing-the-world-of-video-games
+      \endverb
+    \endentry
+    \entry{playstation_plus}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8cdb451bb98f6b30f151f705f2a50fc}{%
+           family={{Sony Interactive Entertainment}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \strng{fullhash}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \strng{fullhashraw}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \strng{bibnamehash}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \strng{authorbibnamehash}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \strng{authornamehash}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \strng{authorfullhash}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \strng{authorfullhashraw}{d8cdb451bb98f6b30f151f705f2a50fc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2 May 2026}
+      \field{title}{PlayStation Plus}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.playstation.com/it-it/ps-plus/
+      \endverb
+      \verb{url}
+      \verb https://www.playstation.com/it-it/ps-plus/
+      \endverb
+    \endentry
+    \entry{dlcs}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc222b6dc104054f24d13f83636185d6}{%
+           family={{Stash}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc222b6dc104054f24d13f83636185d6}
+      \strng{fullhash}{dc222b6dc104054f24d13f83636185d6}
+      \strng{fullhashraw}{dc222b6dc104054f24d13f83636185d6}
+      \strng{bibnamehash}{dc222b6dc104054f24d13f83636185d6}
+      \strng{authorbibnamehash}{dc222b6dc104054f24d13f83636185d6}
+      \strng{authornamehash}{dc222b6dc104054f24d13f83636185d6}
+      \strng{authorfullhash}{dc222b6dc104054f24d13f83636185d6}
+      \strng{authorfullhashraw}{dc222b6dc104054f24d13f83636185d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 9 June 2026}
+      \field{title}{DLC (Downloadable Content)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.stash.gg/glossary/dlc-downloadable-content
+      \endverb
+      \verb{url}
+      \verb https://www.stash.gg/glossary/dlc-downloadable-content
+      \endverb
+    \endentry
+    \entry{statista_console_sales_covid}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 9 June 2026}
+      \field{title}{Video game console sales during COVID-19 pandemic}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/1109979/video-game-console-sales-covid/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/1109979/video-game-console-sales-covid/
+      \endverb
+    \endentry
+    \entry{statista_internet_users_india}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Statista}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Number of internet users in India}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/255146/number-of-internet-users-in-india/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/255146/number-of-internet-users-in-india/
+      \endverb
+    \endentry
+    \entry{steamdb}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=00ec7837693245e34b404e02ab186c4d}{%
+           family={{SteamDB}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{00ec7837693245e34b404e02ab186c4d}
+      \strng{fullhash}{00ec7837693245e34b404e02ab186c4d}
+      \strng{fullhashraw}{00ec7837693245e34b404e02ab186c4d}
+      \strng{bibnamehash}{00ec7837693245e34b404e02ab186c4d}
+      \strng{authorbibnamehash}{00ec7837693245e34b404e02ab186c4d}
+      \strng{authornamehash}{00ec7837693245e34b404e02ab186c4d}
+      \strng{authorfullhash}{00ec7837693245e34b404e02ab186c4d}
+      \strng{authorfullhashraw}{00ec7837693245e34b404e02ab186c4d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 11 June 2026}
+      \field{title}{SteamDB: Database of Everything on Steam}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://steamdb.info/
+      \endverb
+      \verb{url}
+      \verb https://steamdb.info/
+      \endverb
+    \endentry
+    \entry{Gini}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e93f2123d4734b572c4e0e5c880248a7}{%
+           family={{United Nations University World Institute for Development Economics Research (UNU-WIDER)}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{fullhash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{fullhashraw}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{bibnamehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authorbibnamehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authornamehash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authorfullhash}{e93f2123d4734b572c4e0e5c880248a7}
+      \strng{authorfullhashraw}{e93f2123d4734b572c4e0e5c880248a7}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 31 January 2026}
+      \field{title}{UNU-WIDER releases major update to World Income Inequality Database}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.wider.unu.edu/news/unu-wider-releases-major-update-world-income-inequality-database
+      \endverb
+      \verb{url}
+      \verb https://www.wider.unu.edu/news/unu-wider-releases-major-update-world-income-inequality-database
+      \endverb
+    \endentry
+    \entry{steam_about}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3550f48b7034e3d7cadadb40413478f1}{%
+           family={{Valve Corporation}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3550f48b7034e3d7cadadb40413478f1}
+      \strng{fullhash}{3550f48b7034e3d7cadadb40413478f1}
+      \strng{fullhashraw}{3550f48b7034e3d7cadadb40413478f1}
+      \strng{bibnamehash}{3550f48b7034e3d7cadadb40413478f1}
+      \strng{authorbibnamehash}{3550f48b7034e3d7cadadb40413478f1}
+      \strng{authornamehash}{3550f48b7034e3d7cadadb40413478f1}
+      \strng{authorfullhash}{3550f48b7034e3d7cadadb40413478f1}
+      \strng{authorfullhashraw}{3550f48b7034e3d7cadadb40413478f1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 12 June 2026}
+      \field{title}{About Steam}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://store.steampowered.com/about/
+      \endverb
+      \verb{url}
+      \verb https://store.steampowered.com/about/
+      \endverb
+    \endentry
+    \entry{worldbank_gni_per_capita}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{GNI per capita, Atlas method (current US\$)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/NY.GNP.PCAP.CD
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/NY.GNP.PCAP.CD
+      \endverb
+    \endentry
+    \entry{worldbank_internet_users}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Individuals using the Internet (\% of population)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/IT.NET.USER.ZS
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/IT.NET.USER.ZS
+      \endverb
+    \endentry
+    \entry{worldbank_population_total}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Population, total}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/SP.POP.TOTL
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/SP.POP.TOTL
+      \endverb
+    \endentry
+    \entry{worldbank_unemployment_ilo}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Data}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dataset accessed on 31 January 2026}
+      \field{title}{Unemployment, Total (\% of Total Labor Force) (Modeled ILO Estimate)}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+      \endverb
+    \endentry
+    \entry{worldbank_digital_dividend}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b5e537ed38a7fe62c86b6145bfb37d3}{%
+           family={{World Bank Group}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \strng{fullhash}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \strng{fullhashraw}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \strng{bibnamehash}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \strng{authorbibnamehash}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \strng{authornamehash}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \strng{authorfullhash}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \strng{authorfullhashraw}{9b5e537ed38a7fe62c86b6145bfb37d3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 9 June 2026}
+      \field{title}{World Development Report 2016: Digital Dividends}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://openknowledge.worldbank.org/bitstream/handle/10986/23347/9781464806711.pdf
+      \endverb
+      \verb{url}
+      \verb https://openknowledge.worldbank.org/bitstream/handle/10986/23347/9781464806711.pdf
+      \endverb
+    \endentry
+    \entry{who_gaming_disorder}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 12 June 2026}
+      \field{title}{Gaming disorder}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.who.int/standards/classifications/frequently-asked-questions/gaming-disorder
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/standards/classifications/frequently-asked-questions/gaming-disorder
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
