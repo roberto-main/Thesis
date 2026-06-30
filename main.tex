@@ -1,125 +1,177 @@
-% !TEX root = main.tex
-              %*****************************************%
-              %                                         %
-              % Template standard per la Tesi di Laurea %
-              %            di Stefano Bianchi           %
-              %                                         %
-              %         versione: 27 marzo 2014         %
-              %                                         %
-              %   Updated and translated into English   %
-              %             by Tommaso Fonda            %
-              %                                         %
-              %         revision: 6th Nov. 2023         %
-              %                                         %
-              %*****************************************%
+% !TEX TS-program = pdflatexmk
+% ================================================================
+%  Bachelor's Thesis Template
+%  Font: Times New Roman (newtxtext + newtxmath)
+%  Line spacing: 1.5
+%  Margins: top/bottom/right 3cm, left 3.5cm (binding)
+%  Bibliography: author-year (biber) — use \citet and \citep
+% ================================================================
 
-% Replace 'oneside' with 'twoside' for double-side printing
-\documentclass[12pt,oneside,openany]{book}
-%\usepackage[a4paper,margin=3cm]{geometry}
+\documentclass[12pt, a4paper, oneside]{report}
 
-%*******************************************************
-% Packages
-%*******************************************************
-
-% Typographical rules for the English language
+% ── Encoding & Language ─────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 
-% Font-related packages
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{inconsolata}
+% ── Times New Roman (text + math) ───────────────────────────
+\usepackage{mathptmx}   % Times New Roman text + math
 
-% Needed to render the cover
-\usepackage{fancyhdr}
+% ── Page Layout ─────────────────────────────────────────────
+\usepackage[
+  top    = 3cm,
+  bottom = 3cm,
+  left   = 3.5cm,        % extra space for binding
+  right  = 3cm
+]{geometry}
 
-% Figures and subfigures
-\usepackage{graphicx}
-\usepackage{subfigure}
-\usepackage{ragged2e}
+% ── Line Spacing ────────────────────────────────────────────
+\usepackage{setspace}
+\onehalfspacing
 
+% ── Math ────────────────────────────────────────────────────
+\usepackage{amsmath}
+\usepackage{amssymb}
+\numberwithin{equation}{section}
+\usepackage{amsthm}
+
+% ── Tables ──────────────────────────────────────────────────
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{caption}
 % Improved tables
 \usepackage{tabularx}
 \usepackage{longtable}
 
-% To have appendices appear in the TOC
-\usepackage[titletoc]{appendix}
-
-% Needed for floating images
+% ── Graphics & Plots ────────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \usepackage{float}
+\usepackage{subfigure}
+
 
 % Improved verbatim appearance
 \usepackage{fancyvrb}
 
-% Math stuff
-\usepackage{amsmath}
-\numberwithin{equation}{section}
 
-% Clickable links and references
-\usepackage{hyperref}
+% ── Colours ─────────────────────────────────────────────────
+\usepackage{xcolor}
+\definecolor{navyblue}{RGB}{0, 44, 95}
 
-% For code sections
-\usepackage{minted}
+% ── Bibliography: author-year ───────────────────────────────
+%    In the text use:
+%      \citet{key}   →  Author (Year)
+%      \citep{key}   →  (Author, Year)
+%      \citep[p.~5]{key}  →  (Author, Year, p. 5)
+%\usepackage[authoryear, round, sort]{natbib}
+%\bibliographystyle{apalike}
 
-% biblatex is useful because it autodetects unused references
-% and sorts used ones by occurrence.
-\usepackage{csquotes}
-%\usepackage[sorting=none]{biblatex}
-\usepackage[style=authoryear]{biblatex}
+\usepackage[style=authoryear, backend=biber]{biblatex}
 \addbibresource{bib/Bibliography.bib}
+%\let\cite\parencite
+\let\citep\parencite
+\let\cite\textcite
 
-% Only needed for placeholder text
+% ── Hyperlinks ──────────────────────────────────────────────
+\usepackage[
+  colorlinks = true,
+  linkcolor  = navyblue,
+  citecolor  = navyblue,
+  urlcolor   = navyblue
+]{hyperref}
+
+% ── Chapter Style ───────────────────────────────────────────
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {\chaptertitlename\ \thechapter}
+  {14pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{30pt}{20pt}
+
+% ── Header / Footer ─────────────────────────────────────────
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\nouppercase{\leftmark}}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ── Theorem Environments ────────────────────────────────────
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{definition}[theorem]{Definition}
+
+% ── Filler text (remove in the real thesis) ─────────────────
 \usepackage{lipsum}
 
-% The content of the thesis is to be input in the appropriate .tex files
-% referenced by the \input{} commands
+% ================================================================
+%  THESIS METADATA  — fill in your details
+% ================================================================
+\newcommand{\thesistitle}{Title of the Bachelor's Thesis}
+\newcommand{\thesissubtitle}{An Optional Subtitle}
+\newcommand{\authorname}{First Name Last Name}
+\newcommand{\studentid}{Student ID: 000000}
+\newcommand{\supervisor}{Prof.\ Jane Doe}
+\newcommand{\cosupervisor}{Dr.\ John Smith}   % delete if not applicable
+\newcommand{\department}{Department of \ldots}
+\newcommand{\university}{University Name}
+\newcommand{\programme}{Bachelor's Degree in \ldots}
+\newcommand{\academicyear}{Academic Year 2025/2026}
 
-%*******************************************************
-% Pages' and front cover's settings
-%*******************************************************
-\input{settings/Settings}
+% ================================================================
+\begin{document}
+\input{front/Cover} 
+\clearpage
 
-%*******************************************************
-% Cover
-%*******************************************************
-\input{front/Cover}
+% ── Dedication Page ─────────────────────────────────────────────
+\newpage
+\thispagestyle{empty}
+\vspace*{5cm}
+\begin{flushright}
+  \itshape
+  To my family and friends,\\
+  who supported me throughout this journey.
+\end{flushright}
+\clearpage
 
-%*******************************************************
-% Dedication
-%*******************************************************
-\input{front/Dedication}
+% ── Front Matter (roman page numbers) ───────────────────────────
+\pagenumbering{roman}
+\setcounter{page}{1}
 
-% Roman page numbering for abstract, ToC and introduction
-\frontmatter
-\pagenumbering{Roman}
-
-%*******************************************************
-% Abstract
-%*******************************************************
+% Abstract ───────────────────────────────────────────────────────
 \input{front/Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 
-%*******************************************************
-% Table of contents
-%*******************************************************
-{
-    \hypersetup{linkcolor=black}
-    \tableofcontents
-}
 
-%*******************************************************
-% Introduction
-%*******************************************************
-% Do not edit
-\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\ #1}}{}}
+\bigskip
+\noindent\textbf{Keywords:} Digital Entertainment, COVID-19, Depression Rates.
+
+% Table of Contents ──────────────────────────────────────────────
+\tableofcontents
+
+% List of Figures ────────────────────────────────────────────────
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+% List of Tables ─────────────────────────────────────────────────
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+% ── Main Matter (arabic page numbers) ───────────────────────────
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
 
 \input{front/Introduction}
 
 %*******************************************************
 % Chapters
 %*******************************************************
-\mainmatter
+%\mainmatter
 
 % Do not edit
-\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
+%\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\chaptername\ \thechapter.\ #1}}{}}
 
 % Add more \input{} commands as needed. Chapters can all be
 % contained in one single .tex file, or you can have one file
@@ -127,37 +179,26 @@
 
 \input{main/Chapter1}
 \input{main/Chapter2}
-\input{main/Chapter3}
 
 %*******************************************************
 % Conclusion
 %*******************************************************
 \input{back/Conclusion}
 
-%*******************************************************
-% Appendix
-%*******************************************************
-% Do not edit
-\pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{APPENDIX\ \thechapter.\ #1}}{}}
-
-\appendix
-\label{appendix}
-
-\input{back/Appendix1}
-\input{back/Appendix2}
-\input{back/Appendix3}
-
-\backmatter
-
-%*******************************************************
-% Bibliography
-%*******************************************************
+% ── Bibliography ────────────────────────────────────────────────
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+%\bibliography{bib/Bibliography}
 \printbibliography
 
+% ── Appendices ──────────────────────────────────────────────────
+\appendix
+\input{back/Appendix1}
+\input{back/Appendix2}
 %*******************************************************
 % FinalDedication
 %*******************************************************
-\input{back/FinalDedication}
+%\input{back/FinalDedication}
 
 \end{document}
