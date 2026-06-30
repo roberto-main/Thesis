@@ -48,7 +48,7 @@ to the linear predictor.
 \subsubsection{Generalized Linear Model (GLM)}
 
 \begin{equation}
-g(\mu_i)=\eta_i=
+g(\mu_i)=
 \beta_0+\beta_1x_{i1}+\cdots+\beta_px_{ip},
 \end{equation}
 
@@ -144,15 +144,8 @@ Y_i^* = \log(Y_i) \sim N(\mu_i, \sigma^2)
 where $Y_i$ represents video game sales in millions and $Y_i^*$ 
 is the log-transformed response used in the final model.
 
-Below are the two groups of graphs the first one before applying
-the log transformation, the second one after:
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{img/Non_Log_Model_Colored_Graph.png}
-    \caption{Diagnostic Residual Plots for the Non-Log Model}
-    \label{fig:Non_Log_Model}
-\end{figure}
+Below are the graphs of residuals of the chosen model, so after the log transformation.\\
+Residual plots for the model prior to the log transformation are provided in the Appendix (Figure \ref{fig:Non_Log_Model}).
 
 \begin{figure}[H]
     \centering
@@ -164,8 +157,7 @@ the log transformation, the second one after:
 \subparagraph{Formula of the Chosen Model}
 \begin{equation}
 \begin{aligned}
-Y_i^*
-=&\ \beta_0 + f_1(IU_i) + f_2(Year_i,DR_i) + f_3(U_i) + f_4(GNI_i) + b_{c(i)} + \varepsilon_i
+Y_i^* = \beta_0 + f_1(IU_i) + f_2(Year_i, DR_i) + f_3(U_i) + \beta_1 \cdot GNI_i + b_{c(i)} + \varepsilon_i
 \end{aligned}
 \end{equation}
 
@@ -201,28 +193,29 @@ where:
 \hline\hline
 \multicolumn{5}{|l|}{\textit{Parametric terms}} \\
 \hline
-Intercept & 6.499 & 0.396 & 16.42 & $<0.001^{***}$ \\
+Intercept & 6.860 & 0.417 & 16.469 & $<0.001^{***}$ \\
+$(GNI_i)$ & $-1.072 \times 10^{-5}$ & $4.287 \times 10^{-6}$ & $-2.502$ & $0.013^{*}$ \\
 \hline\hline
 \multicolumn{5}{|l|}{\textit{Smooth terms}} \\
 \hline
-s(Internet Users) & 2.809 & 3.295 & 5.490 & $<0.001^{***}$ \\
-s(GNI per Capita) & 1.000 & 1.001 & 7.148 & $0.008^{**}$ \\
-s(Unemployment) & 2.409 & 2.818 & 5.529 & $0.002^{**}$ \\
-te(Year, Depression Rates) & 6.549 & 6.911 & 10.378 & $<0.001^{***}$ \\
-s(Continent) & 9.736 & 10.000 & 50.873 & $<0.001^{***}$ \\
+$f_1(IU_i)$ & 3.232 & 4.072 & 4.463 & $0.002^{**}$ \\
+$f_2(Year_i,DR_i)$ & 6.522 & 6.898 & 10.261 & $<0.001^{***}$ \\
+$f_3(U_i)$ & 2.346 & 2.977 & 4.736 & $0.003^{**}$ \\
+$b_{c(i)}$ & 9.730 & 10.000 & 50.250 & $<0.001^{***}$ \\
 \hline\hline
 \multicolumn{5}{|l|}{\textit{Model fit}} \\
 \hline
-Adjusted $R^2$ & \multicolumn{4}{l|}{0.719} \\
-Deviance explained & \multicolumn{4}{l|}{74.1\%} \\
-REML & \multicolumn{4}{l|}{334.52} \\
+Adjusted $R^2$ & \multicolumn{4}{l|}{0.717} \\
+Deviance explained & \multicolumn{4}{l|}{73.9\%} \\
+REML & \multicolumn{4}{l|}{349.39} \\
 $n$ & \multicolumn{4}{l|}{293} \\
 \hline
 \end{tabular}
 \\[0.5em]
-\small Significance codes: $^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$\\
+\small Significance codes: $^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$
 \end{table}
 
+\subsection{Coefficient interpretation}
 Note: as it is possible to see, all the model's variables are
 statistically significant. This is due to the fact that
 non significant variables (e.g. Stringency Index), have been
@@ -230,22 +223,97 @@ removed in order to guarantee a parsimonious and efficient model.\\
 The intercept is equal to 6.499, number that represents the 
 baseline log sales value when all the other variables are equal
 to 0.\\
+GNI per Capita shows a linear and statistically significant negative effect 
+on sales with an estimate of $-1.072 \times 10^{-5}$, 
+suggesting that, all else being equal, higher national income 
+is associated with slightly lower video game sales.\\
 Regarding the smooth terms, Internet Users exhibit a non-linear 
-effect with an effective degrees of freedom (edf) value of 2.809 
+effect with an effective degrees of freedom (edf) value of 3.232 
 suggesting a moderately flexible relationship (values of edf 
 greater than 1 indicate nonlinear effects, with higher values 
 reflecting greater functional flexibility).\\
-Similarly, Unemployment displays a similar pattern, with an edf of 2.409
-indicating a moderately flexible non-linear trend, while the GNI per Capita distinguishes itself from the other
-variables, having an edf of 1, which indicates a linear relationship
-with the sales.\\
+Similarly, Unemployment displays a similar pattern, with an edf of 2.346
+indicating a moderately flexible non-linear trend.\\
 The tensor product between Year and Depression Rates shows --
-with an edf of 6.549 -- a strongly non linear and complex effect
+with an edf of 6.522 -- a strongly non linear and complex effect
 of depression rates over sales, that is not constant over the years.\\
-To conclude, the Continent edf of 9.736 suggests a meaningful 
-regional heterogeneity in sales levels with important variability
-levels.\\
+To conclude, to better illustrate the regional heterogeneity captured 
+by the Continent term, the map below visualizes the 
+estimated random effects across countries, offering a clearer 
+geographical reading of the variability that the model attributes 
+to location.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/Random_Effect_Map.png}
+    \caption{Random Effect Global Map}
+    \label{fig:Random_Effect_Map}
+\end{figure}
+The map visualizes the random effects estimated by the s(Continent, bs="re") term, capturing the residual variability in video game sales attributable to…Here, the map visualizes the random effects estimated by the s(Continent, bs="re") term, capturing the residual variability in video game sales attributable to geographic location after accounting for all other covariates in the model. Countries shown in red exhibit systematically higher sales than what the other variables alone would predict, while countries in blue show the opposite pattern, and grey countries are absent from the dataset.
+The most positive random effects are concentrated in North America and East Asia, which represent the world's historically dominant video game markets. Western Europe displays moderate positive effects, while Russia and Northern Europe show slight negative deviations.
+The high edf of 9.730 for this term, approaching the maximum of 10, confirms the substantial regional heterogeneity captured by the model, with geography playing a meaningful role beyond what the continuous predictors can explain.
 In general, the results indicate a strong overall fit, with an adjusted 
-R-squared of 0.719 and a deviance explained of 74.1\%, 
+R-squared of 0.717 and a deviance explained of 73.9\%, 
 suggesting that the model captures a substantial portion of the 
 variability in sales.
+
+\subsection{Graphical analysis of smooth effects}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/s_Unemployment.png}
+    \caption{Estimated partial effect of Unemployment Rates on log(Sales)}
+    \label{fig:s_Unemployment}
+\end{figure}
+Unemployment's effect on our response variable (log(Sales)) 
+starts from positive values when unemployment is near 0 and goes 
+decreasing as unemployment increases.\\
+It is important to notice 
+that, as the vast majority of the observations are concentrated 
+in a small range (0–0.1), this interval is the one with more 
+statistical evidence of the effect (having a narrower confidence 
+interval), while there are too few observations of unemployment 
+values higher than 0.1, leading us to be more skeptical about 
+the spline in that part.\\
+Note that these represent partial 
+effects, meaning all other variables in the model are held 
+constant. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/s_Internet_Users.png}
+    \caption{Estimated partial effect of Internet Users on log(Sales)}
+    \label{fig:s_Internet_Users}
+\end{figure}
+While here the observations are more spread, the confidence 
+interval is narrowest in the 0.75–1 range, where the rug plot 
+confirms the highest concentration of observations, while it 
+remains wide for the first three quarters of the spline where 
+data are sparser.\\
+A broader view shows that countries with 
+intermediate internet penetration tend to be associated with 
+higher sales in the video game market, while both less and more 
+digitalized countries show a lower partial effect.\\
+One possible explanation for the decline at high penetration rates is that 
+in highly digitalized countries internet access extends across 
+all age groups, including older demographics that may on average 
+be less inclined to spend money on video games, though caution 
+is needed in drawing causal conclusions from an observational 
+model. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/3D_Plot.png}
+    \caption{3D visualization of the partial effect of $f_2(Year_i,DR_i)$ on log(Sales)}
+    \label{fig:3D_Plot}
+\end{figure}
+
+Overall, across all years, low depression rates are associated with lower sales, while higher 
+depression rates tend to be associated with higher sales — though remember this refers to the 
+partial effect, meaning all other variables in the model are held constant.\\
+However, in the 2019–2022 period we can notice how depression rates start to have a stronger 
+influence on the response variable, which could reflect a real-world effect tied to Covid — 
+rising depression rates coinciding with a boom in certain sales categories such as e-commerce 
+or pharmaceuticals, depending on the nature of the dataset.\\
+As for the spike around 2015-2016 at high depression rates, this is likely due to the scarcity 
+of observations in that region of the data: where data points are few, the spline tends to 
+behave erratically, producing estimates that are less reliable.\\
+This period should therefore be interpreted with caution.

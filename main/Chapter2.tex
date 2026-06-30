@@ -12,19 +12,34 @@ Statistic & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c
 \hline \\[-1.8ex] 
 Gini & 351 & 0.38 & 0.08 & 0.26 & 0.36 & 0.67 \\ 
 Depression\_Rates & 368 & 0.04 & 0.01 & 0.02 & 0.04 & 0.07 \\ 
-GNI\_per\_Capita & 429 & 31,274.45 & 25,631.86 & 1,250 & 30,480 & 105,070 \\ 
-Internet\_Users & 345 & 0.77 & 0.22 & 0.10 & 0.86 & 1.00 \\ 
+GNI\_per\_Capita (GNI) & 429 & 31,274.45 & 25,631.86 & 1,250 & 30,480 & 105,070 \\ 
+Internet\_Users (IU)& 345 & 0.77 & 0.22 & 0.10 & 0.86 & 1.00 \\ 
 Population\_In\_Millions & 429 & 141.32 & 300.98 & 4.66 & 58.95 & 1,450.94 \\ 
 Sales\_in\_Millions & 390 & 1,950.33 & 6,462.18 & 69.86 & 357.41 & 54,244.12 \\ 
 Sales\_Variations & 351 & 0.11 & 0.16 & $-$0.50 & 0.09 & 1.44 \\ 
-Log\_Sales\_in\_Millions & 390 & 6.285 & 1.270 & 4.246 & 5.879 & 10.901 \\ 
+Log(Sales\_in\_Millions) & 390 & 6.285 & 1.270 & 4.246 & 5.879 & 10.901 \\ 
 Sales\_per\_Capita & 429 & 20.27 & 23.82 & 0.00 & 10.99 & 159.49 \\ 
 Stringency\_Index & 117 & 0.46 & 0.17 & 0.12 & 0.50 & 0.78 \\ 
-Unemployment & 418 & 0.06 & 0.05 & 0.01 & 0.05 & 0.34 \\ 
+Unemployment (U) & 418 & 0.06 & 0.05 & 0.01 & 0.05 & 0.34 \\ 
 \hline \\[-1.8ex] 
 \end{tabular} 
 \end{table} 
-\small Source: elaborated with \cite{stargazer}.
+\small The abbreviations beside each variable name (where present) indicate 
+how the variable is referred to within the model formula showed in the next chapter.\\
+Table layout adapted from \cite{stargazer}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/Colored_Correlation_Chart_Detailed_Graph2.png}
+    \caption{Correlation Chart.\\
+    \small{This correlation chart provides an overview of the relationships between 
+    all variables included in the analysis (with the only exception of the Gini Index, which was
+    excluded due to data incompleteness), colored by region.\\
+    A detailed histogram number of observations per region is provided in the Appendix (Figure \ref{fig:Correlation_Chart_Regions}) for clarity.}}
+    \label{fig:Correlation_Chart}
+\end{figure}
+
+\\
 \subsubsection{The Variables Used}
 The following variables were selected for the analysis, on the basis of 
 their theoretical relevance to the research question and their availability 
@@ -195,7 +210,7 @@ Apart from these two outliers, all the other countries appear to be on the same 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/LOG_Colored_Unemployement_&_Sales_Graph.png}%{img/Detailed_Countries_Grid_LowRes.png}
+    \includegraphics[width=\textwidth]{img/LOG_Colored_Unemployement_&_Sales_Graph.png}
     \caption{Scatterplot: Unemployment and Log Sales}
     \label{fig:LOG_Colored_Unemployement_&_Sales_Graph}
 \end{figure}
@@ -210,7 +225,7 @@ Apart from that, it’s easily visible how countries with unemployment rate insi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png}%{img/Detailed_Countries_Grid_LowRes.png}
+    \includegraphics[width=\textwidth]{img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png}
     \caption{Scatterplot: Internet Penetration and Log Sales}
     \label{fig:Internet Penetration and Log Sales}
 \end{figure}
@@ -226,14 +241,14 @@ South Asia (cyan) is also a remarkable outlier here, showing relatively high sal
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png}%{img/Detailed_Countries_Grid_LowRes.png}
+    \includegraphics[width=\textwidth]{img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png}
     \caption{Scatterplot: COVID-19 Restrictions and Log Sales}
     \label{fig:COVID-19 Restrictions and Log Sales}
 \end{figure}
 
 The near-zero slope on the regression line aligns with what we'd expect economically. COVID-19 restrictions didn't create purchasing power, they just redirected how people spent their time. Countries that bought more games during lockdowns were already the ones with the infrastructure and income to do so.
 AM - North’s extreme sales values across multiple stringency levels suggest its dominance is structurally driven — market size and wealth — not lockdown intensity.
-AS - East (blue) shows relatively high sales even at high stringency levels (\~0.7–0.8), consistent with Japan/South Korea's already strong gaming culture pre-COVID19.
+AS - East (blue) shows relatively high sales even at high stringency levels ($\sim$0.7–0.8), consistent with Japan/South Korea's already strong gaming culture pre-COVID19.
 
 
 \subsubsection{Key Findings from the Final Three Scatterplots}
@@ -250,13 +265,7 @@ Another supposition we could make is that COVID-19 didn't create many new custom
 \end{figure}
 By taking a close look to Africa, we can observe that although sales declined across all countries from 2023 to 2024, one country experienced a significantly sharper decrease than the others: Nigeria.\\
 To explain this trend, we can adress to our Excel dataset, showing a 34\% decrease in Nigeria’s GNI during the same period (a graph showing the percentage variation is reported below, as the change is less visible when considering absolute values due to the country’s already relatively low GNI levels).\\
-This decline was mainly caused by a sharp depreciation of the Naira, Nigeria’s local currency, which also contributed to a significant increase in inflation \cite{nigeria_devaluation_crisis}.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{img/Nigeria_GNI_Drop.png}%{img/Detailed_Countries_Grid_LowRes.png}
-    \caption{Nigeria's GNI decrease}
-    \label{fig:Nigeria_GNI_Drop}
-\end{figure}
+This decline was mainly caused by a sharp depreciation of the Naira, Nigeria’s local currency, which also contributed to a significant increase in inflation \cite{nigeria_devaluation_crisis} (see the Appendix (Figure \ref{fig:Nigeria_GNI_Drop}) to see Naira's devaluation over time).\\
 Focusing on the other continents, we can observe a clear overall trend: nearly every region shows an increase in the sales index over time, with some countries distinguishing themselves more significantly than others.\\
 Examples include Vietnam in Southeast Asia, both selected North American countries (USA and Canada), and Ireland in Western Europe.
 
@@ -264,7 +273,7 @@ Examples include Vietnam in Southeast Asia, both selected North American countri
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/Global_Sales_2014-2024_Graph.png}%{img/Detailed_Countries_Grid_LowRes.png}
+    \includegraphics[width=\textwidth]{img/Global_Sales_2014-2024_Graph.png}
     \caption{Global Sales 2014-2024 Time Series}
     \label{fig:Global Sales 2014-2024 time series}
 \end{figure}
@@ -285,7 +294,7 @@ lockdown period.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/Statista_SHC_Histogram.png}%{img/Detailed_Countries_Grid_LowRes.png}
+    \includegraphics[width=\textwidth]{img/Statista_SHC_Histogram.png}
     \caption{Consoles \& Video Game Sales During COVID.\\
     Survey period: March 16-22, 2020\\
     Source: \cite{statista_console_sales_covid}}

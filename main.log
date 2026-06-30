@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  26 JUN 2026 02:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  30 JUN 2026 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,7 +964,7 @@ Package biblatex Info: Reference segment=0 on input line 26.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/units_logo.png, id=123, 677.53125pt x 677.53125pt>
+<img/units_logo.png, id=131, 677.53125pt x 677.53125pt>
 File: img/units_logo.png Graphic file (type png)
 <use img/units_logo.png>
 Package pdftex.def Info: img/units_logo.png  used on input line 35.
@@ -1022,7 +1022,7 @@ l.91 \frontmatter
 
 
 ] (main.toc
-Overfull \hbox (3.9642pt too wide) detected at line 10
+Overfull \hbox (3.9642pt too wide) detected at line 11
  []\T1/cmr/m/n/12 VIII
  []
 
@@ -1047,7 +1047,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-<img/Tennis_For_Two.jpg, id=192, 271.0125pt x 187.70125pt>
+<img/Tennis_For_Two.jpg, id=202, 271.0125pt x 187.70125pt>
 File: img/Tennis_For_Two.jpg Graphic file (type jpg)
 <use img/Tennis_For_Two.jpg>
 Package pdftex.def Info: img/Tennis_For_Two.jpg  used on input line 16.
@@ -1080,14 +1080,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--41
  []
 
 [6]
-<img/Why_People_Play_Videogames.png, id=238, 627.09282pt x 420.82219pt>
+<img/Why_People_Play_Videogames.png, id=248, 627.09282pt x 420.82219pt>
 File: img/Why_People_Play_Videogames.png Graphic file (type png)
 <use img/Why_People_Play_Videogames.png>
 Package pdftex.def Info: img/Why_People_Play_Videogames.png  used on input line
  63.
 (pdftex.def)             Requested size: 209.12683pt x 140.33578pt.
  [7]
-<img/ESA_Gamers_Age.png, id=250, 560.0925pt x 390.70969pt>
+<img/ESA_Gamers_Age.png, id=260, 560.0925pt x 390.70969pt>
 File: img/ESA_Gamers_Age.png Graphic file (type png)
 <use img/ESA_Gamers_Age.png>
 Package pdftex.def Info: img/ESA_Gamers_Age.png  used on input line 76.
@@ -1098,12 +1098,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--79
  []
 
 [8 <./img/Why_People_Play_Videogames.png> <./img/ESA_Gamers_Age.png>]
-<img/Grafico_ESA_MF.jpg, id=259, 461.725pt x 574.145pt>
+<img/Grafico_ESA_MF.jpg, id=269, 461.725pt x 574.145pt>
 File: img/Grafico_ESA_MF.jpg Graphic file (type jpg)
 <use img/Grafico_ESA_MF.jpg>
 Package pdftex.def Info: img/Grafico_ESA_MF.jpg  used on input line 86.
 (pdftex.def)             Requested size: 209.12683pt x 260.04492pt.
-) [9 <./img/Grafico_ESA_MF.jpg>] [10] (main/Chapter1.tex
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 98
+.
+
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 98.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
+
+ []
+
+[9 <./img/Grafico_ESA_MF.jpg>]) [10{C:/Users/rober/AppData/Local/Programs/MiKTe
+X/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (main/Chapter1.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--7
@@ -1120,7 +1134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
-<img/COVID_Steam_Players_Increase.png, id=272, 813.0375pt x 442.65375pt>
+<img/COVID_Steam_Players_Increase.png, id=284, 813.0375pt x 442.65375pt>
 File: img/COVID_Steam_Players_Increase.png Graphic file (type png)
 <use img/COVID_Steam_Players_Increase.png>
 Package pdftex.def Info: img/COVID_Steam_Players_Increase.png  used on input li
@@ -1139,115 +1153,131 @@ l.30 A
 ] [2 <./img/COVID_Steam_Players_Increase.png>]) (main/Chapter2.tex [3]
 Chapter 2.
 
-Overfull \hbox (44.5285pt too wide) in paragraph at lines 8--26
+Overfull \hbox (45.76022pt too wide) in paragraph at lines 8--26
  [][] 
  []
 
+<img/Colored_Correlation_Chart_Detailed_Graph2.png, id=317, 1156.32pt x 722.7pt
+>
+File: img/Colored_Correlation_Chart_Detailed_Graph2.png Graphic file (type png)
+
+<use img/Colored_Correlation_Chart_Detailed_Graph2.png>
+Package pdftex.def Info: img/Colored_Correlation_Chart_Detailed_Graph2.png  use
+d on input line 33.
+(pdftex.def)             Requested size: 418.25368pt x 261.40688pt.
 [4
 
-] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 96--118
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \subsubsection
+                   {The Variables Used}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5 <./img/Colored_Correlation_Chart_Detailed_Graph2.png>] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 111--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--133
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 129--153
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 144--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--153
+Underfull \hbox (badness 10000) in paragraph at lines 144--168
 
  []
 
-[7] [8]
-<img/Aggregated_Graphs_Graph2.png, id=359, 578.16pt x 578.16pt>
+[8]
+<img/Aggregated_Graphs_Graph2.png, id=377, 578.16pt x 578.16pt>
 File: img/Aggregated_Graphs_Graph2.png Graphic file (type png)
 <use img/Aggregated_Graphs_Graph2.png>
 Package pdftex.def Info: img/Aggregated_Graphs_Graph2.png  used on input line 1
-61.
+76.
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
- [9 <./img/Aggregated_Graphs_Graph2.png>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
+ [9] [10 <./img/Aggregated_Graphs_Graph2.png>] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 205--208
 
  []
 
-<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=373, 505.89pt x 289.08pt>
+<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=395, 505.89pt x 289.08pt>
 File: img/LOG_Colored_Unemployement_&_Sales_Graph.png Graphic file (type png)
 <use img/LOG_Colored_Unemployement_&_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Unemployement_&_Sales_Graph.png  used 
-on input line 198.
+on input line 213.
 (pdftex.def)             Requested size: 418.25368pt x 239.0056pt.
-[11]
-<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=380, 722
+[12]
+<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=402, 722
 .7pt x 433.62pt>
 File: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png Graphic
  file (type png)
 <use img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sale
-s_Graph.png  used on input line 213.
+s_Graph.png  used on input line 228.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
- [12 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--224
+ [13 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 233--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--224
+Underfull \hbox (badness 10000) in paragraph at lines 233--239
 
  []
 
-[13 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
-<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=394, 722.7
+[14 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
+<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=416, 722.7
 pt x 433.62pt>
 File: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png Graphic f
 ile (type png)
 <use img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_
-Graph.png  used on input line 229.
+Graph.png  used on input line 244.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
 
-[14 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
-<img/Cumulative_Sales_Graph.png, id=401, 578.16pt x 578.16pt>
+[15 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
+<img/Cumulative_Sales_Graph.png, id=423, 578.16pt x 578.16pt>
 File: img/Cumulative_Sales_Graph.png Graphic file (type png)
 <use img/Cumulative_Sales_Graph.png>
-Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 247
+Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 262
 .
 (pdftex.def)             Requested size: 418.25368pt x 418.251pt.
-<img/Nigeria_GNI_Drop.png, id=403, 578.16pt x 578.16pt>
-File: img/Nigeria_GNI_Drop.png Graphic file (type png)
-<use img/Nigeria_GNI_Drop.png>
-Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 256.
-(pdftex.def)             Requested size: 418.25368pt x 418.251pt.
 
-[15 <./img/Cumulative_Sales_Graph.png>] [16 <./img/Nigeria_GNI_Drop.png>]
-<img/Global_Sales_2014-2024_Graph.png, id=415, 421.575pt x 258.9675pt>
+[16 <./img/Cumulative_Sales_Graph.png>]
+<img/Global_Sales_2014-2024_Graph.png, id=431, 421.575pt x 258.9675pt>
 File: img/Global_Sales_2014-2024_Graph.png Graphic file (type png)
 <use img/Global_Sales_2014-2024_Graph.png>
 Package pdftex.def Info: img/Global_Sales_2014-2024_Graph.png  used on input li
-ne 267.
+ne 276.
 (pdftex.def)             Requested size: 418.25368pt x 256.93181pt.
-
-[17 <./img/Global_Sales_2014-2024_Graph.png>]
-<img/Statista_SHC_Histogram.png, id=426, 722.7pt x 433.62pt>
+ [17 <./img/Global_Sales_2014-2024_Graph.png>]
+<img/Statista_SHC_Histogram.png, id=444, 722.7pt x 433.62pt>
 File: img/Statista_SHC_Histogram.png Graphic file (type png)
 <use img/Statista_SHC_Histogram.png>
-Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 288
+Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 297
 .
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
  [18]) (main/Chapter3.tex [19 <./img/Statista_SHC_Histogram.png>]
@@ -1260,74 +1290,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 [20
 
 ] [21]
-<img/Non_Log_Model_Colored_Graph.png, id=460, 1011.78pt x 722.7pt>
-File: img/Non_Log_Model_Colored_Graph.png Graphic file (type png)
-<use img/Non_Log_Model_Colored_Graph.png>
-Package pdftex.def Info: img/Non_Log_Model_Colored_Graph.png  used on input lin
-e 152.
-(pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
- [22]
-<img/Log_Model_Colored_Graph.png, id=472, 1011.78pt x 722.7pt>
+<img/Log_Model_Colored_Graph.png, id=479, 1011.78pt x 722.7pt>
 File: img/Log_Model_Colored_Graph.png Graphic file (type png)
 <use img/Log_Model_Colored_Graph.png>
 Package pdftex.def Info: img/Log_Model_Colored_Graph.png  used on input line 15
-9.
+2.
 (pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
- [23 <./img/Non_Log_Model_Colored_Graph.png>]
-Overfull \hbox (85.1317pt too wide) in paragraph at lines 198--222
+ [22]
+Overfull \hbox (46.2745pt too wide) in paragraph at lines 190--214
  [][] 
  []
 
-[24 <./img/Log_Model_Colored_Graph.png>]) (back/Conclusion.tex [25] [26]
-Overfull \hbox (25.65549pt too wide) in paragraph at lines 6--55
+[23 <./img/Log_Model_Colored_Graph.png>]
+<img/Random_Effect_Map.png, id=500, 505.89pt x 289.08pt>
+File: img/Random_Effect_Map.png Graphic file (type png)
+<use img/Random_Effect_Map.png>
+Package pdftex.def Info: img/Random_Effect_Map.png  used on input line 247.
+(pdftex.def)             Requested size: 418.25368pt x 239.0056pt.
+ [24]
+<img/s_Unemployment.png, id=509, 867.24pt x 578.16pt>
+File: img/s_Unemployment.png Graphic file (type png)
+<use img/s_Unemployment.png>
+Package pdftex.def Info: img/s_Unemployment.png  used on input line 262.
+(pdftex.def)             Requested size: 418.25368pt x 278.83694pt.
+ [25 <./img/Random_Effect_Map.png>]
+<img/s_Internet_Users.png, id=517, 867.24pt x 578.16pt>
+File: img/s_Internet_Users.png Graphic file (type png)
+<use img/s_Internet_Users.png>
+Package pdftex.def Info: img/s_Internet_Users.png  used on input line 282.
+(pdftex.def)             Requested size: 418.25368pt x 278.83694pt.
+ [26 <./img/s_Unemployment.png>]
+<img/3D_Plot.png, id=523, 1541.76pt x 795.97375pt>
+File: img/3D_Plot.png Graphic file (type png)
+<use img/3D_Plot.png>
+Package pdftex.def Info: img/3D_Plot.png  used on input line 304.
+(pdftex.def)             Requested size: 418.25368pt x 215.92386pt.
+ [27 <./img/s_Internet_Users.png>])
+(back/Conclusion.tex [28 <./img/3D_Plot.png>]
+Overfull \hbox (25.65549pt too wide) in paragraph at lines 6--59
 \T1/cmr/m/n/10.95 This re-search aimed to iden-tify the pri-mary macroe-co-nomi
 c, struc-tural, and socio-psychological
  []
 
-[27
+[29
 
-]) (back/Appendix1.tex [28]
+]) (back/Appendix1.tex [30]
 Appendix A.
-) (back/Appendix2.tex [29
+<img/Colored_Correlation_Chart_Regions.png, id=544, 1156.32pt x 722.7pt>
+File: img/Colored_Correlation_Chart_Regions.png Graphic file (type png)
+<use img/Colored_Correlation_Chart_Regions.png>
+Package pdftex.def Info: img/Colored_Correlation_Chart_Regions.png  used on inp
+ut line 4.
+(pdftex.def)             Requested size: 418.25368pt x 261.40688pt.
+<img/Nigeria_GNI_Drop.png, id=546, 578.16pt x 578.16pt>
+File: img/Nigeria_GNI_Drop.png Graphic file (type png)
+<use img/Nigeria_GNI_Drop.png>
+Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 11.
+(pdftex.def)             Requested size: 418.25368pt x 418.251pt.
+[31
 
-]
+ <./img/Colored_Correlation_Chart_Regions.png>]
+<img/Non_Log_Model_Colored_Graph.png, id=552, 1011.78pt x 722.7pt>
+File: img/Non_Log_Model_Colored_Graph.png Graphic file (type png)
+<use img/Non_Log_Model_Colored_Graph.png>
+Package pdftex.def Info: img/Non_Log_Model_Colored_Graph.png  used on input lin
+e 18.
+(pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
+) (back/Appendix2.tex
+[32 <./img/Nigeria_GNI_Drop.png>] [33 <./img/Non_Log_Model_Colored_Graph.png>]
 Appendix B.
-) (back/Appendix3.tex [30
+) (back/Appendix3.tex [34
 
 ]
 Appendix C.
-) [31
+) [35
 
-]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 15
-5.
-
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
-File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 155.
-
-[32
+] [36
 
 
-{C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1
--0.enc}] [33]
+] [37]
 Overfull \hbox (17.37114pt too wide) in paragraph at lines 156--156
 \T1/zi4/m/n/12 unu . edu / news / unu -[] wider -[] releases -[] major -[] upda
 te -[] world -[] income -[] inequality -[]
  []
 
-[34]
+[38]
 Overfull \hbox (4.33548pt too wide) in paragraph at lines 156--156
 \T1/cmr/m/n/12 cessed: 9 June 2026. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T
 1/zi4/m/n/12 https : / / openknowledge . worldbank . org / bitstream /
  []
 
-(back/FinalDedication.tex [35]) [36
+(back/FinalDedication.tex [39]) [40
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260626024013 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260630025253 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1335,20 +1391,31 @@ runsystem(latexminted cleantemp  --timestamp 20260626024013 FAD58DE7366495DB465
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E9080299EEE07C9A28ED6891F1C87362;5075.
+(rerunfilecheck)             Checksum: 51B10DA3FB48991D331FD159BE554E76;5516.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26380 strings out of 467509
- 520855 string characters out of 5408780
- 1590727 words of memory out of 5000000
- 55072 multiletter control sequences out of 15000+600000
+ 26360 strings out of 467509
+ 521778 string characters out of 5408780
+ 1589888 words of memory out of 5000000
+ 55040 multiletter control sequences out of 15000+600000
  646844 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,79p,1219b,2389s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,12n,79p,1219b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\eccc1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1377,9 +1444,9 @@ C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 s/cm/cmr8.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (48 pages, 7442563 bytes).
+Output written on main.pdf (52 pages, 10296372 bytes).
 PDF statistics:
- 1315 PDF objects out of 1440 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1370 PDF objects out of 1440 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 367 words of extra memory for PDF output out of 10000 (max. 10000000)
 
