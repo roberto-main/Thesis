@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  30 JUN 2026 02:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  30 JUN 2026 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -161,7 +161,25 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 )
 \subfig@top=\skip69
 \subfig@bottom=\skip70
-) (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+)
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip71
+\RaggedLeftLeftskip=\skip72
+\RaggedRightLeftskip=\skip73
+\CenteringRightskip=\skip74
+\RaggedLeftRightskip=\skip75
+\RaggedRightRightskip=\skip76
+\CenteringParfillskip=\skip77
+\RaggedLeftParfillskip=\skip78
+\RaggedRightParfillskip=\skip79
+\JustifyingParfillskip=\skip80
+\CenteringParindent=\skip81
+\RaggedLeftParindent=\skip82
+\RaggedRightParindent=\skip83
+\JustifyingParindent=\skip84
+)
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
@@ -170,8 +188,8 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \ar@mcellbox=\box53
 \extrarowheight=\dimen157
 \NC@list=\toks22
-\extratabsurround=\skip71
-\backup@length=\skip72
+\extratabsurround=\skip85
+\backup@length=\skip86
 \ar@cellbox=\box54
 )
 \TX@col@width=\dimen158
@@ -184,10 +202,10 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
-\LTleft=\skip73
-\LTright=\skip74
-\LTpre=\skip75
-\LTpost=\skip76
+\LTleft=\skip87
+\LTright=\skip88
+\LTpre=\skip89
+\LTpost=\skip90
 \LTchunksize=\count294
 \LTcapwidth=\dimen163
 \LT@head=\box55
@@ -226,7 +244,7 @@ Package: fancyvrb 2026/04/16 4.6a verbatim text (tvz,hv)
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2026/05/19 v2.18d AMS math features
-\@mathmargin=\skip77
+\@mathmargin=\skip91
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -286,8 +304,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen171
 \lineht@=\dimen172
 \@envbody=\toks30
-\multlinegap=\skip78
-\multlinetaggap=\skip79
+\multlinegap=\skip92
+\multlinetaggap=\skip93
 \mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2965.
 LaTeX Info: Redefining \] on input line 2966.
@@ -424,7 +442,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip80
+\Hy@SectionHShift=\skip94
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
 Package: minted 2026/03/03 v3.8.0 Yet another Pygments shim for LaTeX
@@ -467,7 +485,7 @@ Package: lineno 2026/03/08 line numbers on paragraphs v5.9
 \c@FV@TrueTabCounter=\count341
 \FV@TabBox@Group=\box66
 \FV@bgcolorstructbox=\box67
-\FV@TmpLength=\skip81
+\FV@TmpLength=\skip95
 \c@FV@HighlightLinesStart=\count342
 \c@FV@HighlightLinesStop=\count343
 \FV@LoopCount=\count344
@@ -592,14 +610,14 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorderinternal@0=\count401
 \blx@entrysetcounter=\count402
 \blx@biblioinstance=\count403
-\labelnumberwidth=\skip82
-\labelalphawidth=\skip83
-\biblabelsep=\skip84
-\bibitemsep=\skip85
-\bibnamesep=\skip86
-\bibinitsep=\skip87
-\bibparsep=\skip88
-\bibhang=\skip89
+\labelnumberwidth=\skip96
+\labelalphawidth=\skip97
+\biblabelsep=\skip98
+\bibitemsep=\skip99
+\bibnamesep=\skip100
+\bibinitsep=\skip101
+\bibparsep=\skip102
+\bibhang=\skip103
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language80
@@ -684,20 +702,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count472
 \c@pageref=\count473
 \c@savedpageref=\count474
-\shorthandwidth=\skip90
-\shortjournalwidth=\skip91
-\shortserieswidth=\skip92
-\shorttitlewidth=\skip93
-\shortauthorwidth=\skip94
-\shorteditorwidth=\skip95
-\locallabelnumberwidth=\skip96
-\locallabelalphawidth=\skip97
-\localshorthandwidth=\skip98
-\localshortjournalwidth=\skip99
-\localshortserieswidth=\skip100
-\localshorttitlewidth=\skip101
-\localshortauthorwidth=\skip102
-\localshorteditorwidth=\skip103
+\shorthandwidth=\skip104
+\shortjournalwidth=\skip105
+\shortserieswidth=\skip106
+\shorttitlewidth=\skip107
+\shortauthorwidth=\skip108
+\shorteditorwidth=\skip109
+\locallabelnumberwidth=\skip110
+\locallabelalphawidth=\skip111
+\localshorthandwidth=\skip112
+\localshortjournalwidth=\skip113
+\localshortserieswidth=\skip114
+\localshorttitlewidth=\skip115
+\localshortauthorwidth=\skip116
+\localshorteditorwidth=\skip117
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -795,17 +813,6 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 (settings/Settings.tex
 Package hyperref Info: Option `colorlinks' set `true' on input line 8.
 ) (front/Cover.tex
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip104
-\thanksmargin=\skip105
-\droptitle=\skip106
-)
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
-Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
-\ESO@tempdima=\dimen188
-\ESO@tempdimb=\dimen189
-
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
@@ -823,79 +830,47 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-))
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
-.sty
-Package: transparent 2025-06-23 v1.6 Transparency with color stacks
-
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
--nometadata.sty
-Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color
- stack (HO)
-
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)))
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2026/03/07 v6.0 Page Geometry
-
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count490
-\Gm@cntv=\count491
-\c@Gm@tempcnt=\count492
-\Gm@bindingoffset=\dimen190
-\Gm@wd@mp=\dimen191
-\Gm@odd@mp=\dimen192
-\Gm@even@mp=\dimen193
-\Gm@layoutwidth=\dimen194
-\Gm@layoutheight=\dimen195
-\Gm@layouthoffset=\dimen196
-\Gm@layoutvoffset=\dimen197
-\Gm@dimlist=\toks40
-
-(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-(main.aux)
+ (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count493
-\scratchdimen=\dimen198
+\scratchcounter=\count490
+\scratchdimen=\dimen188
 \scratchbox=\box71
-\nofMPsegments=\count494
-\nofMParguments=\count495
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count496
-\MPscratchDim=\dimen199
-\MPnumerator=\count497
-\makeMPintoPDFobject=\count498
-\everyMPtoPDFconversion=\toks42
+\nofMPsegments=\count491
+\nofMParguments=\count492
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count493
+\MPscratchDim=\dimen189
+\MPnumerator=\count494
+\makeMPintoPDFobject=\count495
+\everyMPtoPDFconversion=\toks41
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -907,7 +882,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring ON on input line 8.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -927,106 +902,43 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 26.
-Package biblatex Info: Reference segment=0 on input line 26.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(128.0374pt, 588.97205pt, 128.0374pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=588.97205pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=21.39363pt
-* \headheight=14.49998pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=47.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-<img/units_logo.png, id=131, 677.53125pt x 677.53125pt>
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
+<img/units_logo.png, id=131, 304.9794pt x 423.2613pt>
 File: img/units_logo.png Graphic file (type png)
 <use img/units_logo.png>
-Package pdftex.def Info: img/units_logo.png  used on input line 35.
-(pdftex.def)             Requested size: 170.71603pt x 170.71603pt.
-File: img/units_logo.png Graphic file (type png)
-<use img/units_logo.png>
-Package pdftex.def Info: img/units_logo.png  used on input line 61.
-(pdftex.def)             Requested size: 597.53197pt x 597.53197pt.
+Package pdftex.def Info: img/units_logo.png  used on input line 14.
+(pdftex.def)             Requested size: 91.04872pt x 126.35934pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 45--47
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
 [1
 
 
 {C:/Users/rober/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/units_
-logo.png>]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-5.23712pt
-* \headheight=14.49998pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=47.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-) (front/Dedication.tex)
+logo.png>]) (front/Dedication.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \frontmatter
-                  [1
-
-] (front/Abstract.tex) [1
-
-
-] (main.toc
-Overfull \hbox (3.9642pt too wide) detected at line 11
- []\T1/cmr/m/n/12 VIII
+l.92 \frontmatter
+                  [1] (front/Abstract.tex)
+Overfull \hbox (15.98419pt too wide) in paragraph at lines 3--99
+\T1/cmr/m/n/12 A no-table lim-i-ta-tion con-cerns the Strin-gency In-dex, which
+ proved non-significant
  []
 
-[2
+[1
+
+
+] (main.toc [2
 
 ])
 \tf@toc=\write6
@@ -1047,14 +959,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-<img/Tennis_For_Two.jpg, id=202, 271.0125pt x 187.70125pt>
-File: img/Tennis_For_Two.jpg Graphic file (type jpg)
-<use img/Tennis_For_Two.jpg>
-Package pdftex.def Info: img/Tennis_For_Two.jpg  used on input line 16.
-(pdftex.def)             Requested size: 209.12683pt x 144.84546pt.
 [4
 
 ]
+<img/Tennis_For_Two.jpg, id=210, 271.0125pt x 187.70125pt>
+File: img/Tennis_For_Two.jpg Graphic file (type jpg)
+<use img/Tennis_For_Two.jpg>
+Package pdftex.def Info: img/Tennis_For_Two.jpg  used on input line 16.
+(pdftex.def)             Requested size: 195.0pt x 135.05887pt.
+ [5 <./img/Tennis_For_Two.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
  []
@@ -1064,11 +977,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
  []
 
-[5 <./img/Tennis_For_Two.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
@@ -1079,30 +987,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
 
-[6]
-<img/Why_People_Play_Videogames.png, id=248, 627.09282pt x 420.82219pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+[6] [7]
+<img/Why_People_Play_Videogames.png, id=254, 627.09282pt x 420.82219pt>
 File: img/Why_People_Play_Videogames.png Graphic file (type png)
 <use img/Why_People_Play_Videogames.png>
 Package pdftex.def Info: img/Why_People_Play_Videogames.png  used on input line
  63.
-(pdftex.def)             Requested size: 209.12683pt x 140.33578pt.
- [7]
-<img/ESA_Gamers_Age.png, id=260, 560.0925pt x 390.70969pt>
+(pdftex.def)             Requested size: 195.0pt x 130.85806pt.
+<img/ESA_Gamers_Age.png, id=257, 560.0925pt x 390.70969pt>
 File: img/ESA_Gamers_Age.png Graphic file (type png)
 <use img/ESA_Gamers_Age.png>
 Package pdftex.def Info: img/ESA_Gamers_Age.png  used on input line 76.
-(pdftex.def)             Requested size: 209.12683pt x 145.88382pt.
+(pdftex.def)             Requested size: 195.0pt x 136.02905pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--79
 
  []
 
-[8 <./img/Why_People_Play_Videogames.png> <./img/ESA_Gamers_Age.png>]
-<img/Grafico_ESA_MF.jpg, id=269, 461.725pt x 574.145pt>
+[8 <./img/Why_People_Play_Videogames.png>]
+<img/Grafico_ESA_MF.jpg, id=266, 461.725pt x 574.145pt>
 File: img/Grafico_ESA_MF.jpg Graphic file (type jpg)
 <use img/Grafico_ESA_MF.jpg>
 Package pdftex.def Info: img/Grafico_ESA_MF.jpg  used on input line 86.
-(pdftex.def)             Requested size: 209.12683pt x 260.04492pt.
+(pdftex.def)             Requested size: 195.0pt x 242.47964pt.
+ [9 <./img/ESA_Gamers_Age.png>]
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 98
 .
 
@@ -1116,8 +1029,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
-[9 <./img/Grafico_ESA_MF.jpg>]) [10{C:/Users/rober/AppData/Local/Programs/MiKTe
-X/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (main/Chapter1.tex
+) [10 <./img/Grafico_ESA_MF.jpg>] [11{C:/Users/rober/AppData/Local/Programs/MiK
+TeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] (main/Chapter1.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--7
@@ -1134,12 +1047,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
-<img/COVID_Steam_Players_Increase.png, id=284, 813.0375pt x 442.65375pt>
+<img/COVID_Steam_Players_Increase.png, id=288, 813.0375pt x 442.65375pt>
 File: img/COVID_Steam_Players_Increase.png Graphic file (type png)
 <use img/COVID_Steam_Players_Increase.png>
 Package pdftex.def Info: img/COVID_Steam_Players_Increase.png  used on input li
 ne 23.
-(pdftex.def)             Requested size: 418.25368pt x 227.71593pt.
+(pdftex.def)             Requested size: 390.0pt x 212.32953pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -1153,18 +1066,18 @@ l.30 A
 ] [2 <./img/COVID_Steam_Players_Increase.png>]) (main/Chapter2.tex [3]
 Chapter 2.
 
-Overfull \hbox (45.76022pt too wide) in paragraph at lines 8--26
+Overfull \hbox (74.0139pt too wide) in paragraph at lines 8--26
  [][] 
  []
 
-<img/Colored_Correlation_Chart_Detailed_Graph2.png, id=317, 1156.32pt x 722.7pt
+<img/Colored_Correlation_Chart_Detailed_Graph2.png, id=320, 1156.32pt x 722.7pt
 >
 File: img/Colored_Correlation_Chart_Detailed_Graph2.png Graphic file (type png)
 
 <use img/Colored_Correlation_Chart_Detailed_Graph2.png>
 Package pdftex.def Info: img/Colored_Correlation_Chart_Detailed_Graph2.png  use
 d on input line 33.
-(pdftex.def)             Requested size: 418.25368pt x 261.40688pt.
+(pdftex.def)             Requested size: 390.0pt x 243.74081pt.
 [4
 
 ]
@@ -1181,7 +1094,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5 <./img/Colored_Correlation_Chart_Detailed_Graph2.png>] [6]
+[5 <./img/Colored_Correlation_Chart_Detailed_Graph2.png>]
+Overfull \hbox (0.80354pt too wide) in paragraph at lines 98--110
+\T1/cmr/m/n/10.95 The country-level data rep-re-sent the orig-i-nal ob-ser-va-t
+ions re-trieved from the sources
+ []
+
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 111--133
 
  []
@@ -1211,34 +1130,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--168
 
  []
 
-[8]
-<img/Aggregated_Graphs_Graph2.png, id=377, 578.16pt x 578.16pt>
+[8] [9]
+<img/Aggregated_Graphs_Graph2.png, id=384, 578.16pt x 578.16pt>
 File: img/Aggregated_Graphs_Graph2.png Graphic file (type png)
 <use img/Aggregated_Graphs_Graph2.png>
 Package pdftex.def Info: img/Aggregated_Graphs_Graph2.png  used on input line 1
 76.
-(pdftex.def)             Requested size: 418.25368pt x 418.251pt.
- [9] [10 <./img/Aggregated_Graphs_Graph2.png>] [11]
+(pdftex.def)             Requested size: 390.0pt x 389.99414pt.
+ [10] [11 <./img/Aggregated_Graphs_Graph2.png>] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 205--208
 
  []
 
-<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=395, 505.89pt x 289.08pt>
+<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=403, 505.89pt x 289.08pt>
 File: img/LOG_Colored_Unemployement_&_Sales_Graph.png Graphic file (type png)
 <use img/LOG_Colored_Unemployement_&_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Unemployement_&_Sales_Graph.png  used 
 on input line 213.
-(pdftex.def)             Requested size: 418.25368pt x 239.0056pt.
-[12]
-<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=402, 722
+(pdftex.def)             Requested size: 390.0pt x 222.86134pt.
+[13]
+<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=410, 722
 .7pt x 433.62pt>
 File: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png Graphic
  file (type png)
 <use img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sale
 s_Graph.png  used on input line 228.
-(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
- [13 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
+(pdftex.def)             Requested size: 390.0pt x 233.99913pt.
+ [14 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 233--239
 
  []
@@ -1248,142 +1167,174 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--239
 
  []
 
-[14 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
-<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=416, 722.7
+[15 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
+<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=423, 722.7
 pt x 433.62pt>
 File: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png Graphic f
 ile (type png)
 <use img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_
 Graph.png  used on input line 244.
-(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
+(pdftex.def)             Requested size: 390.0pt x 233.99913pt.
 
-[15 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
-<img/Cumulative_Sales_Graph.png, id=423, 578.16pt x 578.16pt>
+[16 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
+<img/Cumulative_Sales_Graph.png, id=429, 578.16pt x 578.16pt>
 File: img/Cumulative_Sales_Graph.png Graphic file (type png)
 <use img/Cumulative_Sales_Graph.png>
 Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 262
 .
-(pdftex.def)             Requested size: 418.25368pt x 418.251pt.
+(pdftex.def)             Requested size: 390.0pt x 389.99414pt.
 
-[16 <./img/Cumulative_Sales_Graph.png>]
-<img/Global_Sales_2014-2024_Graph.png, id=431, 421.575pt x 258.9675pt>
+[17] [18 <./img/Cumulative_Sales_Graph.png>]
+<img/Global_Sales_2014-2024_Graph.png, id=443, 421.575pt x 258.9675pt>
 File: img/Global_Sales_2014-2024_Graph.png Graphic file (type png)
 <use img/Global_Sales_2014-2024_Graph.png>
 Package pdftex.def Info: img/Global_Sales_2014-2024_Graph.png  used on input li
 ne 276.
-(pdftex.def)             Requested size: 418.25368pt x 256.93181pt.
- [17 <./img/Global_Sales_2014-2024_Graph.png>]
-<img/Statista_SHC_Histogram.png, id=444, 722.7pt x 433.62pt>
+(pdftex.def)             Requested size: 390.0pt x 239.57672pt.
+ [19 <./img/Global_Sales_2014-2024_Graph.png>]
+<img/Statista_SHC_Histogram.png, id=456, 722.7pt x 433.62pt>
 File: img/Statista_SHC_Histogram.png Graphic file (type png)
 <use img/Statista_SHC_Histogram.png>
 Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 297
 .
-(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
- [18]) (main/Chapter3.tex [19 <./img/Statista_SHC_Histogram.png>]
+(pdftex.def)             Requested size: 390.0pt x 233.99913pt.
+ [20]) (main/Chapter3.tex [21 <./img/Statista_SHC_Histogram.png>]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[20
+[22
 
-] [21]
-<img/Log_Model_Colored_Graph.png, id=479, 1011.78pt x 722.7pt>
+] [23] [24]
+<img/Log_Model_Colored_Graph.png, id=501, 1011.78pt x 722.7pt>
 File: img/Log_Model_Colored_Graph.png Graphic file (type png)
 <use img/Log_Model_Colored_Graph.png>
 Package pdftex.def Info: img/Log_Model_Colored_Graph.png  used on input line 15
 2.
-(pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
- [22]
-Overfull \hbox (46.2745pt too wide) in paragraph at lines 190--214
+(pdftex.def)             Requested size: 390.0pt x 278.57669pt.
+ [25 <./img/Log_Model_Colored_Graph.png>]
+Overfull \hbox (74.52818pt too wide) in paragraph at lines 190--214
  [][] 
  []
 
-[23 <./img/Log_Model_Colored_Graph.png>]
-<img/Random_Effect_Map.png, id=500, 505.89pt x 289.08pt>
+<img/Random_Effect_Map.png, id=512, 505.89pt x 289.08pt>
 File: img/Random_Effect_Map.png Graphic file (type png)
 <use img/Random_Effect_Map.png>
 Package pdftex.def Info: img/Random_Effect_Map.png  used on input line 247.
-(pdftex.def)             Requested size: 418.25368pt x 239.0056pt.
- [24]
-<img/s_Unemployment.png, id=509, 867.24pt x 578.16pt>
+(pdftex.def)             Requested size: 390.0pt x 222.86134pt.
+[26] [27]
+<img/s_Unemployment.png, id=525, 867.24pt x 578.16pt>
 File: img/s_Unemployment.png Graphic file (type png)
 <use img/s_Unemployment.png>
 Package pdftex.def Info: img/s_Unemployment.png  used on input line 262.
-(pdftex.def)             Requested size: 418.25368pt x 278.83694pt.
- [25 <./img/Random_Effect_Map.png>]
-<img/s_Internet_Users.png, id=517, 867.24pt x 578.16pt>
+(pdftex.def)             Requested size: 390.0pt x 260.00197pt.
+ [28 <./img/Random_Effect_Map.png>]
+<img/s_Internet_Users.png, id=532, 867.24pt x 578.16pt>
 File: img/s_Internet_Users.png Graphic file (type png)
 <use img/s_Internet_Users.png>
 Package pdftex.def Info: img/s_Internet_Users.png  used on input line 282.
-(pdftex.def)             Requested size: 418.25368pt x 278.83694pt.
- [26 <./img/s_Unemployment.png>]
-<img/3D_Plot.png, id=523, 1541.76pt x 795.97375pt>
+(pdftex.def)             Requested size: 390.0pt x 260.00197pt.
+ [29 <./img/s_Unemployment.png>]
+<img/3D_Plot.png, id=538, 1541.76pt x 795.97375pt>
 File: img/3D_Plot.png Graphic file (type png)
 <use img/3D_Plot.png>
 Package pdftex.def Info: img/3D_Plot.png  used on input line 304.
-(pdftex.def)             Requested size: 418.25368pt x 215.92386pt.
- [27 <./img/s_Internet_Users.png>])
-(back/Conclusion.tex [28 <./img/3D_Plot.png>]
-Overfull \hbox (25.65549pt too wide) in paragraph at lines 6--59
-\T1/cmr/m/n/10.95 This re-search aimed to iden-tify the pri-mary macroe-co-nomi
-c, struc-tural, and socio-psychological
+(pdftex.def)             Requested size: 390.0pt x 201.33704pt.
+
+[30 <./img/s_Internet_Users.png>]) (back/Conclusion.tex [31 <./img/3D_Plot.png>
+]
+Overfull \hbox (13.64247pt too wide) in paragraph at lines 6--59
+\T1/cmr/m/n/10.95 By com-bin-ing de-scrip-tive in-sights with a Gen-er-al-ized 
+Ad-di-tive Mixed Model (GAMM),
  []
 
-[29
+[32
 
-]) (back/Appendix1.tex [30]
+]) (back/Appendix1.tex [33]
 Appendix A.
-<img/Colored_Correlation_Chart_Regions.png, id=544, 1156.32pt x 722.7pt>
+<img/Colored_Correlation_Chart_Regions.png, id=560, 1156.32pt x 722.7pt>
 File: img/Colored_Correlation_Chart_Regions.png Graphic file (type png)
 <use img/Colored_Correlation_Chart_Regions.png>
 Package pdftex.def Info: img/Colored_Correlation_Chart_Regions.png  used on inp
 ut line 4.
-(pdftex.def)             Requested size: 418.25368pt x 261.40688pt.
-<img/Nigeria_GNI_Drop.png, id=546, 578.16pt x 578.16pt>
+(pdftex.def)             Requested size: 390.0pt x 243.74081pt.
+<img/Nigeria_GNI_Drop.png, id=562, 578.16pt x 578.16pt>
 File: img/Nigeria_GNI_Drop.png Graphic file (type png)
 <use img/Nigeria_GNI_Drop.png>
 Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 11.
-(pdftex.def)             Requested size: 418.25368pt x 418.251pt.
-[31
+(pdftex.def)             Requested size: 390.0pt x 389.99414pt.
+[34
 
  <./img/Colored_Correlation_Chart_Regions.png>]
-<img/Non_Log_Model_Colored_Graph.png, id=552, 1011.78pt x 722.7pt>
+<img/Non_Log_Model_Colored_Graph.png, id=567, 1011.78pt x 722.7pt>
 File: img/Non_Log_Model_Colored_Graph.png Graphic file (type png)
 <use img/Non_Log_Model_Colored_Graph.png>
 Package pdftex.def Info: img/Non_Log_Model_Colored_Graph.png  used on input lin
 e 18.
-(pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
+(pdftex.def)             Requested size: 390.0pt x 278.57669pt.
 ) (back/Appendix2.tex
-[32 <./img/Nigeria_GNI_Drop.png>] [33 <./img/Non_Log_Model_Colored_Graph.png>]
+[35 <./img/Nigeria_GNI_Drop.png>] [36 <./img/Non_Log_Model_Colored_Graph.png>]
 Appendix B.
-) (back/Appendix3.tex [34
+) (back/Appendix3.tex [37
 
 ]
 Appendix C.
-) [35
-
-] [36
-
-
-] [37]
-Overfull \hbox (17.37114pt too wide) in paragraph at lines 156--156
-\T1/zi4/m/n/12 unu . edu / news / unu -[] wider -[] releases -[] major -[] upda
-te -[] world -[] income -[] inequality -[]
- []
-
-[38]
-Overfull \hbox (4.33548pt too wide) in paragraph at lines 156--156
-\T1/cmr/m/n/12 cessed: 9 June 2026. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T
-1/zi4/m/n/12 https : / / openknowledge . worldbank . org / bitstream /
- []
-
-(back/FinalDedication.tex [39]) [40
+) [38
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20260630025253 FAD58DE7366495DB465
+Overfull \hbox (1.90758pt too wide) in paragraph at lines 157--157
+\T1/cmr/m/n/12 world: A cross-sectional study of heavy gam-ing, prob-lem-atic g
+am-ing symp-
+ []
+
+
+Overfull \hbox (8.62482pt too wide) in paragraph at lines 157--157
+\T1/zi4/m/n/12 developments . com / articles / the -[] seeds -[] of -[] opportu
+nity -[] in -[] nigerias -[]
+ []
+
+[39
+
+
+]
+Overfull \hbox (9.66444pt too wide) in paragraph at lines 157--157
+[][]\T1/cmr/m/n/12 Hale, Thomas, Noam An-grist, Rafael Gold-szmidt, et al. (202
+6). \T1/cmr/m/it/12 Ox-ford COVID-
+ []
+
+
+Overfull \hbox (16.47476pt too wide) in paragraph at lines 157--157
+\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/zi4/m/n/12 https : / / data . humd
+ata . org / dataset / oxford -[] covid -[] 19 -[] government -[]
+ []
+
+
+Overfull \hbox (2.70992pt too wide) in paragraph at lines 157--157
+\T1/cmr/m/it/12 Statis-tics Ta-bles\T1/cmr/m/n/12 . R pack-age ver-sion 5.2.3. 
+\T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/zi4/m/n/12 https : / / CRAN . R -[
+] project .
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 157--157
+\T1/cmr/m/n/12 nica, 6 June 2026. Ac-cessed 24 June 2026. \T1/cmr/m/sc/12 url\T
+1/cmr/m/n/12 : [][]$\T1/zi4/m/n/12 https : / / www . britannica .
+ []
+
+[40]
+Overfull \hbox (7.24861pt too wide) in paragraph at lines 157--157
+\T1/cmr/m/it/12 World In-come In-equal-ity Database\T1/cmr/m/n/12 . Ac-cessed: 
+31 Jan-uary 2026. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/zi4/m/n/12 https
+ :
+ []
+
+[41] (back/FinalDedication.tex [42]) [43
+
+]
+runsystem(latexminted cleantemp  --timestamp 20260630153649 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1391,9 +1342,6 @@ runsystem(latexminted cleantemp  --timestamp 20260630025253 FAD58DE7366495DB465
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1409,44 +1357,42 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26360 strings out of 467509
- 521778 string characters out of 5408780
- 1589888 words of memory out of 5000000
- 55040 multiletter control sequences out of 15000+600000
- 646844 words of font info for 82 fonts, out of 8000000 for 9000
+ 25766 strings out of 467509
+ 511089 string characters out of 5408780
+ 1572587 words of memory out of 5000000
+ 54467 multiletter control sequences out of 15000+600000
+ 645294 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,79p,1219b,2344s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,12n,79p,1219b,2358s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\eccc1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\tcrm1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
 pen/ec/dpi600\ecbx1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\rober\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\rober\AppData\Local\MiKT
+ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\rober\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\rober\AppData\Local\MiKT
 eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\rober\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\rober\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\rober\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\
-rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk> <C:\
-Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk
-> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2
-074.pk><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconso
-lata/Inconsolata-zi4r.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rober/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rober/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rober/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
-/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (52 pages, 10296372 bytes).
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\rober\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\rober\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\
+rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/U
+sers/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconso
+lata-zi4r.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmex10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rober/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rober/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rober/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rob
+er/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
+sers/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb>
+Output written on main.pdf (56 pages, 10172618 bytes).
 PDF statistics:
- 1370 PDF objects out of 1440 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
+ 1337 PDF objects out of 1440 (max. 8388607)
+ 182 named destinations out of 1000 (max. 500000)
  367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

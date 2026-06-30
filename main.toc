@@ -3,52 +3,52 @@
 \contentsline {chapter}{Introduction}{IV}{chapter*.4}%
 \contentsline {section}{\numberline {0.1}Historical Development of the Video Game Industry}{IV}{section.0.1}%
 \contentsline {section}{\numberline {0.2}Key Drivers of Industry Growth}{V}{section.0.2}%
-\contentsline {subsubsection}{Mobile Gaming}{V}{section*.5}%
+\contentsline {subsubsection}{Mobile Gaming}{VI}{section*.5}%
 \contentsline {subsubsection}{New Business Models}{VI}{section*.6}%
 \contentsline {subsubsection}{Social Effect}{VII}{section*.7}%
-\contentsline {subsubsection}{The Core Reason Why People Play Video Games}{VII}{section*.8}%
+\contentsline {subsubsection}{The Core Reason Why People Play Video Games}{VIII}{section*.8}%
 \contentsline {section}{\numberline {0.3}Market Overview and Trends}{VIII}{section.0.3}%
-\contentsline {subsection}{\numberline {0.3.1}Aim and Scope of the Study}{IX}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {0.3.1}Aim and Scope of the Study}{X}{subsection.0.3.1}%
 \contentsline {chapter}{\numberline {1}Literature Review}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Data}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}A Description of the Final Dataset}{4}{section.2.1}%
 \contentsline {subsubsection}{}{4}{section*.9}%
 \contentsline {subsubsection}{The Variables Used}{5}{section*.10}%
-\contentsline {subsubsection}{Data Aggregation: Countries, Macro-regions and Continents}{6}{section*.11}%
+\contentsline {subsubsection}{Data Aggregation: Countries, Macro-regions and Continents}{7}{section*.11}%
 \contentsline {section}{\numberline {2.2}Cleaning criteria}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Explorative analysis}{10}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Facet Graph Description}{10}{subsection.2.3.1}%
-\contentsline {subsubsection}{Depression Rates}{10}{section*.12}%
-\contentsline {subsubsection}{GNI per capita}{11}{section*.13}%
-\contentsline {subsubsection}{Internet Users}{11}{section*.14}%
-\contentsline {subsubsection}{Log Sales In Millions}{11}{section*.15}%
-\contentsline {subsubsection}{Sales per Capita}{12}{section*.16}%
-\contentsline {subsubsection}{Unemployment}{12}{section*.17}%
-\contentsline {subsection}{\numberline {2.3.2}Unemployment and Log Sales}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Internet Penetration and Log Sales}{14}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}COVID-19 Restrictions and Log Sales}{15}{subsection.2.3.4}%
-\contentsline {subsubsection}{Key Findings from the Final Three Scatterplots}{15}{section*.18}%
-\contentsline {subsection}{\numberline {2.3.5}Cumulative Sales Indexed Graph}{16}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Global Sales 2014-2024 Time Series}{17}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Overall Considerations about COVID-19's Influence in Sales}{18}{subsection.2.3.7}%
-\contentsline {chapter}{\numberline {3}Model}{20}{chapter.3}%
-\contentsline {paragraph}{What Model Was Used}{20}{section*.19}%
-\contentsline {section}{\numberline {3.1}From LM to GLM to GAM to GAMM}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}LM}{20}{subsection.3.1.1}%
-\contentsline {subsubsection}{Linear Model (LM)}{20}{section*.20}%
-\contentsline {subsection}{\numberline {3.1.2}From LM to GLM}{21}{subsection.3.1.2}%
-\contentsline {subsubsection}{Generalized Linear Model (GLM)}{21}{section*.21}%
-\contentsline {subsection}{\numberline {3.1.3}From GLM to GAM}{21}{subsection.3.1.3}%
-\contentsline {subsubsection}{Generalized Additive Model (GAM)}{21}{section*.22}%
-\contentsline {subsection}{\numberline {3.1.4}From GAM to GAMM}{22}{subsection.3.1.4}%
-\contentsline {subsubsection}{Generalized Additive Mixed Model (GAMM)}{22}{section*.23}%
-\contentsline {subsection}{\numberline {3.1.5}Model Specification for This Study}{22}{subsection.3.1.5}%
-\contentsline {subparagraph}{Formula of the Chosen Model}{23}{section*.24}%
-\contentsline {section}{\numberline {3.2}Model Results}{24}{section.3.2}%
-\contentsline {subsubsection}{}{24}{section*.25}%
-\contentsline {subsection}{\numberline {3.2.1}Coefficient interpretation}{24}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Graphical analysis of smooth effects}{26}{subsection.3.2.2}%
-\contentsline {chapter}{Conclusion}{29}{chapter*.26}%
-\contentsline {chapter}{\numberline {A}Figures}{31}{chapter.A}%
-\contentsline {chapter}{\numberline {B}Sit Amet}{34}{chapter.B}%
-\contentsline {chapter}{\numberline {C}Lorem}{35}{chapter.C}%
+\contentsline {section}{\numberline {2.3}Explorative analysis}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Facet Graph Description}{11}{subsection.2.3.1}%
+\contentsline {subsubsection}{Depression Rates}{11}{section*.12}%
+\contentsline {subsubsection}{GNI per capita}{12}{section*.13}%
+\contentsline {subsubsection}{Internet Users}{12}{section*.14}%
+\contentsline {subsubsection}{Log Sales In Millions}{12}{section*.15}%
+\contentsline {subsubsection}{Sales per Capita}{13}{section*.16}%
+\contentsline {subsubsection}{Unemployment}{13}{section*.17}%
+\contentsline {subsection}{\numberline {2.3.2}Unemployment and Log Sales}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Internet Penetration and Log Sales}{15}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}COVID-19 Restrictions and Log Sales}{16}{subsection.2.3.4}%
+\contentsline {subsubsection}{Key Findings from the Final Three Scatterplots}{17}{section*.18}%
+\contentsline {subsection}{\numberline {2.3.5}Cumulative Sales Indexed Graph}{18}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Global Sales 2014-2024 Time Series}{19}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Overall Considerations about COVID-19's Influence in Sales}{20}{subsection.2.3.7}%
+\contentsline {chapter}{\numberline {3}Model}{22}{chapter.3}%
+\contentsline {paragraph}{What Model Was Used}{22}{section*.19}%
+\contentsline {section}{\numberline {3.1}From LM to GLM to GAM to GAMM}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}LM}{22}{subsection.3.1.1}%
+\contentsline {subsubsection}{Linear Model (LM)}{22}{section*.20}%
+\contentsline {subsection}{\numberline {3.1.2}From LM to GLM}{23}{subsection.3.1.2}%
+\contentsline {subsubsection}{Generalized Linear Model (GLM)}{23}{section*.21}%
+\contentsline {subsection}{\numberline {3.1.3}From GLM to GAM}{23}{subsection.3.1.3}%
+\contentsline {subsubsection}{Generalized Additive Model (GAM)}{24}{section*.22}%
+\contentsline {subsection}{\numberline {3.1.4}From GAM to GAMM}{24}{subsection.3.1.4}%
+\contentsline {subsubsection}{Generalized Additive Mixed Model (GAMM)}{24}{section*.23}%
+\contentsline {subsection}{\numberline {3.1.5}Model Specification for This Study}{24}{subsection.3.1.5}%
+\contentsline {subparagraph}{Formula of the Chosen Model}{25}{section*.24}%
+\contentsline {section}{\numberline {3.2}Model Results}{26}{section.3.2}%
+\contentsline {subsubsection}{}{26}{section*.25}%
+\contentsline {subsection}{\numberline {3.2.1}Coefficient interpretation}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Graphical analysis of smooth effects}{29}{subsection.3.2.2}%
+\contentsline {chapter}{Conclusion}{32}{chapter*.26}%
+\contentsline {chapter}{\numberline {A}Figures}{34}{chapter.A}%
+\contentsline {chapter}{\numberline {B}Sit Amet}{37}{chapter.B}%
+\contentsline {chapter}{\numberline {C}Lorem}{38}{chapter.C}%

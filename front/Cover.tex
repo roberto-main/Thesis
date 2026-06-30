@@ -1,63 +1,54 @@
-% Provides the \thetitle and other useful macros
-\usepackage{titling}
-
-% Needed for the transparent full-page background logo
-\usepackage{eso-pic}
-\usepackage{transparent}
-
-\usepackage[a4paper,top=4.5cm,bottom=4.5cm,left=2cm,right=2cm]{geometry}
-
-% Do not edit
-% Set up the transparent full-page background logo
-\newcommand\BackgroundPicFront{
-    \put(-4,0){
-        \parbox[b][\paperheight]{\paperwidth}{
-            \vfill
-            \centering
-            {\transparent{0.07}\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{img/units_logo.png}}
-            \vfill
-        }
-    }
-}
-
-% Thesis's title and author
-\title{Economic, Social, and Pandemic Determinants of Video Game Sales: A Cross-National Analysis Using Mixed-Effects Models}
-\author{Roberto Maijnelli}
+% ---------------------------------------------
+% COVER PAGE (frontespizio) - fragment to \input
+% Requires in the main preamble:
+%   \usepackage{graphicx}
+%   \usepackage{ragged2e}
+% and units_logo.png in the same folder / graphics path
+% ---------------------------------------------
 \begin{document}
 \begin{titlepage}
-    \begin{center}
-    % Insert the background here
-    \AddToShipoutPicture{\BackgroundPicFront}
-    {\LARGE {\bfseries UNIVERSITY OF TRIESTE \\}}
-    \vspace{5mm}
-    {\Large {\bfseries Department of Economics, Business, Mathematics and Statistics \\}}
-    \vspace{0.3cm}
-    \includegraphics[width=6cm,height=6cm]{img/units_logo.png}\\[1cm]
+\pagestyle{empty}
+\begin{center}
 
-    {\LARGE
-        Bachelor Degree in\\ Business Management \\
-    }
-    \vspace{1cm}
-    {\LARGE 
-        {\bfseries \thetitle} %
-    }
-    \vspace{0.5cm}
+% --- Logo ---
+\includegraphics[width=3.2cm]{img/units_logo.png}
 
-    % Replace the date with the correct one before printing the final version!
-    {\large \today \\[1cm]
-    }
+\vspace{0.6em}
+\rule{0.85\textwidth}{0.4pt}
+\vspace{1.2em}
 
-    % Table for author's and (co-)supervisor's names
-        {\large
-            \setlength{\tabcolsep}{12pt}
-            
-            \begin{tabularx}{\linewidth}{ >{\raggedleft}X >{\raggedright\arraybackslash}X}
-                Candidate & Supervisor \\
-                \bfseries Roberto Maijnelli & \bfseries Prof. Gioia di Credico \\ [5mm]
-            \end{tabularx}
-        }
-    A.Y. 2025/2026
-    \end{center}
+% --- Department / Programme / Type ---
+{\large\bfseries Department of Economics, Business, Mathematics and Statistics \par}
+\vspace{1.5em}
+{\large\bfseries Degree programme in \\ Business Administration and Management \par}
+\vspace{0.4em}
+{\large\bfseries Curriculum: Business and Management \par}
+\vspace{3.5em}
+{\large\bfseries BACHELOR'S THESIS \par}
+
+\vspace{0.4em}
+
+% --- Title ---
+{\Large\bfseries Economic, Social, and Pandemic Determinants of Video Game Sales: A Cross-National Analysis Using Mixed-Effects Models  \par}
+
+\end{center}
+
+\vfill
+
+% --- Candidate / Supervisor ---
+{\large
+    \setlength{\tabcolsep}{12pt}
+
+    \begin{tabularx}{\linewidth}{ >{\raggedleft}X >{\raggedright\arraybackslash}X}
+        Candidate & Supervisor \\
+        \bfseries Roberto Maijnelli & \bfseries Prof. Gioia Di Credico \\ [5mm]
+    \end{tabularx}
+}
+
+\vspace{2em}
+
+\begin{center}
+{\bfseries ACADEMIC YEAR 2025 -- 2026}
+\end{center}
+
 \end{titlepage}
-\ClearShipoutPicture
-\newgeometry{}
