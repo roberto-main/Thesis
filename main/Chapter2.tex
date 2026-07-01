@@ -94,8 +94,7 @@ where $f_j(\cdot)$ are smooth functions estimated from the data.
 \subsection{From GAM to GAMM}
 Although GAMs allow for flexible functional forms, they still 
 assume that observations are independent. However, in our case 
-(where we hierarchically grouped the observations getting Continents --> Countries) 
-this assumption is violated.\\
+(where observations are grouped by region/continent) this assumption is violated.\\
 To account for this dependence structure, Generalized Additive 
 Mixed Models (GAMMs) further extend GAMs by incorporating random
 effects into the model. This allows the model to capture both 
@@ -174,7 +173,7 @@ where:
     
     \item $f_3(U_i)$ represents the smooth nonlinear effect of Unemployment;
     
-    \item $f_4(GNI_i)$ represents the smooth nonlinear effect of GNI per capita;
+    \item $\beta_1 \cdot GNI_i$ represents the linear effect of GNI per capita;
     
     \item $b_{c(i)}$ is a continent-specific random effect;
     
@@ -213,6 +212,7 @@ $n$ & \multicolumn{4}{l|}{293} \\
 \end{tabular}
 \\[0.5em]
 \small Significance codes: $^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$
+The complete R model specification is provided in Appendix C (Model \ref{lst:gamm}).
 \end{table}
 
 \subsection{Coefficient interpretation}
@@ -220,7 +220,7 @@ Note: as it is possible to see, all the model's variables are
 statistically significant. This is due to the fact that
 non significant variables (e.g. Stringency Index), have been
 removed in order to guarantee a parsimonious and efficient model.\\
-The intercept is equal to 6.499, number that represents the 
+The intercept is equal to 6.860, number that represents the 
 baseline log sales value when all the other variables are equal
 to 0.\\
 GNI per Capita shows a linear and statistically significant negative effect 
@@ -248,7 +248,7 @@ to location.
     \caption{Random Effect Global Map}
     \label{fig:Random_Effect_Map}
 \end{figure}
-The map visualizes the random effects estimated by the s(Continent, bs="re") term, capturing the residual variability in video game sales attributable to…Here, the map visualizes the random effects estimated by the s(Continent, bs="re") term, capturing the residual variability in video game sales attributable to geographic location after accounting for all other covariates in the model. Countries shown in red exhibit systematically higher sales than what the other variables alone would predict, while countries in blue show the opposite pattern, and grey countries are absent from the dataset.
+The map visualizes the random effects estimated by the s(Continent, bs="re") term, capturing the residual variability in video game sales attributable to geographic location after accounting for all other covariates in the model. Countries shown in red exhibit systematically higher sales than what the other variables alone would predict, while countries in blue show the opposite pattern, and grey countries are absent from the dataset.
 The most positive random effects are concentrated in North America and East Asia, which represent the world's historically dominant video game markets. Western Europe displays moderate positive effects, while Russia and Northern Europe show slight negative deviations.
 The high edf of 9.730 for this term, approaching the maximum of 10, confirms the substantial regional heterogeneity captured by the model, with geography playing a meaningful role beyond what the continuous predictors can explain.
 In general, the results indicate a strong overall fit, with an adjusted 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  1 JUL 2026 13:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  1 JUL 2026 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -867,13 +867,40 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip67
 \subfig@bottom=\skip68
 )
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count363
+\lst@gtempboxa=\box84
+\lst@token=\toks56
+\lst@length=\count364
+\lst@currlwidth=\dimen327
+\lst@column=\count365
+\lst@pos=\count366
+\lst@lostspace=\dimen328
+\lst@width=\dimen329
+\lst@newlines=\count367
+\lst@lineno=\count368
+\lst@maxwidth=\dimen330
+
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count369
+\lst@skipnumbers=\count370
+\lst@framebox=\box85
+)
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2026/04/16 4.6a verbatim text (tvz,hv)
-\FV@CodeLineNo=\count363
+\FV@CodeLineNo=\count371
 \FV@InFile=\read4
-\FV@TabBox=\box84
-\c@FancyVerbLine=\count364
-\FV@StepNumber=\count365
+\FV@TabBox=\box86
+\c@FancyVerbLine=\count372
+\FV@StepNumber=\count373
 \FV@OutFile=\write4
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
@@ -886,7 +913,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count366
+\lrq@indent=\count374
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -898,49 +925,49 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count367
-\c@listtotal=\count368
-\c@listcount=\count369
-\c@liststart=\count370
-\c@liststop=\count371
-\c@citecount=\count372
-\c@citetotal=\count373
-\c@multicitecount=\count374
-\c@multicitetotal=\count375
-\c@instcount=\count376
-\c@maxnames=\count377
-\c@minnames=\count378
-\c@maxitems=\count379
-\c@minitems=\count380
-\c@citecounter=\count381
-\c@maxcitecounter=\count382
-\c@savedcitecounter=\count383
-\c@uniquelist=\count384
-\c@uniquename=\count385
-\c@refsection=\count386
-\c@refsegment=\count387
-\c@maxextratitle=\count388
-\c@maxextratitleyear=\count389
-\c@maxextraname=\count390
-\c@maxextradate=\count391
-\c@maxextraalpha=\count392
-\c@abbrvpenalty=\count393
-\c@highnamepenalty=\count394
-\c@lownamepenalty=\count395
-\c@maxparens=\count396
-\c@parenlevel=\count397
-\blx@tempcnta=\count398
-\blx@tempcntb=\count399
-\blx@tempcntc=\count400
-\c@blx@maxsection=\count401
-\blx@maxsegment@0=\count402
-\blx@notetype=\count403
-\blx@parenlevel@text=\count404
-\blx@parenlevel@foot=\count405
-\blx@sectionciteorder@0=\count406
-\blx@sectionciteorderinternal@0=\count407
-\blx@entrysetcounter=\count408
-\blx@biblioinstance=\count409
+\c@tabx@nest=\count375
+\c@listtotal=\count376
+\c@listcount=\count377
+\c@liststart=\count378
+\c@liststop=\count379
+\c@citecount=\count380
+\c@citetotal=\count381
+\c@multicitecount=\count382
+\c@multicitetotal=\count383
+\c@instcount=\count384
+\c@maxnames=\count385
+\c@minnames=\count386
+\c@maxitems=\count387
+\c@minitems=\count388
+\c@citecounter=\count389
+\c@maxcitecounter=\count390
+\c@savedcitecounter=\count391
+\c@uniquelist=\count392
+\c@uniquename=\count393
+\c@refsection=\count394
+\c@refsegment=\count395
+\c@maxextratitle=\count396
+\c@maxextratitleyear=\count397
+\c@maxextraname=\count398
+\c@maxextradate=\count399
+\c@maxextraalpha=\count400
+\c@abbrvpenalty=\count401
+\c@highnamepenalty=\count402
+\c@lownamepenalty=\count403
+\c@maxparens=\count404
+\c@parenlevel=\count405
+\blx@tempcnta=\count406
+\blx@tempcntb=\count407
+\blx@tempcntc=\count408
+\c@blx@maxsection=\count409
+\blx@maxsegment@0=\count410
+\blx@notetype=\count411
+\blx@parenlevel@text=\count412
+\blx@parenlevel@foot=\count413
+\blx@sectionciteorder@0=\count414
+\blx@sectionciteorderinternal@0=\count415
+\blx@entrysetcounter=\count416
+\blx@biblioinstance=\count417
 \labelnumberwidth=\skip69
 \labelalphawidth=\skip70
 \biblabelsep=\skip71
@@ -952,9 +979,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language80
-\c@mincomprange=\count410
-\c@maxcomprange=\count411
-\c@mincompwidth=\count412
+\c@mincomprange=\count418
+\c@maxcomprange=\count419
+\c@mincompwidth=\count420
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -965,74 +992,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count413
-\c@savedafterword=\count414
-\c@annotator=\count415
-\c@savedannotator=\count416
-\c@author=\count417
-\c@savedauthor=\count418
-\c@bookauthor=\count419
-\c@savedbookauthor=\count420
-\c@commentator=\count421
-\c@savedcommentator=\count422
-\c@editor=\count423
-\c@savededitor=\count424
-\c@editora=\count425
-\c@savededitora=\count426
-\c@editorb=\count427
-\c@savededitorb=\count428
-\c@editorc=\count429
-\c@savededitorc=\count430
-\c@foreword=\count431
-\c@savedforeword=\count432
-\c@holder=\count433
-\c@savedholder=\count434
-\c@introduction=\count435
-\c@savedintroduction=\count436
-\c@namea=\count437
-\c@savednamea=\count438
-\c@nameb=\count439
-\c@savednameb=\count440
-\c@namec=\count441
-\c@savednamec=\count442
-\c@translator=\count443
-\c@savedtranslator=\count444
-\c@shortauthor=\count445
-\c@savedshortauthor=\count446
-\c@shorteditor=\count447
-\c@savedshorteditor=\count448
-\c@labelname=\count449
-\c@savedlabelname=\count450
-\c@institution=\count451
-\c@savedinstitution=\count452
-\c@lista=\count453
-\c@savedlista=\count454
-\c@listb=\count455
-\c@savedlistb=\count456
-\c@listc=\count457
-\c@savedlistc=\count458
-\c@listd=\count459
-\c@savedlistd=\count460
-\c@liste=\count461
-\c@savedliste=\count462
-\c@listf=\count463
-\c@savedlistf=\count464
-\c@location=\count465
-\c@savedlocation=\count466
-\c@organization=\count467
-\c@savedorganization=\count468
-\c@origlocation=\count469
-\c@savedoriglocation=\count470
-\c@origpublisher=\count471
-\c@savedorigpublisher=\count472
-\c@publisher=\count473
-\c@savedpublisher=\count474
-\c@language=\count475
-\c@savedlanguage=\count476
-\c@origlanguage=\count477
-\c@savedoriglanguage=\count478
-\c@pageref=\count479
-\c@savedpageref=\count480
+\c@afterword=\count421
+\c@savedafterword=\count422
+\c@annotator=\count423
+\c@savedannotator=\count424
+\c@author=\count425
+\c@savedauthor=\count426
+\c@bookauthor=\count427
+\c@savedbookauthor=\count428
+\c@commentator=\count429
+\c@savedcommentator=\count430
+\c@editor=\count431
+\c@savededitor=\count432
+\c@editora=\count433
+\c@savededitora=\count434
+\c@editorb=\count435
+\c@savededitorb=\count436
+\c@editorc=\count437
+\c@savededitorc=\count438
+\c@foreword=\count439
+\c@savedforeword=\count440
+\c@holder=\count441
+\c@savedholder=\count442
+\c@introduction=\count443
+\c@savedintroduction=\count444
+\c@namea=\count445
+\c@savednamea=\count446
+\c@nameb=\count447
+\c@savednameb=\count448
+\c@namec=\count449
+\c@savednamec=\count450
+\c@translator=\count451
+\c@savedtranslator=\count452
+\c@shortauthor=\count453
+\c@savedshortauthor=\count454
+\c@shorteditor=\count455
+\c@savedshorteditor=\count456
+\c@labelname=\count457
+\c@savedlabelname=\count458
+\c@institution=\count459
+\c@savedinstitution=\count460
+\c@lista=\count461
+\c@savedlista=\count462
+\c@listb=\count463
+\c@savedlistb=\count464
+\c@listc=\count465
+\c@savedlistc=\count466
+\c@listd=\count467
+\c@savedlistd=\count468
+\c@liste=\count469
+\c@savedliste=\count470
+\c@listf=\count471
+\c@savedlistf=\count472
+\c@location=\count473
+\c@savedlocation=\count474
+\c@organization=\count475
+\c@savedorganization=\count476
+\c@origlocation=\count477
+\c@savedoriglocation=\count478
+\c@origpublisher=\count479
+\c@savedorigpublisher=\count480
+\c@publisher=\count481
+\c@savedpublisher=\count482
+\c@language=\count483
+\c@savedlanguage=\count484
+\c@origlanguage=\count485
+\c@savedoriglanguage=\count486
+\c@pageref=\count487
+\c@savedpageref=\count488
 \shorthandwidth=\skip77
 \shortjournalwidth=\skip78
 \shortserieswidth=\skip79
@@ -1057,19 +1084,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count481
-\c@textcitetotal=\count482
-\c@textcitemaxnames=\count483
-\c@biburlbigbreakpenalty=\count484
-\c@biburlbreakpenalty=\count485
-\c@biburlnumpenalty=\count486
-\c@biburlucpenalty=\count487
-\c@biburllcpenalty=\count488
+\c@textcitecount=\count489
+\c@textcitetotal=\count490
+\c@textcitemaxnames=\count491
+\c@biburlbigbreakpenalty=\count492
+\c@biburlbreakpenalty=\count493
+\c@biburlnumpenalty=\count494
+\c@biburlucpenalty=\count495
+\c@biburllcpenalty=\count496
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count489
+\c@smartand=\count497
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1083,8 +1110,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count490
-\c@bbx:relatedtotal=\count491
+\c@bbx:relatedcount=\count498
+\c@bbx:relatedtotal=\count499
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1115,7 +1142,7 @@ Package: expl3 2026-05-26 L3 programming layer (loader)
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count492
+\l__color_backend_stack_int=\count500
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2026-05-26 L3 programming layer (loader) 
@@ -1152,16 +1179,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count493
+\c@section@level=\count501
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen327
-\Hy@linkcounter=\count494
-\Hy@pagecounter=\count495
+\@linkdim=\dimen331
+\Hy@linkcounter=\count502
+\Hy@pagecounter=\count503
  (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -1169,7 +1196,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count496
+\Hy@SavedSpaceFactor=\count504
  (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -1183,9 +1210,9 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count497
+\c@Hy@tempcnt=\count505
 LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen328
+\XeTeXLinkMargin=\dimen332
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1195,9 +1222,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count498
-\Field@Width=\dimen329
-\Fld@charsize=\dimen330
+\Fld@menulength=\count506
+\Field@Width=\dimen333
+\Fld@charsize=\dimen334
 Package hyperref Info: Hyper figures OFF on input line 6091.
 Package hyperref Info: Link nesting OFF on input line 6096.
 Package hyperref Info: Hyper index ON on input line 6099.
@@ -1205,16 +1232,16 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring ON on input line 6109.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count499
-\c@Item=\count500
-\c@Hfootnote=\count501
+\Hy@abspage=\count507
+\c@Item=\count508
+\c@Hfootnote=\count509
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
-\Fld@listcount=\count502
-\c@bookmark@seq@number=\count503
+\Fld@listcount=\count510
+\c@bookmark@seq@number=\count511
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -1231,15 +1258,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box85
+\ttl@box=\box87
 \beforetitleunit=\skip92
 \aftertitleunit=\skip93
-\ttl@plus=\dimen331
-\ttl@minus=\dimen332
-\ttl@toksa=\toks56
-\titlewidth=\dimen333
-\titlewidthlast=\dimen334
-\titlewidthfirst=\dimen335
+\ttl@plus=\dimen335
+\ttl@minus=\dimen336
+\ttl@toksa=\toks57
+\titlewidth=\dimen337
+\titlewidthlast=\dimen338
+\titlewidthfirst=\dimen339
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -1258,9 +1285,9 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip105
 \f@nch@widthC=\skip106
 \f@nch@widthR=\skip107
-\@temptokenb=\toks57
+\@temptokenb=\toks58
 )
-\c@theorem=\count504
+\c@theorem=\count512
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
@@ -1268,43 +1295,43 @@ eys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count505
-\l__lipsum_a_int=\count506
-\l__lipsum_b_int=\count507
+\g__lipsum_par_int=\count513
+\l__lipsum_a_int=\count514
+\l__lipsum_b_int=\count515
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count508
-\@quotereset=\count509
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 12
-3.
+\@quotelevel=\count516
+\@quotereset=\count517
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13
+6.
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
+LaTeX Font Info:    ... okay on input line 136.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1347,10 +1374,11 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 123.
+or `english'. on input line 136.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
@@ -1362,17 +1390,17 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count510
-\scratchdimen=\dimen336
-\scratchbox=\box86
-\nofMPsegments=\count511
-\nofMParguments=\count512
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count513
-\MPscratchDim=\dimen337
-\MPnumerator=\count514
-\makeMPintoPDFobject=\count515
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count518
+\scratchdimen=\dimen340
+\scratchbox=\box88
+\nofMPsegments=\count519
+\nofMParguments=\count520
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count521
+\MPscratchDim=\dimen341
+\MPnumerator=\count522
+\makeMPintoPDFobject=\count523
+\everyMPtoPDFconversion=\toks60
 )
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1387,6 +1415,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
+\c@lstlisting=\count524
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1402,15 +1431,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 123.
-Package biblatex Info: Reference segment=0 on input line 123.
-Package hyperref Info: Link coloring ON on input line 123.
+Package biblatex Info: Reference section=0 on input line 136.
+Package biblatex Info: Reference segment=0 on input line 136.
+Package hyperref Info: Link coloring ON on input line 136.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
  (front/Cover.tex
-<img/units_logo.png, id=138, 304.9794pt x 423.2613pt>
+<img/units_logo.png, id=142, 304.9794pt x 423.2613pt>
 File: img/units_logo.png Graphic file (type png)
 <use img/units_logo.png>
 Package pdftex.def Info: img/units_logo.png  used on input line 13.
@@ -1439,7 +1468,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \clearpage
+l.149 \clearpage
                  [1
 
 ] (front/Abstract.tex) [1
@@ -1503,7 +1532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-<img/Tennis_For_Two.jpg, id=292, 271.0125pt x 187.70125pt>
+<img/Tennis_For_Two.jpg, id=297, 271.0125pt x 187.70125pt>
 File: img/Tennis_For_Two.jpg Graphic file (type jpg)
 <use img/Tennis_For_Two.jpg>
 Package pdftex.def Info: img/Tennis_For_Two.jpg  used on input line 16.
@@ -1557,7 +1586,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-<img/Why_People_Play_Videogames.png, id=331, 627.09282pt x 420.82219pt>
+<img/Why_People_Play_Videogames.png, id=336, 627.09282pt x 420.82219pt>
 File: img/Why_People_Play_Videogames.png Graphic file (type png)
 <use img/Why_People_Play_Videogames.png>
 Package pdftex.def Info: img/Why_People_Play_Videogames.png  used on input line
@@ -1572,7 +1601,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-<img/ESA_Gamers_Age.png, id=343, 560.0925pt x 390.70969pt>
+<img/ESA_Gamers_Age.png, id=348, 560.0925pt x 390.70969pt>
 File: img/ESA_Gamers_Age.png Graphic file (type png)
 <use img/ESA_Gamers_Age.png>
 Package pdftex.def Info: img/ESA_Gamers_Age.png  used on input line 77.
@@ -1590,7 +1619,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5 <./img/Why_People_Play_Videogames.png> <./img/ESA_Gamers_Age.png>]
-<img/Grafico_ESA_MF.jpg, id=354, 461.725pt x 574.145pt>
+<img/Grafico_ESA_MF.jpg, id=359, 461.725pt x 574.145pt>
 File: img/Grafico_ESA_MF.jpg Graphic file (type jpg)
 <use img/Grafico_ESA_MF.jpg>
 Package pdftex.def Info: img/Grafico_ESA_MF.jpg  used on input line 88.
@@ -1628,7 +1657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
-<img/COVID_Steam_Players_Increase.png, id=365, 813.0375pt x 442.65375pt>
+<img/COVID_Steam_Players_Increase.png, id=370, 813.0375pt x 442.65375pt>
 File: img/COVID_Steam_Players_Increase.png Graphic file (type png)
 <use img/COVID_Steam_Players_Increase.png>
 Package pdftex.def Info: img/COVID_Steam_Players_Increase.png  used on input li
@@ -1664,7 +1693,7 @@ Overfull \hbox (39.1013pt too wide) in paragraph at lines 8--26
  [][] 
  []
 
-<img/Colored_Correlation_Chart_Detailed_Graph2.png, id=396, 1156.32pt x 722.7pt
+<img/Colored_Correlation_Chart_Detailed_Graph2.png, id=401, 1156.32pt x 722.7pt
 >
 File: img/Colored_Correlation_Chart_Detailed_Graph2.png Graphic file (type png)
 
@@ -1765,7 +1794,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-<img/Aggregated_Graphs_Graph2.png, id=448, 578.16pt x 578.16pt>
+<img/Aggregated_Graphs_Graph2.png, id=453, 578.16pt x 578.16pt>
 File: img/Aggregated_Graphs_Graph2.png Graphic file (type png)
 <use img/Aggregated_Graphs_Graph2.png>
 Package pdftex.def Info: img/Aggregated_Graphs_Graph2.png  used on input line 1
@@ -1792,7 +1821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--210
 
  []
 
-<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=458, 505.89pt x 289.08pt>
+<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=463, 505.89pt x 289.08pt>
 File: img/LOG_Colored_Unemployement_&_Sales_Graph.png Graphic file (type png)
 <use img/LOG_Colored_Unemployement_&_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Unemployement_&_Sales_Graph.png  used 
@@ -1806,7 +1835,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
-<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=463, 722
+<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=468, 722
 .7pt x 433.62pt>
 File: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png Graphic
  file (type png)
@@ -1832,7 +1861,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
-<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=469, 722.7
+<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=474, 722.7
 pt x 433.62pt>
 File: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png Graphic f
 ile (type png)
@@ -1849,7 +1878,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [20 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
-<img/Cumulative_Sales_Graph.png, id=475, 578.16pt x 578.16pt>
+<img/Cumulative_Sales_Graph.png, id=480, 578.16pt x 578.16pt>
 File: img/Cumulative_Sales_Graph.png Graphic file (type png)
 <use img/Cumulative_Sales_Graph.png>
 Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 264
@@ -1864,7 +1893,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21 <./img/Cumulative_Sales_Graph.png>]
-<img/Global_Sales_2014-2024_Graph.png, id=482, 421.575pt x 258.9675pt>
+<img/Global_Sales_2014-2024_Graph.png, id=487, 421.575pt x 258.9675pt>
 File: img/Global_Sales_2014-2024_Graph.png Graphic file (type png)
 <use img/Global_Sales_2014-2024_Graph.png>
 Package pdftex.def Info: img/Global_Sales_2014-2024_Graph.png  used on input li
@@ -1884,7 +1913,7 @@ Overfull \hbox (1.3626pt too wide) in paragraph at lines 287--296
 -con-structed from data pro-vided by Statista,
  []
 
-<img/Statista_SHC_Histogram.png, id=493, 722.7pt x 433.62pt>
+<img/Statista_SHC_Histogram.png, id=498, 722.7pt x 433.62pt>
 File: img/Statista_SHC_Histogram.png Graphic file (type png)
 <use img/Statista_SHC_Histogram.png>
 Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 299
@@ -1928,11 +1957,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [26]
-<img/Log_Model_Colored_Graph.png, id=522, 1011.78pt x 722.7pt>
+<img/Log_Model_Colored_Graph.png, id=527, 1011.78pt x 722.7pt>
 File: img/Log_Model_Colored_Graph.png Graphic file (type png)
 <use img/Log_Model_Colored_Graph.png>
 Package pdftex.def Info: img/Log_Model_Colored_Graph.png  used on input line 15
-2.
+1.
 (pdftex.def)             Requested size: 412.56497pt x 294.68787pt.
 
 
@@ -1951,11 +1980,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28 <./img/Log_Model_Colored_Graph.png>]
-Overfull \hbox (6.90498pt too wide) in paragraph at lines 190--214
+Overfull \hbox (6.90498pt too wide) in paragraph at lines 189--213
  [][] 
  []
 
-<img/Random_Effect_Map.png, id=537, 505.89pt x 289.08pt>
+<img/Random_Effect_Map.png, id=543, 505.89pt x 289.08pt>
 File: img/Random_Effect_Map.png Graphic file (type png)
 <use img/Random_Effect_Map.png>
 Package pdftex.def Info: img/Random_Effect_Map.png  used on input line 247.
@@ -1968,7 +1997,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [29]
-<img/s_Unemployment.png, id=543, 867.24pt x 578.16pt>
+<img/s_Unemployment.png, id=550, 867.24pt x 578.16pt>
 File: img/s_Unemployment.png Graphic file (type png)
 <use img/s_Unemployment.png>
 Package pdftex.def Info: img/s_Unemployment.png  used on input line 262.
@@ -1982,7 +2011,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [30 <./img/Random_Effect_Map.png>]
-<img/s_Internet_Users.png, id=549, 867.24pt x 578.16pt>
+<img/s_Internet_Users.png, id=556, 867.24pt x 578.16pt>
 File: img/s_Internet_Users.png Graphic file (type png)
 <use img/s_Internet_Users.png>
 Package pdftex.def Info: img/s_Internet_Users.png  used on input line 282.
@@ -1996,7 +2025,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [31 <./img/s_Unemployment.png>]
-<img/3D_Plot.png, id=554, 1541.76pt x 795.97375pt>
+<img/3D_Plot.png, id=561, 1541.76pt x 795.97375pt>
 File: img/3D_Plot.png Graphic file (type png)
 <use img/3D_Plot.png>
 Package pdftex.def Info: img/3D_Plot.png  used on input line 304.
@@ -2045,14 +2074,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [37]
-Overfull \hbox (18.61186pt too wide) in paragraph at lines 194--194
+Overfull \hbox (18.61186pt too wide) in paragraph at lines 207--207
 \T1/ptm/m/it/12 pan-demic\T1/ptm/m/n/12 . Ac-cessed: 9 June 2026. \T1/ptm/m/sc/
 12 url\T1/ptm/m/n/12 : [][]$\T1/cmtt/m/n/12 https : / / www . statista . com / 
 statistics /
  []
 
 
-Overfull \hbox (6.62708pt too wide) in paragraph at lines 194--194
+Overfull \hbox (6.62708pt too wide) in paragraph at lines 207--207
 [][]\T1/ptm/m/n/12 United Na-tions Uni-ver-sity World In-sti-tute for De-vel-op
 -ment Eco-nomics Re-search (UNU-
  []
@@ -2065,7 +2094,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [38]
-Overfull \hbox (14.41489pt too wide) in paragraph at lines 194--194
+Overfull \hbox (14.41489pt too wide) in paragraph at lines 207--207
 \T1/ptm/m/n/12 cessed: 9 June 2026. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T
 1/cmtt/m/n/12 https : / / openknowledge . worldbank . org / bitstream /
  []
@@ -2092,13 +2121,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41]
 Appendix B.
-<img/Colored_Correlation_Chart_Regions.png, id=686, 1156.32pt x 722.7pt>
+<img/Colored_Correlation_Chart_Regions.png, id=693, 1156.32pt x 722.7pt>
 File: img/Colored_Correlation_Chart_Regions.png Graphic file (type png)
 <use img/Colored_Correlation_Chart_Regions.png>
 Package pdftex.def Info: img/Colored_Correlation_Chart_Regions.png  used on inp
 ut line 4.
 (pdftex.def)             Requested size: 412.56497pt x 257.84499pt.
-<img/Nigeria_GNI_Drop.png, id=689, 578.16pt x 578.16pt>
+<img/Nigeria_GNI_Drop.png, id=696, 578.16pt x 578.16pt>
 File: img/Nigeria_GNI_Drop.png Graphic file (type png)
 <use img/Nigeria_GNI_Drop.png>
 Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 11.
@@ -2106,13 +2135,13 @@ Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 11.
 [42
 
  <./img/Colored_Correlation_Chart_Regions.png>]
-<img/Non_Log_Model_Colored_Graph.png, id=694, 1011.78pt x 722.7pt>
+<img/Non_Log_Model_Colored_Graph.png, id=701, 1011.78pt x 722.7pt>
 File: img/Non_Log_Model_Colored_Graph.png Graphic file (type png)
 <use img/Non_Log_Model_Colored_Graph.png>
 Package pdftex.def Info: img/Non_Log_Model_Colored_Graph.png  used on input lin
 e 18.
 (pdftex.def)             Requested size: 412.56497pt x 294.68787pt.
-)
+) (back/Appendix3.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2128,13 +2157,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[44 <./img/Non_Log_Model_Colored_Graph.png>] (main.aux)
+[44 <./img/Non_Log_Model_Colored_Graph.png>]
+Appendix C.
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+)
+(C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 2.
+) [45
+
+] (main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AD24F2B49524C150EFBEC8F67197A2F1;5846.
+(rerunfilecheck)             Checksum: 930F2FF61F92298D941DA017B4E0117B;6024.
 
 
 Package biblatex Warning: Please rerun LaTeX.
@@ -2145,26 +2189,27 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47512 strings out of 467509
- 1107078 string characters out of 5408780
- 2079883 words of memory out of 5000000
- 75884 multiletter control sequences out of 15000+600000
- 698231 words of font info for 154 fonts, out of 8000000 for 9000
+ 49894 strings out of 467509
+ 1137654 string characters out of 5408780
+ 2148930 words of memory out of 5000000
+ 78226 multiletter control sequences out of 15000+600000
+ 701267 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,118p,1199b,2818s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1200.pk><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX
-/fonts/type1/urw/symbol/usyr.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/
-fonts/type1/urw/symbol/usyr.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/times/utmb8a.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/times/utmr8a.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (52 pages, 9981414 bytes).
+1095.pk> <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ectt1200.pk><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rober/AppData/Local/Programs/
+MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/rober/AppData/Local/Programs/M
+iKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/rober/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/rober/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/rober/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (53 pages, 9999605 bytes).
 PDF statistics:
- 841 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 387 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 913 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 395 words of extra memory for PDF output out of 10000 (max. 10000000)
 

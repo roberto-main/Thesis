@@ -51,14 +51,27 @@
 \usepackage{float}
 \usepackage{subfigure}
 
+% ── Colours ─────────────────────────────────────────────────
+\usepackage{xcolor}
+\definecolor{navyblue}{RGB}{0, 44, 95}
+
+%Listing for R Model
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{red}
+}
 
 % Improved verbatim appearance
 \usepackage{fancyvrb}
 
 
-% ── Colours ─────────────────────────────────────────────────
-\usepackage{xcolor}
-\definecolor{navyblue}{RGB}{0, 44, 95}
 
 % ── Bibliography: author-year ───────────────────────────────
 %    In the text use:
@@ -196,6 +209,8 @@
 \appendix
 \input{back/Appendix1}
 \input{back/Appendix2}
+\input{back/Appendix3}
+
 %*******************************************************
 % FinalDedication
 %*******************************************************

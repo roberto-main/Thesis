@@ -1,0 +1,14 @@
+\chapter{Model Implementation in R}
+\begin{lstlisting}[language=R, caption={Model Specification}, label={lst:gamm}]
+final <- gam(
+  log(Sales_in_Millions) ~
+    s(Internet_Users) +
+    te(Year, Depression_Rates, k = c(4, 4)) +
+    s(Unemployment) +
+    GNI_per_Capita +
+    s(Continent, bs = "re"),
+  family = gaussian,
+  method = "REML",
+  data = df2
+)
+\end{lstlisting}
