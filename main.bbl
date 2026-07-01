@@ -718,6 +718,146 @@
       \verb https://www.xbox.com/it-it/cloud-gaming
       \endverb
     \endentry
+    \entry{microsoft_ar2016}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9a8b868588ad4bc6b36c29936e26423}{%
+           family={{Microsoft Corporation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Microsoft Corporation}%
+      }
+      \strng{namehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{bibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorbibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authornamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Xbox segment data, p.~93, used for data of 2014--2016}
+      \field{title}{Annual Report 2016}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://microsoft.gcs-web.com/static-files/ae43430b-eb5a-4862-b6ab-423fba53e9b4
+      \endverb
+      \verb{url}
+      \verb https://microsoft.gcs-web.com/static-files/ae43430b-eb5a-4862-b6ab-423fba53e9b4
+      \endverb
+    \endentry
+    \entry{microsoft_ar2019}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9a8b868588ad4bc6b36c29936e26423}{%
+           family={{Microsoft Corporation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Microsoft Corporation}%
+      }
+      \strng{namehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{bibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorbibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authornamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Xbox segment data, p.~91, used for data of 2017--2019}
+      \field{title}{Annual Report 2019}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://microsoft.gcs-web.com/static-files/5ea4deab-745e-4239-b6da-83dcaaa193f0
+      \endverb
+      \verb{url}
+      \verb https://microsoft.gcs-web.com/static-files/5ea4deab-745e-4239-b6da-83dcaaa193f0
+      \endverb
+    \endentry
+    \entry{microsoft_ar2022}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9a8b868588ad4bc6b36c29936e26423}{%
+           family={{Microsoft Corporation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Microsoft Corporation}%
+      }
+      \strng{namehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{bibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorbibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authornamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Xbox segment data, p.~95, used for data of 2020--2022}
+      \field{title}{Annual Report 2022}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://microsoft.gcs-web.com/static-files/9d0e1baa-2485-4624-98fa-bb93dc7f75a2
+      \endverb
+      \verb{url}
+      \verb https://microsoft.gcs-web.com/static-files/9d0e1baa-2485-4624-98fa-bb93dc7f75a2
+      \endverb
+    \endentry
+    \entry{microsoft_ar2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9a8b868588ad4bc6b36c29936e26423}{%
+           family={{Microsoft Corporation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Microsoft Corporation}%
+      }
+      \strng{namehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{fullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{bibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorbibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authornamehash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhash}{b9a8b868588ad4bc6b36c29936e26423}
+      \strng{authorfullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Xbox segment data, p.~85, used for data of 2023--2025}
+      \field{title}{Annual Report 2025}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://microsoft.gcs-web.com/static-files/bfd62317-8c4e-49e7-a8cf-ce8ef907fd14
+      \endverb
+      \verb{url}
+      \verb https://microsoft.gcs-web.com/static-files/bfd62317-8c4e-49e7-a8cf-ce8ef907fd14
+      \endverb
+    \endentry
     \entry{xbox_game_pass}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b9a8b868588ad4bc6b36c29936e26423}{%
@@ -732,6 +872,7 @@
       \strng{authornamehash}{b9a8b868588ad4bc6b36c29936e26423}
       \strng{authorfullhash}{b9a8b868588ad4bc6b36c29936e26423}
       \strng{authorfullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
+      \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -933,6 +1074,181 @@
       \endverb
       \verb{url}
       \verb https://www.ebsco.com/research-starters/sports-and-leisure/nintendo-entertainment-system-nes
+      \endverb
+    \endentry
+    \entry{sony_20f_2015}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52f5d0370e001d641debfc42e2ab2c22}{%
+           family={{Sony Group Corporation}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sony Group Corporation}%
+      }
+      \strng{namehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{bibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorbibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authornamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Gaming segment data, p.~F-89, used for data of 2014--2015}
+      \field{title}{Form 20-F Annual Report FY2014}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2014_20F_PDF.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2014_20F_PDF.pdf
+      \endverb
+    \endentry
+    \entry{sony_20f_2018}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52f5d0370e001d641debfc42e2ab2c22}{%
+           family={{Sony Group Corporation}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sony Group Corporation}%
+      }
+      \strng{namehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{bibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorbibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authornamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Gaming segment data, p.~F-75, used for data of 2016--2018}
+      \field{title}{Form 20-F Annual Report FY2017}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2017w_20F_PDF.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2017w_20F_PDF.pdf
+      \endverb
+    \endentry
+    \entry{sony_20f_2020}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52f5d0370e001d641debfc42e2ab2c22}{%
+           family={{Sony Group Corporation}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sony Group Corporation}%
+      }
+      \strng{namehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{bibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorbibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authornamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 1 July 2026. Gaming segment data, p.~F-86, used for data of 2019--2020}
+      \field{title}{Form 20-F Annual Report FY2019}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2019_20F_PDF.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2019_20F_PDF.pdf
+      \endverb
+    \endentry
+    \entry{sony_20f_2022}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52f5d0370e001d641debfc42e2ab2c22}{%
+           family={{Sony Group Corporation}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sony Group Corporation}%
+      }
+      \strng{namehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{bibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorbibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authornamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Gaming segment data, p.~F-39, used for data of 2021--2022}
+      \field{title}{Form 20-F Annual Report FY2022}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2022_20F_PDF.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2022_20F_PDF.pdf
+      \endverb
+    \endentry
+    \entry{sony_20f_2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52f5d0370e001d641debfc42e2ab2c22}{%
+           family={{Sony Group Corporation}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Sony Group Corporation}%
+      }
+      \strng{namehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{fullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{bibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorbibnamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authornamehash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhash}{52f5d0370e001d641debfc42e2ab2c22}
+      \strng{authorfullhashraw}{52f5d0370e001d641debfc42e2ab2c22}
+      \field{extraname}{5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 7 March 2026. Gaming segment data, p.~F-34, used for data of 2023--2025}
+      \field{title}{Form 20-F Annual Report FY2024}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2024_20F_PDF.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sony.com/en/SonyInfo/IR/library/FY2024_20F_PDF.pdf
       \endverb
     \endentry
     \entry{playstation_plus}{online}{}{}

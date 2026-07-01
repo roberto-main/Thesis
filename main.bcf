@@ -2382,16 +2382,17 @@
     <bcf:citekey order="9" intorder="1">esa2024</bcf:citekey>
     <bcf:citekey order="9" intorder="2">nvidia_raytracing</bcf:citekey>
     <bcf:citekey order="9" intorder="3">intel_gpu</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">redbull_ai_gaming</bcf:citekey>
-    <bcf:citekey order="10" intorder="2">xbox_cloud_gaming</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">xbox_cloud_gaming</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">redbull_ai_gaming</bcf:citekey>
     <bcf:citekey order="11" intorder="1">esa2024</bcf:citekey>
     <bcf:citekey order="12" intorder="1">freemium_game_models</bcf:citekey>
     <bcf:citekey order="13" intorder="1">xbox_game_pass</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">playstation_plus</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">LootBox_Model</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">playstation_plus</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">LootBox_Model</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">streaming_game_popularity</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">impact_game_streaming_industry</bcf:citekey>
     <bcf:citekey order="16" intorder="1">streaming_game_popularity</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">impact_game_streaming_industry</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">streaming_game_popularity</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">esa2024</bcf:citekey>
     <bcf:citekey order="18" intorder="1">esa2024</bcf:citekey>
     <bcf:citekey order="19" intorder="1">esa2024</bcf:citekey>
     <bcf:citekey order="20" intorder="1">esa2024</bcf:citekey>
@@ -2399,37 +2400,45 @@
     <bcf:citekey order="22" intorder="1">esa2024</bcf:citekey>
     <bcf:citekey order="23" intorder="1">esa2024</bcf:citekey>
     <bcf:citekey order="24" intorder="1">esa2024</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">esa2024</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">chang2021videogame_pandemic</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">steamdb</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">steam_about</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">chang2021videogame_pandemic</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">steamdb</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">steam_about</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">chang2021videogame_pandemic</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">steamdb</bcf:citekey>
     <bcf:citekey order="29" intorder="1">chang2021videogame_pandemic</bcf:citekey>
     <bcf:citekey order="29" intorder="2">steamdb</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">chang2021videogame_pandemic</bcf:citekey>
-    <bcf:citekey order="30" intorder="2">steamdb</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">gaming_disorder_covid</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">who_gaming_disorder</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">gaming_disorder_covid</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">heavy_gaming&amp;depression</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">gaming_at_night</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">gaming_disorder_covid</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">stargazer</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">Gini</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">ihme_depression_vizhub</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">investopedia_gni</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">worldbank_gni_per_capita</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">worldbank_internet_users</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">statista_internet_users_india</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">worldbank_population_total</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">factset_equity_data</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">hale2026oxcgrt</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">worldbank_unemployment_ilo</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">worldbank_digital_dividend</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">nigeria_devaluation_crisis</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">gaming_disorder_covid</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">who_gaming_disorder</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">gaming_disorder_covid</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">heavy_gaming&amp;depression</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">gaming_at_night</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">gaming_disorder_covid</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">stargazer</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Gini</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">ihme_depression_vizhub</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">investopedia_gni</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">worldbank_gni_per_capita</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">worldbank_internet_users</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">statista_internet_users_india</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">worldbank_population_total</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">factset_equity_data</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">hale2026oxcgrt</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">worldbank_unemployment_ilo</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">worldbank_digital_dividend</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">nigeria_devaluation_crisis</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">statista_console_sales_covid</bcf:citekey>
     <bcf:citekey order="50" intorder="1">statista_console_sales_covid</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">statista_console_sales_covid</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">hosch2026gamma</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">gaming_disorder_covid</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">hosch2026gamma</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">gaming_disorder_covid</bcf:citekey>
+    <bcf:citekey order="53" intorder="1" nocite="1">sony_20f_2015</bcf:citekey>
+    <bcf:citekey order="54" intorder="2" nocite="1">sony_20f_2018</bcf:citekey>
+    <bcf:citekey order="55" intorder="3" nocite="1">sony_20f_2020</bcf:citekey>
+    <bcf:citekey order="56" intorder="4" nocite="1">sony_20f_2022</bcf:citekey>
+    <bcf:citekey order="57" intorder="5" nocite="1">sony_20f_2025</bcf:citekey>
+    <bcf:citekey order="58" intorder="6" nocite="1">microsoft_ar2016</bcf:citekey>
+    <bcf:citekey order="59" intorder="7" nocite="1">microsoft_ar2019</bcf:citekey>
+    <bcf:citekey order="60" intorder="8" nocite="1">microsoft_ar2022</bcf:citekey>
+    <bcf:citekey order="61" intorder="9" nocite="1">microsoft_ar2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -51,6 +51,6 @@
 \contentsline {subsection}{\numberline {3.2.2}Graphical analysis of smooth effects}{31}{subsection.3.2.2}%
 \contentsline {chapter}{Conclusion}{34}{chapter*.25}%
 \contentsline {chapter}{Bibliography}{36}{section*.26}%
-\contentsline {chapter}{\numberline {A}Countries' Table}{40}{chapter.A}%
-\contentsline {chapter}{\numberline {B}Supplementary Material}{42}{chapter.B}%
-\contentsline {chapter}{\numberline {C}Model Implementation in R}{45}{chapter.C}%
+\contentsline {chapter}{\numberline {A}Countries' Table}{41}{chapter.A}%
+\contentsline {chapter}{\numberline {B}Supplementary Material}{43}{chapter.B}%
+\contentsline {chapter}{\numberline {C}Model Implementation in R}{46}{chapter.C}%

@@ -35,7 +35,7 @@ Table layout adapted from \cite{stargazer}.
     \small{This correlation chart provides an overview of the relationships between 
     all variables included in the analysis (with the only exception of the Gini Index, which was
     excluded due to data incompleteness), colored by region.\\
-    It is evident that the country-varying variables (GNI per Capita, Internet Users, Unemployment) display clearly distinct distributions across regions, indicating that regional/country identity is largely encoded in these variables. This supports the decision to exclude an additional country-level random intercept, which would have introduced identifiability issues due to collinearity with the existing variables.\\
+    It is evident that the country-varying variables (GNI per Capita, Internet Users, Unemployment) display clearly distinct distributions across regions, indicating that regional/country identity is largely encoded in these variables. This has led to the decision to exclude an additional country-level random intercept in our statistical model, which would have introduced identifiability issues due to collinearity with the existing variables.\\
     A detailed histogram number of observations per region is provided in the Appendix B (Figure \ref{fig:Correlation_Chart_Regions}) for clarity.}}
     \label{fig:Correlation_Chart}
 \end{figure}
@@ -65,8 +65,7 @@ exhibit higher video game sales \citep{worldbank_internet_users} (there were 2 m
 \textbf{Population} (expressed in millions) was included as an auxiliary 
 variable, used to normalize total sales figures and obtain a per capita 
 measure that allows for more meaningful cross-country comparisons \citep{worldbank_population_total}.\\
-\textbf{Sales} (expressed in millions) constitute the response variable 
-of this study and represent the total video game sales recorded in each 
+\textbf{Sales} (expressed in millions) and represent the total video game sales recorded in each 
 country for each year considered \citep{factset_equity_data}.\\
 \textbf{Sales Variations} measure the relative change in sales between 
 two consecutive periods, computed as:
@@ -74,7 +73,7 @@ two consecutive periods, computed as:
 \Delta S_t = \frac{S_t - S_{t-1}}{S_{t-1}}
 \]
 where $S_t$ denotes total sales at time $t$.\\
-\textbf{Log Sales in Millions} were transformed by extracting the 
+\textbf{Log Sales in Millions} constitute the response variable of this study. They were transformed by extracting the 
 natural logarithm of Sales in Millions, in order to guarantee a 
 better distribution for the model.\\
 \textbf{Sales per Capita} were derived by dividing total sales by the 
@@ -155,7 +154,7 @@ The columns of values of datasets pertaining to the I class could simply be copi
 \textbf{How were financial data retrieved?}\\
 Financial data collection represented the most complex part of the dataset construction, as it required defining the structure of the firms' portfolio, estimating revenues, and allocating them across countries based on the average percentage distribution of sales within the entire portfolio.\\
 A key challenge involved the retrieval of comparable and consistent financial data. In particular, data for Microsoft and Sony were not directly obtainable from FactSet in a disaggregated form suitable for the analysis. These firms report revenues across multiple business segments beyond gaming; therefore, isolating only the gaming-related portion over a ten-year period was not feasible using standard screening tools.\\
-To address this limitation, information from the official Form 10-K filings of both Microsoft and Sony for the entire period under analysis has been extracted. For Microsoft, the “Xbox” segment was selected, while for Sony the “Game \& Network Services” division was considered. This approach allowed for a more precise identification of gaming-specific revenues.\\
+To address this limitation, information from the official Form 10-K filing of Microsoft and the Form 20-F filing of Sony for the entire period under analysis has been extracted. For Microsoft, the “Xbox” segment was selected, while for Sony the “Game \& Network Services” division was considered. This approach allowed for a more precise identification of gaming-specific revenues.\\
 For Sony, revenues reported in Japanese Yen were converted into US dollars using annual exchange rates. To ensure consistency and comparability, exchange rates aligned with those applied in FactSet were adopted.\\
 For the remaining firms, data were obtained through a combination of FactSet’s “Universal Screening” tool and additional firm-level verification. The screening process applied a 90\% threshold for gaming-related revenues, ensuring that only companies with a dominant exposure to the gaming industry were included.\\
 Finally, firms that either did not meet the required level of industry focus or only recently shifted toward gaming-related activities were excluded. This step was supported by additional qualitative verification of company profiles to ensure consistency in classification over time.\\
