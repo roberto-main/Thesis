@@ -24,7 +24,7 @@
 \contentsline {subsubsection}{GNI per capita}{17}{figure.caption.12}%
 \contentsline {subsubsection}{Internet Users}{17}{figure.caption.12}%
 \contentsline {subsubsection}{Log Sales In Millions}{17}{figure.caption.12}%
-\contentsline {subsubsection}{Sales per Capita}{17}{figure.caption.12}%
+\contentsline {subsubsection}{Sales per Capita}{18}{figure.caption.12}%
 \contentsline {subsubsection}{Unemployment}{18}{figure.caption.12}%
 \contentsline {subsection}{\numberline {2.3.2}Unemployment and Log Sales}{18}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Internet Penetration and Log Sales}{19}{subsection.2.3.3}%

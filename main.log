@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  30 JUN 2026 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.13)  1 JUL 2026 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1466,13 +1466,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3] (main.lof)
+[3] (main.lof [4
+
+])
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [4
 
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1503,7 +1503,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
 
  []
 
-<img/Tennis_For_Two.jpg, id=287, 271.0125pt x 187.70125pt>
+<img/Tennis_For_Two.jpg, id=292, 271.0125pt x 187.70125pt>
 File: img/Tennis_For_Two.jpg Graphic file (type jpg)
 <use img/Tennis_For_Two.jpg>
 Package pdftex.def Info: img/Tennis_For_Two.jpg  used on input line 16.
@@ -1557,7 +1557,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-<img/Why_People_Play_Videogames.png, id=326, 627.09282pt x 420.82219pt>
+<img/Why_People_Play_Videogames.png, id=331, 627.09282pt x 420.82219pt>
 File: img/Why_People_Play_Videogames.png Graphic file (type png)
 <use img/Why_People_Play_Videogames.png>
 Package pdftex.def Info: img/Why_People_Play_Videogames.png  used on input line
@@ -1572,7 +1572,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-<img/ESA_Gamers_Age.png, id=338, 560.0925pt x 390.70969pt>
+<img/ESA_Gamers_Age.png, id=343, 560.0925pt x 390.70969pt>
 File: img/ESA_Gamers_Age.png Graphic file (type png)
 <use img/ESA_Gamers_Age.png>
 Package pdftex.def Info: img/ESA_Gamers_Age.png  used on input line 77.
@@ -1590,7 +1590,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5 <./img/Why_People_Play_Videogames.png> <./img/ESA_Gamers_Age.png>]
-<img/Grafico_ESA_MF.jpg, id=349, 461.725pt x 574.145pt>
+<img/Grafico_ESA_MF.jpg, id=354, 461.725pt x 574.145pt>
 File: img/Grafico_ESA_MF.jpg Graphic file (type jpg)
 <use img/Grafico_ESA_MF.jpg>
 Package pdftex.def Info: img/Grafico_ESA_MF.jpg  used on input line 88.
@@ -1628,7 +1628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
-<img/COVID_Steam_Players_Increase.png, id=360, 813.0375pt x 442.65375pt>
+<img/COVID_Steam_Players_Increase.png, id=365, 813.0375pt x 442.65375pt>
 File: img/COVID_Steam_Players_Increase.png Graphic file (type png)
 <use img/COVID_Steam_Players_Increase.png>
 Package pdftex.def Info: img/COVID_Steam_Players_Increase.png  used on input li
@@ -1664,7 +1664,7 @@ Overfull \hbox (39.1013pt too wide) in paragraph at lines 8--26
  [][] 
  []
 
-<img/Colored_Correlation_Chart_Detailed_Graph2.png, id=391, 1156.32pt x 722.7pt
+<img/Colored_Correlation_Chart_Detailed_Graph2.png, id=396, 1156.32pt x 722.7pt
 >
 File: img/Colored_Correlation_Chart_Detailed_Graph2.png Graphic file (type png)
 
@@ -1682,7 +1682,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \subsubsection
+l.44 \subsubsection
                    {The Variables Used}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1697,7 +1697,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11 <./img/Colored_Correlation_Chart_Detailed_Graph2.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1707,28 +1707,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 112--134
+Underfull \hbox (badness 10000) in paragraph at lines 113--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--134
+Underfull \hbox (badness 10000) in paragraph at lines 113--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--134
+Underfull \hbox (badness 10000) in paragraph at lines 113--135
 
  []
 
 
-Overfull \hbox (0.2897pt too wide) in paragraph at lines 112--134
+Overfull \hbox (0.2897pt too wide) in paragraph at lines 113--135
 \T1/ptm/m/n/10.95 the World Bank database, but con-tained ob-ser-va-tions for a
  very large num-ber of years/countries,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--134
+Underfull \hbox (badness 10000) in paragraph at lines 113--135
 
  []
 
@@ -1740,12 +1740,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 145--169
+Underfull \hbox (badness 10000) in paragraph at lines 146--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--169
+Underfull \hbox (badness 10000) in paragraph at lines 146--170
 
  []
 
@@ -1757,13 +1757,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-<img/Aggregated_Graphs_Graph2.png, id=439, 578.16pt x 578.16pt>
-File: img/Aggregated_Graphs_Graph2.png Graphic file (type png)
-<use img/Aggregated_Graphs_Graph2.png>
-Package pdftex.def Info: img/Aggregated_Graphs_Graph2.png  used on input line 1
-77.
-(pdftex.def)             Requested size: 412.56497pt x 412.56082pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1772,6 +1765,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
+<img/Aggregated_Graphs_Graph2.png, id=448, 578.16pt x 578.16pt>
+File: img/Aggregated_Graphs_Graph2.png Graphic file (type png)
+<use img/Aggregated_Graphs_Graph2.png>
+Package pdftex.def Info: img/Aggregated_Graphs_Graph2.png  used on input line 1
+78.
+(pdftex.def)             Requested size: 412.56497pt x 412.56082pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1788,15 +1788,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 206--209
+Underfull \hbox (badness 10000) in paragraph at lines 207--210
 
  []
 
-<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=453, 505.89pt x 289.08pt>
+<img/LOG_Colored_Unemployement_&_Sales_Graph.png, id=458, 505.89pt x 289.08pt>
 File: img/LOG_Colored_Unemployement_&_Sales_Graph.png Graphic file (type png)
 <use img/LOG_Colored_Unemployement_&_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Unemployement_&_Sales_Graph.png  used 
-on input line 214.
+on input line 215.
 (pdftex.def)             Requested size: 412.56497pt x 235.7547pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1806,21 +1806,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [18 <./img/LOG_Colored_Unemployement_&_Sales_Graph.png>]
-<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=458, 722
+<img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png, id=463, 722
 .7pt x 433.62pt>
 File: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png Graphic
  file (type png)
 <use img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Internet_Penetration_&_VideoGames_Sale
-s_Graph.png  used on input line 229.
+s_Graph.png  used on input line 230.
 (pdftex.def)             Requested size: 412.56497pt x 247.53648pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
+Underfull \hbox (badness 10000) in paragraph at lines 235--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
+Underfull \hbox (badness 10000) in paragraph at lines 235--241
 
  []
 
@@ -1832,13 +1832,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19 <./img/LOG_Colored_Internet_Penetration_&_VideoGames_Sales_Graph.png>]
-<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=464, 722.7
+<img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png, id=469, 722.7
 pt x 433.62pt>
 File: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png Graphic f
 ile (type png)
 <use img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>
 Package pdftex.def Info: img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_
-Graph.png  used on input line 245.
+Graph.png  used on input line 246.
 (pdftex.def)             Requested size: 412.56497pt x 247.53648pt.
 
 
@@ -1849,10 +1849,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [20 <./img/LOG_Colored_Covid_Restrictions_&_VideoGames_Sales_Graph.png>]
-<img/Cumulative_Sales_Graph.png, id=470, 578.16pt x 578.16pt>
+<img/Cumulative_Sales_Graph.png, id=475, 578.16pt x 578.16pt>
 File: img/Cumulative_Sales_Graph.png Graphic file (type png)
 <use img/Cumulative_Sales_Graph.png>
-Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 263
+Package pdftex.def Info: img/Cumulative_Sales_Graph.png  used on input line 264
 .
 (pdftex.def)             Requested size: 412.56497pt x 412.56082pt.
 
@@ -1864,11 +1864,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [21 <./img/Cumulative_Sales_Graph.png>]
-<img/Global_Sales_2014-2024_Graph.png, id=477, 421.575pt x 258.9675pt>
+<img/Global_Sales_2014-2024_Graph.png, id=482, 421.575pt x 258.9675pt>
 File: img/Global_Sales_2014-2024_Graph.png Graphic file (type png)
 <use img/Global_Sales_2014-2024_Graph.png>
 Package pdftex.def Info: img/Global_Sales_2014-2024_Graph.png  used on input li
-ne 277.
+ne 278.
 (pdftex.def)             Requested size: 412.56497pt x 253.43866pt.
 
 
@@ -1879,15 +1879,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22 <./img/Global_Sales_2014-2024_Graph.png>]
-Overfull \hbox (1.3626pt too wide) in paragraph at lines 286--295
+Overfull \hbox (1.3626pt too wide) in paragraph at lines 287--296
 \T1/ptm/m/n/10.95 To in-ves-ti-gate this fur-ther, the fol-low-ing graph was re
 -con-structed from data pro-vided by Statista,
  []
 
-<img/Statista_SHC_Histogram.png, id=488, 722.7pt x 433.62pt>
+<img/Statista_SHC_Histogram.png, id=493, 722.7pt x 433.62pt>
 File: img/Statista_SHC_Histogram.png Graphic file (type png)
 <use img/Statista_SHC_Histogram.png>
-Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 298
+Package pdftex.def Info: img/Statista_SHC_Histogram.png  used on input line 299
 .
 (pdftex.def)             Requested size: 412.56497pt x 247.53648pt.
 
@@ -1928,7 +1928,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [26]
-<img/Log_Model_Colored_Graph.png, id=517, 1011.78pt x 722.7pt>
+<img/Log_Model_Colored_Graph.png, id=522, 1011.78pt x 722.7pt>
 File: img/Log_Model_Colored_Graph.png Graphic file (type png)
 <use img/Log_Model_Colored_Graph.png>
 Package pdftex.def Info: img/Log_Model_Colored_Graph.png  used on input line 15
@@ -1955,7 +1955,7 @@ Overfull \hbox (6.90498pt too wide) in paragraph at lines 190--214
  [][] 
  []
 
-<img/Random_Effect_Map.png, id=532, 505.89pt x 289.08pt>
+<img/Random_Effect_Map.png, id=537, 505.89pt x 289.08pt>
 File: img/Random_Effect_Map.png Graphic file (type png)
 <use img/Random_Effect_Map.png>
 Package pdftex.def Info: img/Random_Effect_Map.png  used on input line 247.
@@ -1968,7 +1968,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [29]
-<img/s_Unemployment.png, id=538, 867.24pt x 578.16pt>
+<img/s_Unemployment.png, id=543, 867.24pt x 578.16pt>
 File: img/s_Unemployment.png Graphic file (type png)
 <use img/s_Unemployment.png>
 Package pdftex.def Info: img/s_Unemployment.png  used on input line 262.
@@ -1982,7 +1982,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [30 <./img/Random_Effect_Map.png>]
-<img/s_Internet_Users.png, id=544, 867.24pt x 578.16pt>
+<img/s_Internet_Users.png, id=549, 867.24pt x 578.16pt>
 File: img/s_Internet_Users.png Graphic file (type png)
 <use img/s_Internet_Users.png>
 Package pdftex.def Info: img/s_Internet_Users.png  used on input line 282.
@@ -1996,7 +1996,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [31 <./img/s_Unemployment.png>]
-<img/3D_Plot.png, id=549, 1541.76pt x 795.97375pt>
+<img/3D_Plot.png, id=554, 1541.76pt x 795.97375pt>
 File: img/3D_Plot.png Graphic file (type png)
 <use img/3D_Plot.png>
 Package pdftex.def Info: img/3D_Plot.png  used on input line 304.
@@ -2092,13 +2092,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41]
 Appendix B.
-<img/Colored_Correlation_Chart_Regions.png, id=681, 1156.32pt x 722.7pt>
+<img/Colored_Correlation_Chart_Regions.png, id=686, 1156.32pt x 722.7pt>
 File: img/Colored_Correlation_Chart_Regions.png Graphic file (type png)
 <use img/Colored_Correlation_Chart_Regions.png>
 Package pdftex.def Info: img/Colored_Correlation_Chart_Regions.png  used on inp
 ut line 4.
 (pdftex.def)             Requested size: 412.56497pt x 257.84499pt.
-<img/Nigeria_GNI_Drop.png, id=684, 578.16pt x 578.16pt>
+<img/Nigeria_GNI_Drop.png, id=689, 578.16pt x 578.16pt>
 File: img/Nigeria_GNI_Drop.png Graphic file (type png)
 <use img/Nigeria_GNI_Drop.png>
 Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 11.
@@ -2106,7 +2106,7 @@ Package pdftex.def Info: img/Nigeria_GNI_Drop.png  used on input line 11.
 [42
 
  <./img/Colored_Correlation_Chart_Regions.png>]
-<img/Non_Log_Model_Colored_Graph.png, id=689, 1011.78pt x 722.7pt>
+<img/Non_Log_Model_Colored_Graph.png, id=694, 1011.78pt x 722.7pt>
 File: img/Non_Log_Model_Colored_Graph.png Graphic file (type png)
 <use img/Non_Log_Model_Colored_Graph.png>
 Package pdftex.def Info: img/Non_Log_Model_Colored_Graph.png  used on input lin
@@ -2133,12 +2133,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AD24F2B49524C150EFBEC8F67197A2F1;5846.
+
 
 Package biblatex Warning: Please rerun LaTeX.
 (biblatex)                Page breaks have changed.
@@ -2149,12 +2146,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  47512 strings out of 467509
- 1107103 string characters out of 5408780
- 2078462 words of memory out of 5000000
+ 1107078 string characters out of 5408780
+ 2079883 words of memory out of 5000000
  75884 multiletter control sequences out of 15000+600000
  698231 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,118p,1199b,2816s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,118p,1199b,2818s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
 1200.pk><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmmi10.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -2165,9 +2162,9 @@ fonts/type1/urw/symbol/usyr.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/times/utmb8a.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/times/utmr8a.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (52 pages, 9979719 bytes).
+Output written on main.pdf (52 pages, 9981414 bytes).
 PDF statistics:
- 836 PDF objects out of 1000 (max. 8388607)
+ 841 PDF objects out of 1000 (max. 8388607)
  157 named destinations out of 1000 (max. 500000)
  387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
