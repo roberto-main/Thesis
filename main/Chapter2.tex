@@ -1,9 +1,8 @@
 \chapter{Model}
 \paragraph{What Model Was Used}
-The model used for this research was a Generalized Additive Mixed Model (GAMM).
-To explain what a GAMM is, we first have to introduce some lower-level models.\\
-\section{From LM to GLM to GAM to GAMM}
-\textbf{LM}
+The model used for this research was a Generalized Additive Model (GAM) with random intercepts.
+To explain what a GAM with random intercepts is, we first have to introduce some lower-level models.\\
+\section{From LM to GLM to GAM to GAM + re}
 Linear regression is a method used to describe how the average 
 value of a numerical outcome changes according to a linear 
 combination of predictors.
@@ -91,39 +90,33 @@ f_p(x_{ip}) +
 
 where $f_j(\cdot)$ are smooth functions estimated from the data.
 
-\subsection{From GAM to GAMM}
-Although GAMs allow for flexible functional forms, they still 
-assume that observations are independent. However, in our case 
-(where observations are grouped by region/continent) this assumption is violated.\\
-To account for this dependence structure, Generalized Additive 
-Mixed Models (GAMMs) further extend GAMs by incorporating random
-effects into the model. This allows the model to capture both 
-non-linear relationships through smooth functions and correlation
-structures through random effects, making GAMMs particularly 
-suitable for hierarchical data.
+\subsection{From GAM to GAM + re}
+Although GAMs allow for flexible functional forms, standard models assume that 
+all observations are independent. In our case, however, the data points are 
+grouped by continent. Observations belonging to the same continent might share unobserved characteristics 
+not captured by the other predictors, which could violate this assumption of 
+independence.\\
+To account for this shared structure, we included a random intercept for the 
+continent variable directly within the GAM framework. In R, this is implemented 
+using a random effect smooth basis (\texttt{bs = "re"}). This approach allows 
+the model to estimate and control for baseline differences across continents, 
+adjusting for the fact that data within the same continent may be correlated, 
+while still accurately capturing the non-linear relationships of the other 
+variables.
 
-\subsubsection{Generalized Additive Mixed Model (GAMM)}
-
+\subsubsection{Generalized Additive Model with Random Intercepts (GAM + re)}
 \begin{equation}
-g(\mu_i)=
-\beta_0+
-\sum_{j=1}^{p}f_j(x_{ij})+
-\mathbf{Z}_i\mathbf{b} +
-\varepsilon_i,
+g(\mu_i) = \beta_0 + \sum_{j=1}^{p}f_j(x_{ij}) + \mathbf{Z}_i\mathbf{b} + \varepsilon_i
 \end{equation}
-
-where
-
-\begin{equation}
-\mathbf{b}\sim N(\mathbf{0},\mathbf{D})
-\end{equation}
-
-represents the random effects, and:
+where:
 \begin{itemize}
-    \item $\mathbf{b}$ is the vector of random effects;
-    \item $\mathbf{Z}_i$ is the design matrix associated with the random effects;
-    \item $\mathbf{b}\sim N(\mathbf{0},\mathbf{D})$.
+    \item $\mathbf{Z}_i$ is the design matrix row associated with the random effects;
+    \item $\mathbf{b}$ is the vector of random effects, assumed to be normally distributed as $\mathbf{b} \sim N(\mathbf{0}, \mathbf{D})$.
 \end{itemize}
+In our specific formulation, $\mathbf{b}$ reduces to a single random intercept per 
+continent, and the covariance matrix $\mathbf{D}$ simplifies to a single scalar 
+variance component $\sigma^2_{\text{continent}}$, since no random slopes or nested 
+grouping structures are included in the model.
 
 \subsection{Model Specification for This Study}
 Initial models using a Gaussian family on the original scale 
@@ -142,16 +135,6 @@ Y_i^* = \log(Y_i) \sim N(\mu_i, \sigma^2)
 
 where $Y_i$ represents video game sales in millions and $Y_i^*$ 
 is the log-transformed response used in the final model.
-
-Below are the graphs of residuals of the chosen model, so after the log transformation.\\
-Residual plots for the model prior to the log transformation are provided in the Appendix B (Figure \ref{fig:Non_Log_Model}).
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{img/Log_Model_Colored_Graph.png}
-    \caption{Diagnostic Residual Plots for the Log Model}
-    \label{fig:Log_Model}
-\end{figure}
 
 \subparagraph{Formula of the Chosen Model}
 \begin{equation}
@@ -181,11 +164,21 @@ where:
     $\varepsilon_i \sim N(0,\sigma^2)$.
 \end{itemize}
 
+Below (Figure \ref{fig:Log_Model}) are the graphs of residuals of the chosen model, so after the log transformation.\\
+Residual plots for the model prior to the log transformation are provided in the Appendix B (Figure \ref{fig:Non_Log_Model}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/Log_Model_Colored_Graph.png}
+    \caption{Diagnostic Residual Plots for the Log Model}
+    \label{fig:Log_Model}
+\end{figure}
+
 \section{Model Results}
 \subsubsection{}
 \begin{table}[H]
 \centering
-\caption{GAMM Estimation Results}
+\caption{GAM + re Estimation Results}
 \begin{tabular}{|l|c|c|c|c|}
 \hline
 \textbf{Variable} & \textbf{Estimate / edf} & \textbf{Std. Error / Ref.df} & \textbf{Statistic} & \textbf{p-value} \\
@@ -193,7 +186,7 @@ where:
 \multicolumn{5}{|l|}{\textit{Parametric terms}} \\
 \hline
 Intercept & 6.860 & 0.417 & 16.469 & $<0.001^{***}$ \\
-$(GNI_i)$ & $-1.072 \times 10^{-5}$ & $4.287 \times 10^{-6}$ & $-2.502$ & $0.013^{*}$ \\
+$GNI_i$ & $-1.072 \times 10^{-5}$ & $4.287 \times 10^{-6}$ & $-2.502$ & $0.013^{*}$ \\
 \hline\hline
 \multicolumn{5}{|l|}{\textit{Smooth terms}} \\
 \hline
@@ -212,77 +205,31 @@ $n$ & \multicolumn{4}{l|}{293} \\
 \end{tabular}
 \\[0.5em]
 \small Significance codes: $^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$
-The complete R model specification is provided in Appendix C (Model \ref{lst:gamm}).
-\end{table}
-
-\subsection{Coefficient interpretation}
+The complete R model specification is provided in Appendix C (Model \ref{lst:gam}).\\
 Note: as it is possible to see, all the model's variables are
 statistically significant. This is due to the fact that
 non significant variables (e.g. Stringency Index), have been
-removed in order to guarantee a parsimonious and efficient model.\\
+removed in order to guarantee a parsimonious and efficient model.
+\end{table}
+
 The intercept is equal to 6.860, number that represents the 
 baseline log sales value when all the other variables are equal
 to 0.\\
 GNI per Capita shows a linear and statistically significant negative effect 
 on sales with an estimate of $-1.072 \times 10^{-5}$, 
 suggesting that, all else being equal, higher national income 
-is associated with slightly lower video game sales.\\
-Regarding the smooth terms, Internet Users exhibit a non-linear 
-effect with an effective degrees of freedom (edf) value of 3.232 
-suggesting a moderately flexible relationship (values of edf 
-greater than 1 indicate nonlinear effects, with higher values 
-reflecting greater functional flexibility).\\
-Similarly, Unemployment displays a similar pattern, with an edf of 2.346
-indicating a moderately flexible non-linear trend.\\
-The tensor product between Year and Depression Rates shows --
-with an edf of 6.522 -- a strongly non linear and complex effect
-of depression rates over sales, that is not constant over the years.\\
-To conclude, to better illustrate the regional heterogeneity captured 
-by the Continent term, the map below visualizes the 
-estimated random effects across countries, offering a clearer 
-geographical reading of the variability that the model attributes 
-to location.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{img/Random_Effect_Map.png}
-    \caption{Random Effect Global Map}
-    \label{fig:Random_Effect_Map}
-\end{figure}
-The map visualizes the random effects estimated by the s(Continent, bs="re") term, capturing the residual variability in video game sales attributable to geographic location after accounting for all other covariates in the model. Countries shown in red exhibit systematically higher sales than what the other variables alone would predict, while countries in blue show the opposite pattern, and grey countries are absent from the dataset.
-The most positive random effects are concentrated in North America and East Asia, which represent the world's historically dominant video game markets. Western Europe displays moderate positive effects, while Russia and Northern Europe show slight negative deviations.
-The high edf of 9.730 for this term, approaching the maximum of 10, confirms the substantial regional heterogeneity captured by the model, with geography playing a meaningful role beyond what the continuous predictors can explain.
-In general, the results indicate a strong overall fit, with an adjusted 
-R-squared of 0.717 and a deviance explained of 73.9\%, 
-suggesting that the model captures a substantial portion of the 
-variability in sales.
-
-\subsection{Graphical analysis of smooth effects}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{img/s_Unemployment.png}
-    \caption{Estimated partial effect of Unemployment Rates on log(Sales)}
-    \label{fig:s_Unemployment}
-\end{figure}
-Unemployment's effect on our response variable (log(Sales)) 
-starts from positive values when unemployment is near 0 and goes 
-decreasing as unemployment increases.\\
-It is important to notice 
-that, as the vast majority of the observations are concentrated 
-in a small range (0–0.1), this interval is the one with more 
-statistical evidence of the effect (having a narrower confidence 
-interval), while there are too few observations of unemployment 
-values higher than 0.1, leading us to be more skeptical about 
-the spline in that part.\\
-Note that these represent partial 
-effects, meaning all other variables in the model are held 
-constant. 
-
+is associated with slightly lower video game sales.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{img/s_Internet_Users.png}
     \caption{Estimated partial effect of Internet Users on log(Sales)}
     \label{fig:s_Internet_Users}
 \end{figure}
+Internet Users exhibit a non-linear 
+effect with an effective degrees of freedom (edf) value of 3.232 
+suggesting a moderately flexible relationship (values of edf 
+greater than 1 indicate nonlinear effects, with higher values 
+reflecting greater functional flexibility).\\
 While here the observations are more spread, the confidence 
 interval is narrowest in the 0.75–1 range, where the rug plot 
 confirms the highest concentration of observations, while it 
@@ -297,23 +244,57 @@ in highly digitalized countries internet access extends across
 all age groups, including older demographics that may on average 
 be less inclined to spend money on video games, though caution 
 is needed in drawing causal conclusions from an observational 
-model. 
-
+model.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/s_Unemployment.png}
+    \caption{Estimated partial effect of Unemployment Rates on log(Sales)}
+    \label{fig:s_Unemployment}
+\end{figure}
+Similarly, Unemployment displays a similar pattern, with an edf of 2.346
+indicating a moderately flexible non-linear trend.\\
+Unemployment's effect on our response variable (log(Sales)) 
+starts from positive values when unemployment is near 0 and goes 
+decreasing as unemployment increases.\\
+It is important to notice 
+that, as the vast majority of the observations are concentrated 
+in a small range (0–0.1), this interval is the one with more 
+statistical evidence of the effect (having a narrower confidence 
+interval), while there are too few observations of unemployment 
+values higher than 0.1, leading us to be more skeptical about 
+the spline in that part.\\
+Note that these represent partial 
+effects, meaning all other variables in the model are held 
+constant.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{img/3D_Plot.png}
     \caption{3D visualization of the partial effect of $f_2(Year_i,DR_i)$ on log(Sales)}
     \label{fig:3D_Plot}
 \end{figure}
-
+The tensor product between Year and Depression Rates shows --
+with an edf of 6.522 -- a strongly non linear and complex effect
+of depression rates over sales, that is not constant over the years.\\
 Overall, across all years, low depression rates are associated with lower sales, while higher 
-depression rates tend to be associated with higher sales — though remember this refers to the 
+depression rates tend to be associated with higher sales; even if it is important to remember that this refers to the 
 partial effect, meaning all other variables in the model are held constant.\\
 However, in the 2019–2022 period we can notice how depression rates start to have a stronger 
-influence on the response variable, which could reflect a real-world effect tied to Covid — 
-rising depression rates coinciding with a boom in certain sales categories such as e-commerce 
-or pharmaceuticals, depending on the nature of the dataset.\\
+influence on the response variable, which could reflect a real-world effect tied to Covid:
+rising depression rates coinciding with a boom in video games sales.
 As for the spike around 2015-2016 at high depression rates, this is likely due to the scarcity 
 of observations in that region of the data: where data points are few, the spline tends to 
-behave erratically, producing estimates that are less reliable.\\
-This period should therefore be interpreted with caution.
+behave erratically, producing estimates that are less reliable. This period should therefore be interpreted with caution.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{img/Random_Effect_Map.png}
+    \caption{Random Effect Global Map}
+    \label{fig:Random_Effect_Map}
+\end{figure}
+To conclude, to better illustrate the regional heterogeneity captured 
+by the Continent term, the map visualizes the random effects estimated by the s(Continent, bs="re") term, capturing the residual variability in video game sales attributable to geographic location after accounting for all other covariates in the model. Countries shown in red exhibit systematically higher sales than what the other variables alone would predict, while countries in blue show the opposite pattern, and grey countries are absent from the dataset.
+The most positive random effects are concentrated in North America and East Asia, which represent the world's historically dominant video game markets. Western Europe displays moderate positive effects, while Russia and Northern Europe show slight negative deviations.
+The high edf of 9.730 for this term, approaching the maximum of 10, confirms the substantial regional heterogeneity captured by the model, with geography playing a meaningful role beyond what the continuous predictors can explain.
+In general, the results indicate a strong overall fit, with an adjusted 
+R-squared of 0.717 and a deviance explained of 73.9\%, 
+suggesting that the model captures a substantial portion of the 
+variability in sales.

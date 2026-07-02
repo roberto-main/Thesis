@@ -1,6 +1,6 @@
 \chapter{Model Implementation in R}
-\begin{lstlisting}[language=R, caption={Model Specification}, label={lst:gamm}]
-final <- gam(
+\begin{lstlisting}[language=R, caption={Model Specification}, label={lst:gam}]
+model <- gam(
   log(Sales_in_Millions) ~
     s(Internet_Users) +
     te(Year, Depression_Rates, k = c(4, 4)) +
