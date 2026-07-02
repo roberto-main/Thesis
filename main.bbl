@@ -237,6 +237,42 @@
       \field{title}{Equity and Financial Data extracted from FactSet}
       \field{year}{2026}
     \endentry
+    \entry{gelman2007book}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fd6540b91678ae8d3f51574305d2455}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{fullhash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{fullhashraw}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{bibnamehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authorbibnamehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authornamehash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authorfullhash}{602df721bcd10fe1eca95cb5554d134b}
+      \strng{authorfullhashraw}{602df721bcd10fe1eca95cb5554d134b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Analytical Methods for Social Research}
+      \field{title}{Data Analysis Using Regression and Multilevel/Hierarchical Models}
+      \field{year}{2007}
+    \endentry
     \entry{hale2026oxcgrt}{dataset}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -446,6 +482,61 @@
       \endverb
       \verb{url}
       \verb https://www.investopedia.com/terms/g/gross-national-income-gni.asp
+      \endverb
+    \endentry
+    \entry{james2021islr}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=df184c5fa522ac8a515ec4de13aef234}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={Gareth},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ab16961e0de50711fa6bd9425f9b4a6}{%
+           family={Witten},
+           familyi={W\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
+           family={Hastie},
+           familyi={H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88eea600247d798f8b2ce0b2dc614492}{%
+           family={Tibshirani},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f8f737f83d9e451c1afaa13cdc120516}
+      \strng{fullhash}{da61646157a6be769f34984f5cb603b0}
+      \strng{fullhashraw}{da61646157a6be769f34984f5cb603b0}
+      \strng{bibnamehash}{f8f737f83d9e451c1afaa13cdc120516}
+      \strng{authorbibnamehash}{f8f737f83d9e451c1afaa13cdc120516}
+      \strng{authornamehash}{f8f737f83d9e451c1afaa13cdc120516}
+      \strng{authorfullhash}{da61646157a6be769f34984f5cb603b0}
+      \strng{authorfullhashraw}{da61646157a6be769f34984f5cb603b0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{note}{Free online version accessed 15 June 2026}
+      \field{title}{An Introduction to Statistical Learning with Applications in R}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.statlearning.com/
+      \endverb
+      \verb{url}
+      \verb https://www.statlearning.com/
       \endverb
     \endentry
     \entry{npd2009more}{online}{}{}
@@ -1694,6 +1785,61 @@
       \verb{url}
       \verb https://www.who.int/standards/classifications/frequently-asked-questions/gaming-disorder
       \endverb
+    \endentry
+    \entry{zuur2009mixed_effects_models}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d2a719d27c0a18ef91909a067e0980d6}{%
+           family={Zuur},
+           familyi={Z\bibinitperiod},
+           given={Alain\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34021bea86e6b307c4cbceccf61cda06}{%
+           family={Ieno},
+           familyi={I\bibinitperiod},
+           given={Elena\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02fa3fe52891a453255046924791a070}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f6075670a12db3304fe3c20341a8d36}{%
+           family={Saveliev},
+           familyi={S\bibinitperiod},
+           given={Anatoly\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05f59da59dcb3c310ebf33287bd9b487}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Graham\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e5490ed892f428e9d0bc070daff66a1f}
+      \strng{fullhash}{124b3b6ffc4a15efb53b17d65dc59118}
+      \strng{fullhashraw}{124b3b6ffc4a15efb53b17d65dc59118}
+      \strng{bibnamehash}{e5490ed892f428e9d0bc070daff66a1f}
+      \strng{authorbibnamehash}{e5490ed892f428e9d0bc070daff66a1f}
+      \strng{authornamehash}{e5490ed892f428e9d0bc070daff66a1f}
+      \strng{authorfullhash}{124b3b6ffc4a15efb53b17d65dc59118}
+      \strng{authorfullhashraw}{124b3b6ffc4a15efb53b17d65dc59118}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780387874586}
+      \field{series}{Statistics for Biology and Health}
+      \field{title}{Mixed Effects Models and Extensions in Ecology with R}
+      \field{year}{2009}
     \endentry
   \enddatalist
 \endrefsection

@@ -156,8 +156,8 @@ Financial data collection represented the most complex part of the dataset const
 A key challenge involved the retrieval of comparable and consistent financial data. In particular, data for Microsoft and Sony were not directly obtainable from FactSet in a disaggregated form suitable for the analysis. These firms report revenues across multiple business segments beyond gaming; therefore, isolating only the gaming-related portion over a ten-year period was not feasible using standard screening tools.\\
 To address this limitation, information from the official Form 10-K filing of Microsoft and the Form 20-F filing of Sony for the entire period under analysis has been extracted. For Microsoft, the “Xbox” segment was selected, while for Sony the “Game \& Network Services” division was considered. This approach allowed for a more precise identification of gaming-specific revenues.\\
 For Sony, revenues reported in Japanese Yen were converted into US dollars using annual exchange rates. To ensure consistency and comparability, exchange rates aligned with those applied in FactSet were adopted.\\
-For the remaining firms, data were obtained through a combination of FactSet’s “Universal Screening” tool and additional firm-level verification. The screening process applied a 90\% threshold for gaming-related revenues, ensuring that only companies with a dominant exposure to the gaming industry were included.\\
-Finally, firms that either did not meet the required level of industry focus or only recently shifted toward gaming-related activities were excluded. This step was supported by additional qualitative verification of company profiles to ensure consistency in classification over time.\\
+For the remaining firms, data were obtained through a combination of FactSet’s “Universal Screening” tool and additional, manual firm-level verification. The screening process applied a 90\% threshold for gaming-related revenues, ensuring that only companies with a dominant exposure to the gaming industry were included.\\
+Finally, firms that either did not meet the required level of industry focus or only recently shifted toward gaming-related activities were excluded.\\
 From this dataset, individual firms’ net sales from 2014 to 2024 were obtained, which were aggregated to compute total industry revenue by year. To ensure consistency, 
 the same revenue concept — net sales inclusive of digital 
 services and subscriptions — was applied across all firms 
@@ -247,7 +247,7 @@ South Asia (cyan) is also a remarkable outlier here, showing relatively high sal
     \label{fig:COVID-19 Restrictions and Log Sales}
 \end{figure}
 
-The near-zero slope on the regression line aligns with what we'd expect economically. COVID-19 restrictions didn't create purchasing power, they just redirected how people spent their time. Countries that bought more games during lockdowns were already the ones with the infrastructure and income to do so.
+By comparing this graph with Figure \ref{fig:Steam_Players_Increase_COVID1}, a logical interpretation could be that COVID-19 restrictions didn't create purchasing power, they just redirected how people spent their time. Countries that bought more games during lockdowns were already the ones with the infrastructure and income to do so.
 AM - North’s extreme sales values across multiple stringency levels suggest its dominance is structurally driven — market size and wealth — not lockdown intensity.
 AS - East (blue) shows relatively high sales even at high stringency levels ($\sim$0.7–0.8), consistent with Japan/South Korea's already strong gaming culture pre-COVID19.
 

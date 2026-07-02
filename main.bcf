@@ -2428,17 +2428,22 @@
     <bcf:citekey order="48" intorder="1">nigeria_devaluation_crisis</bcf:citekey>
     <bcf:citekey order="49" intorder="1">statista_console_sales_covid</bcf:citekey>
     <bcf:citekey order="50" intorder="1">statista_console_sales_covid</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">hosch2026gamma</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">gaming_disorder_covid</bcf:citekey>
-    <bcf:citekey order="53" intorder="1" nocite="1">sony_20f_2015</bcf:citekey>
-    <bcf:citekey order="54" intorder="2" nocite="1">sony_20f_2018</bcf:citekey>
-    <bcf:citekey order="55" intorder="3" nocite="1">sony_20f_2020</bcf:citekey>
-    <bcf:citekey order="56" intorder="4" nocite="1">sony_20f_2022</bcf:citekey>
-    <bcf:citekey order="57" intorder="5" nocite="1">sony_20f_2025</bcf:citekey>
-    <bcf:citekey order="58" intorder="6" nocite="1">microsoft_ar2016</bcf:citekey>
-    <bcf:citekey order="59" intorder="7" nocite="1">microsoft_ar2019</bcf:citekey>
-    <bcf:citekey order="60" intorder="8" nocite="1">microsoft_ar2022</bcf:citekey>
-    <bcf:citekey order="61" intorder="9" nocite="1">microsoft_ar2025</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">gelman2007book</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">gelman2007book</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">james2021islr</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">james2021islr</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">zuur2009mixed_effects_models</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">hosch2026gamma</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">gaming_disorder_covid</bcf:citekey>
+    <bcf:citekey order="58" intorder="1" nocite="1">sony_20f_2015</bcf:citekey>
+    <bcf:citekey order="59" intorder="2" nocite="1">sony_20f_2018</bcf:citekey>
+    <bcf:citekey order="60" intorder="3" nocite="1">sony_20f_2020</bcf:citekey>
+    <bcf:citekey order="61" intorder="4" nocite="1">sony_20f_2022</bcf:citekey>
+    <bcf:citekey order="62" intorder="5" nocite="1">sony_20f_2025</bcf:citekey>
+    <bcf:citekey order="63" intorder="6" nocite="1">microsoft_ar2016</bcf:citekey>
+    <bcf:citekey order="64" intorder="7" nocite="1">microsoft_ar2019</bcf:citekey>
+    <bcf:citekey order="65" intorder="8" nocite="1">microsoft_ar2022</bcf:citekey>
+    <bcf:citekey order="66" intorder="9" nocite="1">microsoft_ar2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
