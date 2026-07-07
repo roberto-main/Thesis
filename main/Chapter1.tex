@@ -18,7 +18,7 @@ Population\_In\_Millions & 429 & 141.32 & 300.98 & 4.66 & 58.95 & 1,450.94 \\
 Sales\_in\_Millions & 390 & 1,950.33 & 6,462.18 & 69.86 & 357.41 & 54,244.12 \\ 
 Sales\_Variations & 351 & 0.11 & 0.16 & $-$0.50 & 0.09 & 1.44 \\ 
 Log(Sales\_in\_Millions) & 390 & 6.285 & 1.270 & 4.246 & 5.879 & 10.901 \\ 
-Sales\_per\_Capita & 429 & 20.27 & 23.82 & 0.00 & 10.99 & 159.49 \\ 
+Sales\_per\_Capita & 390 & 20.27 & 23.82 & 0.40 & 10.99 & 159.49 \\ 
 Stringency\_Index & 117 & 0.46 & 0.17 & 0.12 & 0.50 & 0.78 \\ 
 Unemployment (U) & 418 & 0.06 & 0.05 & 0.01 & 0.05 & 0.34 \\ 
 \hline \\[-1.8ex] 
@@ -256,13 +256,13 @@ AS - East (blue) shows relatively high sales even at high stringency levels ($\s
 Since restrictions show no effect but internet penetration and unemployment do, it suggests that structural economic factors outweigh behavioral/situational ones in predicting gaming sales. COVID was a temporary shock; development level is a persistent condition.
 Another supposition we could make is that COVID-19 didn't create many new customers to the industry, but it pushed the existing customer base to be more active (playing games that they already bought, so without having an drastic effect on sales).
 
-\subsection{Cumulative Sales Indexed Graph}
+\subsection{Sales Indexed Graph}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{img/Cumulative_Sales_Graph.png}
-    \caption{Cumulative Sales Indexed Graph}
-    \label{fig:Cumulative Sales Indexed Graph}
+    \includegraphics[width=\textwidth]{img/Indexed_Sales_Graph.png}
+    \caption{Sales Indexed Graph}
+    \label{fig:Sales Indexed Graph}
 \end{figure}
 By taking a close look to Africa, we can observe that although sales declined across all countries from 2023 to 2024, one country experienced a significantly sharper decrease than the others: Nigeria.\\
 To explain this trend, we can adress to our Excel dataset, showing a 34\% decrease in Nigeria’s GNI during the same period (a graph showing the percentage variation is reported below, as the change is less visible when considering absolute values due to the country’s already relatively low GNI levels).\\
@@ -284,7 +284,7 @@ We can also notice a sharper increase during the 2020–2021 period, which may s
 
 \subsection{Overall Considerations about COVID-19's Influence in Sales}
 From these data, several considerations can be made. On one hand, as shown in Figures \ref{fig:LOG_Colored_Unemployement_&_Sales_Graph}, \ref{fig:Internet Penetration and Log Sales}, and \ref{fig:COVID-19 Restrictions and Log Sales}, we notice that structural economic factors may play a more important role than short-term shocks in explaining video game sales. In particular, while restrictions do not seem to show a clear relationship with sales, variables such as internet penetration and unemployment appear to be more strongly associated with them. This would imply that COVID-19 acted as a temporary shock, while development-related factors represent more persistent determinants of consumption patterns.\\
-However, this interpretation is not entirely supported when considering the time series of sales of the different continents (Figure \ref{fig:Cumulative Sales Indexed Graph}). In this case, it becomes evident that COVID-19 did have a noticeable impact on sales levels. 
+However, this interpretation is not entirely supported when considering the time series of sales of the different continents (Figure \ref{fig:Sales Indexed Graph}). In this case, it becomes evident that COVID-19 did have a noticeable impact on sales levels. 
 At this point, what we have to do is trying, as best as we can, to isolate the cause of that sales increase.
 In fact, considering that in November 2020 the next-generation consoles from Microsoft and Sony (Xbox Series X and PlayStation 5) were released, without the help of some other data, it could be difficult to identify the exact cause of the sales increase.\\
 Given the absence of a clear correlation between the stringency index and video game sales, the observed increase could be partially explained by the launch of these consoles, which are key players in the gaming hardware market.\\
